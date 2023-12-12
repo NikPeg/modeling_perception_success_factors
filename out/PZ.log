@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  12 DEC 2023 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  12 DEC 2023 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1004,6 +1004,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1058,17 +1062,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--172
+Underfull \hbox (badness 10000) in paragraph at lines 183--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--175
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
 
  []
 
@@ -1086,25 +1090,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux) ) 
 Here is how much of TeX's memory you used:
- 20320 strings out of 479721
- 389312 string characters out of 5887697
+ 20333 strings out of 479721
+ 389468 string characters out of 5887697
  1061343 words of memory out of 5000000
- 37875 multiletter control sequences out of 15000+600000
- 476209 words of font info for 38 fonts, out of 8000000 for 9000
+ 37886 multiletter control sequences out of 15000+600000
+ 476544 words of font info for 39 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 100i,11n,104p,603b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,11n,104p,774b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
  
 </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600p
 k> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.6
-00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx144
-0.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
-1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
-abx1000.600pk>
+00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1
+000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
+bx1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a
+/larm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-
+t2a/labx1000.600pk>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PZ.pdf (10 pages, 100811 bytes).
+ut/PZ.pdf (10 pages, 103315 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 368 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,8 +21,11 @@
 \contentsline {subsection}{\numberline {4.5}Выбор технических и программных средств}{9}{}%
 \contentsline {section}{\numberline {5}Ожидаемые технико-экономические показатели}{10}{}%
 \contentsline {subsection}{\numberline {5.1}Предполагаемая потребность}{10}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Организации и ИТ-отделы}{10}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Исследовательские центры и учебные учреждения}{10}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}IT-консалтинг и аналитические компании}{10}{}%
 \contentsline {subsection}{\numberline {5.2}Первоначальная оценка успеха проекта}{10}{}%
-\contentsline {subsection}{\numberline {5.3}Последующая оценка успеха проекта}{10}{}%
-\contentsline {subsection}{\numberline {5.4}Конечный параметр оценки успеха проекта}{10}{}%
-\contentsline {subsection}{\numberline {5.5}Экономические преимущества разработки по сравнению с отечественными и зарубежными аналогами}{10}{}%
-\contentsline {section}{Приложения}{12}{}%
+\contentsline {subsection}{\numberline {5.3}Последующая оценка успеха проекта}{11}{}%
+\contentsline {subsection}{\numberline {5.4}Конечный параметр оценки успеха проекта}{11}{}%
+\contentsline {subsection}{\numberline {5.5}Экономические преимущества разработки по сравнению с отечественными и зарубежными аналогами}{11}{}%
+\contentsline {section}{Приложения}{13}{}%

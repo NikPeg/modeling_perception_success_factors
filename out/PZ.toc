@@ -8,9 +8,9 @@
 \contentsline {subsection}{\numberline {3.1}Назначение программы}{5}{}%
 \contentsline {subsection}{\numberline {3.2}Целевая аудитория продукта}{5}{}%
 \contentsline {subsection}{\numberline {3.3}Актуальность проблемы}{5}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Функциональное назначение}{6}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Функциональное назначение}{7}{}%
 \contentsline {subsubsection}{\numberline {3.3.2}Эксплуатационное назначение}{7}{}%
-\contentsline {subsection}{\numberline {3.4}Область применения программы}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Область применения программы}{8}{}%
 \contentsline {section}{\numberline {4}Технические характеристики}{9}{}%
 \contentsline {subsection}{\numberline {4.1}Постановка задачи на разработку программы}{9}{}%
 \contentsline {subsection}{\numberline {4.2}Описание алгоритмов функционирования программы}{9}{}%

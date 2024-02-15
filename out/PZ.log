@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  16 FEB 2024 01:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  16 FEB 2024 01:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,57 +1188,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--286
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
@@ -1251,7 +1216,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
@@ -1264,7 +1264,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
+Underfull \hbox (badness 10000) in paragraph at lines 301--304
 
  []
 
@@ -1277,17 +1277,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 332--335
+Underfull \hbox (badness 10000) in paragraph at lines 330--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--349
+Underfull \hbox (badness 10000) in paragraph at lines 342--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--349
+Underfull \hbox (badness 10000) in paragraph at lines 342--347
 
  []
 
@@ -1309,25 +1309,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 367--368
+Underfull \hbox (badness 1859) in paragraph at lines 365--366
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
@@ -1341,34 +1341,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 []\T2A/cmr/m/it/10 Felix Benjam^^A^^Yn, Gerardo & N^^Aapoles, Gonzalo & Falcon,
  Rafael & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 368--369
+Overfull \hbox (158.02309pt too wide) in paragraph at lines 366--367
 \T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
 _Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 370--371
+Overfull \hbox (242.83571pt too wide) in paragraph at lines 368--369
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
 ications)
+ []
+
+
+Overfull \hbox (106.65271pt too wide) in paragraph at lines 371--372
+[]\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
+encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
+241X)
  []
 
 
@@ -1380,27 +1387,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--382
+Underfull \hbox (badness 10000) in paragraph at lines 378--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--385
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 385--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
@@ -1419,13 +1426,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [17] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux) )
  
 Here is how much of TeX's memory you used:
- 20342 strings out of 479721
- 389564 string characters out of 5887697
+ 20343 strings out of 479721
+ 389575 string characters out of 5887697
  1066342 words of memory out of 5000000
- 37895 multiletter control sequences out of 15000+600000
+ 37896 multiletter control sequences out of 15000+600000
  476544 words of font info for 39 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 100i,11n,104p,958b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,11n,104p,1433b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600
 pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.
 600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
@@ -1434,9 +1441,9 @@ abx1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2
 a/larm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh
 -t2a/labx1000.600pk>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PZ.pdf (18 pages, 158629 bytes).
+ut/PZ.pdf (18 pages, 160189 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
+ 480 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)

@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{cmap}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{tikz}
+\usepackage{setspace,amsmath}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{listings}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[usestackEOL]{stackengine}
+\usepackage{kantlipsum}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{zref-totpages}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\thepage\\ RU.17701729.10.03-01 ПЗ 01-1}
+\renewcommand{\headrulewidth}{0pt}
+\captionsetup[table]{justification=centering}
+\usetikzlibrary{positioning}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\newcommand\zz[1]{\par{\normalsize\strut #1} \hfill\ignorespaces}
+\addto\captionsrussian{\def\refname{}}
+\newcommand{\subtitle}[1]{%
+    \posttitle{%
+        \par\end{center}
+        \begin{center}\Large#1\end{center}
+    }%
+}
+\newcommand{\subsubtitle}[1]{%
+    \preauthor{%
+        \begin{center}
+        \large #1 \vskip0.5em
+        \begin{tabular}[t]{c}
+    }%
+}
+\begin{document}
+    \thispagestyle{empty}
+    \begin{center}
+        \fontsize{18}{20}\selectfont
+        \textbf{
+        A Program for Modeling the Perception of Success Factors\\
+        of an IT-Project Using Fuzzy Cognitive Maps\\
+        }
+        ~\\
+        \fontsize{14}{16}\selectfont
+        Peganov Nikita\\
+        Faculty of Computer Science\\
+        National Research University Higher School of Economics\\
+        Moscow, Russia\\
+        nspeganov@edu.hse.ru\\
+    \end{center}
+    \bigskip
+    \begin{minipage}{0.4\textwidth}
+        \textbf{Abstract —}\\
+        \textbf{Keywords —}\\
+        ~\\
+        \begin{center}
+            \chapter{I. INTRODUCTION}
+        \end{center}
+        \lipsum[3-4]
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \begin{center}
+            \chapter{II. LITERATURE REVIEW}
+        \end{center}
+        \lipsum[3-4]
+    \end{minipage}
+\newpage
+    \begin{minipage}{0.4\textwidth}
+        \begin{center}
+            \chapter{III. METHODS}
+        \end{center}
+        \lipsum[2-4]
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \begin{center}
+            \chapter{IV. RESULTS ANTICIPATED/ACHIEVED}
+        \end{center}
+        \lipsum[2-4]
+    \end{minipage}
+\newpage
+    \begin{minipage}{0.4\textwidth}
+        \begin{center}
+            \chapter{V. CONCLUSION}
+        \end{center}
+        \lipsum[2-4]
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \begin{center}
+            \chapter{REFERENCES}
+        \end{center}
+        \lipsum[2-4]
+    \end{minipage}
+\end{document}

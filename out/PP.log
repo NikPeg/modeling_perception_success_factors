@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  21 FEB 2024 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  16 FEB 2024 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**PZ.tex
-(./PZ.tex
+**PP.tex
+(./PP.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -894,8 +894,8 @@ rs
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux)
-\openout1 = `PZ.aux'.
+(/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux)
+\openout1 = `PP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
@@ -976,24 +976,299 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
+
+LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 48.
+
+
+LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 52.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+
+ []
+
+
+Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
+(lipsum)                'russian' will be used instead.
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 70--70
+[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 70--70
+\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+ []
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+Underfull \hbox (badness 3240) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 77--77
+[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 77--77
+\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1052) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
+ []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+Underfull \hbox (badness 3240) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+ []
 
-[1
 
-] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.toc<<t1.c
-map>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>)
-\tf@toc=\write4
-\openout4 = `PZ.toc'.
+Underfull \hbox (badness 3815) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 84--84
+[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 84--84
+\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 91--91
+[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 91--91
+\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1004,465 +1279,143 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--189
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[5]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 212--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--221
-
- []
-
-
-Overfull \hbox (3.5607pt too wide) in paragraph at lines 227--228
-\T2A/cmr/m/n/10 Таким об-ра-зом, дан-ная про-грам-ма мо-жет быть при-ме-не-на в
- раз-лич-ных об-ла-стях свя-зан-ных с IT-технологиями,
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 262--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
+Underfull \hbox (badness 1052) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
+Underfull \hbox (badness 3240) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
+Underfull \hbox (badness 3815) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
 
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
-
+Underfull \hbox (badness 5245) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--297
 
+Underfull \hbox (badness 1097) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
-
+Underfull \hbox (badness 1253) in paragraph at lines 98--98
+[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
  []
-
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[11]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 314--319
-
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--319
 
+Underfull \hbox (badness 2698) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--319
-
+Underfull \hbox (badness 6526) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
  []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 345--348
-
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--362
-
+Underfull \hbox (badness 4792) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--362
 
+Underfull \hbox (badness 1199) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[14]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
-[]\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
-а-ны 2020 го-да на-бо-ра // Сайт hse.ru
+Underfull \hbox (badness 1348) in paragraph at lines 98--98
+\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-[]\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
-ulou, Zoumpoulia & Mourhir,
+Underfull \hbox (badness 1052) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 380--381
-\T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
-ool for modeling and decision making // Сайт
+Underfull \hbox (badness 3240) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-\T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
-91466_A_Fuzzy_Cognitive_Map_web-
+Underfull \hbox (badness 3815) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
  []
-
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-[]\T2A/cmr/m/it/10 Felix Benjam^^A^^Yn, Gerardo & N^^Aapoles, Gonzalo & Falcon,
- Rafael & Froelich, Wojciech
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-\T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
-w on Methods and Software
+Underfull \hbox (badness 5245) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-\T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
-йт researchgate.net
+Underfull \hbox (badness 1097) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 381--382
-\T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
-_Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
+Underfull \hbox (badness 1253) in paragraph at lines 105--105
+[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 383--384
-\T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
-/268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
-ications)
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
  []
 
 
-Overfull \hbox (106.65271pt too wide) in paragraph at lines 387--388
-[]\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
-encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
-241X)
+Underfull \hbox (badness 2698) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
  []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]\T2A/cmr/bx/n/14.4 Приложения|
+Underfull \hbox (badness 6526) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--398
-
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
 
+Underfull \hbox (badness 4792) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
-
+Underfull \hbox (badness 1199) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
+Underfull \hbox (badness 1348) in paragraph at lines 105--105
+\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
  []
 
 
@@ -1477,28 +1430,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[18] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux) )
- 
+[3] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux<<t1
+.cmap>>)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20345 strings out of 479721
- 389597 string characters out of 5887697
- 1070343 words of memory out of 5000000
- 37898 multiletter control sequences out of 15000+600000
- 476544 words of font info for 39 fonts, out of 8000000 for 9000
+ 20289 strings out of 479721
+ 388800 string characters out of 5887697
+ 1060343 words of memory out of 5000000
+ 37851 multiletter control sequences out of 15000+600000
+ 474521 words of font info for 36 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 100i,11n,104p,1636b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600
-pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.
-600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
-1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
-abx1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2
-a/larm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh
--t2a/labx1000.600pk>
+ 100i,11n,104p,412b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.6
+00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx100
+0.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
+1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
+abx1728.600pk>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PZ.pdf (19 pages, 166940 bytes).
+ut/PP.pdf (3 pages, 53755 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 172 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

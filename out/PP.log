@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  16 FEB 2024 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  21 FEB 2024 19:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,23 +897,23 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux)
 \openout1 = `PP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \th on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Info: Redefining \th on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -978,486 +978,658 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 48.
+(Font)              size <17.28> substituted on input line 47.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 52.
+(Font)              size <17.28> substituted on input line 51.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 4242) in paragraph at lines 62--66
+[]\T2A/cmr/bx/n/8 Abstract ^^V This research work presents a novel
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 program for modeling the perception of success
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 factors in Information Technology projects using
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 Fuzzy Cognitive Maps (FCMs). The study aims to
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 relationships and interdependencies among various
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 The proposed program employs FCMs, a cognitive
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 processes. The program's effectiveness is evaluated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 1072) in paragraph at lines 62--66
+\T2A/cmr/bx/n/8 Keywords ^^V Cognitive maps, Fuzzy cognitive maps,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
 
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'russian' will be used instead.
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
-
-Underfull \hbox (badness 3240) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+Underfull \hbox (badness 1009) in paragraph at lines 69--111
+\T2A/cmr/m/n/8 The program generates FCM that can be used to visualize
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 70--70
-[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+Underfull \hbox (badness 2626) in paragraph at lines 69--111
+\T2A/cmr/m/n/8 The target audience of this program is mainly specialists
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 70--70
-\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--111
+
  []
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-Underfull \hbox (badness 3240) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+Underfull \hbox (badness 1112) in paragraph at lines 114--124
+\T2A/cmr/m/n/8 cognitive maps an appropriate choice for their analysis and
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+Underfull \hbox (badness 2065) in paragraph at lines 114--124
+\T2A/cmr/m/n/8 defined situations. Fuzzy cognitive maps, first proposed by
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
+
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+Underfull \hbox (badness 1168) in paragraph at lines 114--124
+\T2A/cmr/m/n/8 In recent years, they have again attracted the attention of
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 77--77
-[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
+
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+Underfull \hbox (badness 1552) in paragraph at lines 114--124
+\T2A/cmr/m/n/8 Despite the neural network-like structure of fuzzy cognitive
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
+
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 77--77
-\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--158
+
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1052) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
- []
+Overfull \vbox (166.51436pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 3240) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
- []
-
-
-Underfull \hbox (badness 5245) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 84--84
-[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
- []
-
-
-Underfull \hbox (badness 6526) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
- []
-
-
-Underfull \hbox (badness 4792) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 84--84
-\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
- []
-
-
-Underfull \hbox (badness 3240) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
- []
-
-
-Underfull \hbox (badness 5245) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 91--91
-[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
- []
-
-
-Underfull \hbox (badness 6526) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
- []
-
-
-Underfull \hbox (badness 4792) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 91--91
-\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [2]
-Underfull \hbox (badness 1052) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
+Underfull \hbox (badness 10000) in paragraph at lines 161--168
+
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+Underfull \hbox (badness 2269) in paragraph at lines 161--168
+\T2A/cmr/m/n/8 However, as noted in the analyzed papers, these methods
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+Underfull \hbox (badness 10000) in paragraph at lines 161--168
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+Underfull \hbox (badness 1721) in paragraph at lines 161--168
+\T2A/cmr/m/n/8 It is also worth noting that the importance of identifying
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+Underfull \hbox (badness 10000) in paragraph at lines 161--168
+
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+Underfull \hbox (badness 1132) in paragraph at lines 161--168
+\T2A/cmr/m/n/8 Thus, the development and use of a program for modeling
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 98--98
-[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+Underfull \hbox (badness 10000) in paragraph at lines 161--168
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+Overfull \hbox (6.88423pt too wide) in paragraph at lines 160--178
+[]$[]$  $[]$ 
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\T2A/cmr/m/it/8 Robert Axelrod \T2A/cmr/m/n/8 (1976) Structure of Decision: T
+he
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+Underfull \hbox (badness 8151) in paragraph at lines 190--191
+\T2A/cmr/m/n/8 Cognitive Maps of Political Elites // Сайт jstor.org
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+[]\T2A/cmr/m/it/8 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+\T2A/cmr/m/it/8 & Dikopoulou, Zoumpoulia & Mourhir, Asmaa
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+\T2A/cmr/m/n/8 (2018) A Fuzzy Cognitive Map web-based tool for
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+Underfull \hbox (badness 3189) in paragraph at lines 192--194
+\T2A/cmr/m/n/8 modeling and decision making // Сайт researchgate.net
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 98--98
-\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+Underfull \hbox (badness 1226) in paragraph at lines 194--195
+[]\T2A/cmr/m/it/8 Felix Benjam^^A^^Yn, Gerardo & N^^Aapoles, Gonzalo & Falcon,
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 parturient montes, nascetur ridiculus mus.
+Overfull \hbox (0.74847pt too wide) in paragraph at lines 194--195
+\T2A/cmr/m/n/8 (https://www.researchgate.net/publication/319167451_A_Rev 
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 erat, congue non, volutpat at, tincidunt
+Underfull \hbox (badness 7667) in paragraph at lines 195--196
+[]\T2A/cmr/m/it/8 Pete Barbrook-Johnson & Alexandra S. Penn \T2A/cmr/m/n/8 (202
+2)
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 felis. Donec nonummy pellentesque ante.
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+\T2A/cmr/m/n/8 Fuzzy Cognitive Mapping // Сайт link.springer.com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 Phasellus adipiscing semper elit. Proin
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+\T2A/cmr/m/n/8 (https://link.springer.com/chapter/10.1007/978-3-031-01919-
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 Pellentesque tincidunt purus vel magna.
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+[]\T2A/cmr/m/it/8 Glykas, Michael \T2A/cmr/m/n/8 (2010) Fuzzy cognitive maps.
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 Integer non enim. Praesent euismod nunc
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+\T2A/cmr/m/n/8 Advances in theory, methodologies, tools
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 105--105
-[]\T2A/cmr/m/n/10 Quisque ullamcorper placerat ipsum. Cras
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+\T2A/cmr/m/n/8 and applications // Сайт researchgate.net
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 ultrices. Lorem ipsum dolor sit amet,
+Overfull \hbox (1.46497pt too wide) in paragraph at lines 196--197
+\T2A/cmr/m/n/8 (https://www.researchgate.net/publication/268170676_Fuzzy_ 
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 platea dictumst. Integer tempus convallis
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+[]\T2A/cmr/m/it/8 Luis Rodriguez-Repiso, Rossitza Setchi, Jose L.
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 augue. Etiam facilisis. Nunc elementum
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\T2A/cmr/m/it/8 Salmeron \T2A/cmr/m/n/8 (2007) Modelling IT projects success wi
+th
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 fermentum wisi. Aenean placerat. Ut
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\T2A/cmr/m/n/8 Fuzzy Cognitive Maps // Сайт sciencedirect.com
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 imperdiet, enim sed gravida sollicitudin,
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+[]\T2A/cmr/m/it/8 Atasoy, G^^Duzide \T2A/cmr/m/n/8 (2007) Using cognitive maps 
+for
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 felis odio placerat quam, ac pulvinar elit
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+\T2A/cmr/m/n/8 modeling project success // Сайт open.metu.edu.tr
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 105--105
-\T2A/cmr/m/n/10 tempus nibh sit amet nisl. Vivamus quis
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+\T2A/cmr/m/n/8 (https://open.metu.edu.tr/handle/11511/16910) Про-смот-
  []
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 26.
+Overfull \hbox (0.92621pt too wide) in paragraph at lines 200--201
+\T2A/cmr/m/n/8 (https://www.sciencedirect.com/science/article/pii/S001999586 
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 201--202
+[]\T2A/cmr/m/it/8 G. M. Mendez, Ismael Lopez-Juarez, P. N. Montes-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 201--202
+\T2A/cmr/m/it/8 Dorantes, M. A. Garcia \T2A/cmr/m/n/8 (2023) A New Method for t
+he
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 201--202
+\T2A/cmr/m/n/8 Design of Interval Type-3 Fuzzy Logic Systems With
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 201--202
+\T2A/cmr/m/n/8 (https://ieeexplore.ieee.org/document/10114383) Про-смот-ре-
+ []
+
+
+Overfull \hbox (6.88423pt too wide) in paragraph at lines 179--204
+[]$[]$  $[]$ 
+ []
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 25.
 See the caption package documentation for explanation.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[3] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux<<t1
+[4] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux<<t1
 .cmap>>)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 20289 strings out of 479721
- 388800 string characters out of 5887697
- 1060343 words of memory out of 5000000
- 37851 multiletter control sequences out of 15000+600000
- 474521 words of font info for 36 fonts, out of 8000000 for 9000
+ 20331 strings out of 479721
+ 389265 string characters out of 5887697
+ 1075343 words of memory out of 5000000
+ 37879 multiletter control sequences out of 15000+600000
+ 479065 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 100i,11n,104p,412b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.6
-00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx100
-0.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
-1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
-abx1728.600pk>
+ 100i,11n,104p,1028b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati0800.6
+00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm080
+0.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx
+0800.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
+arm1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2
+a/labx1728.600pk>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PP.pdf (3 pages, 53755 bytes).
+ut/PP.pdf (4 pages, 89176 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 296 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

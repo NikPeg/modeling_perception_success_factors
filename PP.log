@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  26 FEB 2024 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  26 FEB 2024 23:30
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **PP.tex
 (./PP.tex
@@ -893,8 +892,7 @@ rs
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux)
+) (./PP.aux)
 \openout1 = `PP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -1455,409 +1453,259 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--186
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 187--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
+Underfull \hbox (badness 1242) in paragraph at lines 220--225
+\T2A/cmr/m/n/8 guarantees that the sum of the degrees of membership and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--239
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--239
-
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 246--247
+Underfull \hbox (badness 1406) in paragraph at lines 236--237
 []\T2A/cmr/m/n/8 Beta membership function: This function is defined by four
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
+Overfull \hbox (5.74675pt too wide) in paragraph at lines 160--256
+[]$[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--279
-
- []
-
-
-Overfull \hbox (21.86154pt too wide) in paragraph at lines 160--287
-[]$[]$   $[]$
- []
-
-
-Overfull \vbox (182.1241pt too high) has occurred while \output is active []
+Overfull \vbox (105.1241pt too high) has occurred while \output is active []
 
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 []\T2A/cmr/m/it/8 Robert Axelrod \T2A/cmr/m/n/8 (1976) Structure of Decision: T
 he
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 \T2A/cmr/m/n/8 Cognitive Maps of Political Elites // Сайт jstor.org
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 300--301
+Underfull \hbox (badness 1540) in paragraph at lines 269--270
 []\T2A/cmr/m/it/8 Bart Kosko \T2A/cmr/m/n/8 (1985) Fuzzy cognitive maps // Сайт
  sipi.usc.edu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 []\T2A/cmr/m/it/8 Felix Benjam^^A^^Yn, Gerardo & N^^Aapoles, Gonzalo & Falcon,
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 303--304
+Underfull \hbox (badness 1622) in paragraph at lines 272--273
 \T2A/cmr/m/it/8 Rafael & Froelich, Wojciech & Vanhoof, Koen & Bello, Rafael
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 303--304
+Underfull \hbox (badness 5504) in paragraph at lines 272--273
 \T2A/cmr/m/n/8 Maps. Artificial Intelligence Review. // Сайт researchgate.net
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 []\T2A/cmr/m/it/8 Pete Barbrook-Johnson & Alexandra S. Penn \T2A/cmr/m/n/8 (202
 2)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T2A/cmr/m/n/8 Fuzzy Cognitive Mapping // Сайт link.springer.com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T2A/cmr/m/n/8 (https://link.springer.com/chapter/10.1007/978-3-031-01919-7_6)
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 305--306
+Underfull \hbox (badness 3514) in paragraph at lines 274--275
 \T2A/cmr/m/n/8 methodologies, tools and applications // Сайт researchgate.net
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 306--307
+Underfull \hbox (badness 3229) in paragraph at lines 275--276
 \T2A/cmr/m/n/8 sciencedirect.com (https://doi.org/10.1016/j.eswa.2006.01.032) П
 ро-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 []\T2A/cmr/m/it/8 Atasoy, G^^Duzide \T2A/cmr/m/n/8 (2007) Using cognitive maps 
 for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \T2A/cmr/m/n/8 modeling project success // Сайт open.metu.edu.tr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 \T2A/cmr/m/n/8 (https://open.metu.edu.tr/handle/11511/16910) Про-смот-ре-но: 17
 
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 309--310
+Underfull \hbox (badness 1270) in paragraph at lines 278--279
 []\T2A/cmr/m/it/8 L.A. Zadeh \T2A/cmr/m/n/8 (1965) Fuzzy sets // Сайт www.scien
 cedirect.com
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 310--311
+Underfull \hbox (badness 1762) in paragraph at lines 279--280
 []\T2A/cmr/m/it/8 G. M. Mendez, Ismael Lopez-Juarez, P. N. Montes-Dorantes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 \T2A/cmr/m/n/8 ieeexplore.ieee.org (https://ieeexplore.ieee.org/document/101143
 83)
  []
 
 
-Overfull \hbox (5.74675pt too wide) in paragraph at lines 288--313
+Overfull \hbox (5.74675pt too wide) in paragraph at lines 257--282
 []$[]$  $[]$ 
  []
 
@@ -1865,17 +1713,16 @@ Overfull \hbox (5.74675pt too wide) in paragraph at lines 288--313
 Package caption Warning: Unused \captionsetup[table] on input line 25.
 See the caption package documentation for explanation.
 
-[5] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PP.aux<<t1
-.cmap>>)
+[5] (./PP.aux<<t1.cmap>>)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 20331 strings out of 479721
- 389265 string characters out of 5887697
- 1080348 words of memory out of 5000000
+ 20330 strings out of 479721
+ 388821 string characters out of 5887697
+ 1079348 words of memory out of 5000000
  37879 multiletter control sequences out of 15000+600000
  479065 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
@@ -1894,8 +1741,7 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PP.pdf (5 pages, 166888 bytes).
+Output written on PP.pdf (5 pages, 166806 bytes).
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream

@@ -43,360 +43,595 @@
 }
 \begin{document}
     \thispagestyle{empty}
-    \begin{center}
-        \fontsize{18}{20}\selectfont
-        \textbf{
-        A Program for Modeling the Perception of Success Factors\\
-        of an IT-Project Using Fuzzy Cognitive Maps\\
-        }
-        ~\\
-        \fontsize{14}{16}\selectfont
-        Peganov Nikita\\
-        Faculty of Computer Science\\
-        National Research University Higher School of Economics\\
-        Moscow, Russia\\
-        nspeganov@edu.hse.ru\\
-    \end{center}
-    \fontsize{8}{7}\selectfont
-    \begin{minipage}{0.49\textwidth}
-        \textbf{Abstract — This research work presents a novel program for modeling the perception of success factors in Information Technology projects using Fuzzy Cognitive Maps (FCMs). The study aims to provide a comprehensive understanding of the complex relationships and interdependencies among various factors that contribute to the success of IT projects. The proposed program employs FCMs, a cognitive modeling technique that captures the inherent fuzziness and uncertainty in human reasoning and decision-making processes. The program's effectiveness is evaluated through a series of case studies involving real-world IT projects. The results demonstrate the program's potential in accurately modeling and analysis of the success of IT projects, thereby aiding project managers in strategic planning and decision-making.}\\
-        ~\\
-        \textbf{Keywords — Cognitive maps, Fuzzy cognitive maps, IT-project, Success Factors, Risk Management, Success Perception, Project Management, Fuzzy Logic, Decision Making, Fuzzy Set Theory.}\\
-        ~\\
+    \begin{figure}[!t]
         \begin{center}
-            \chapter{I. INTRODUCTION}
-        \end{center}
-        The general purpose of the developed program is to visualize, analyze and understand the success factors of IT projects. This is achieved by using fuzzy cognitive maps, which allows you to include any variables (factors) in the model, even those that are difficult or impossible to measure in quantitative terms.  The main purpose of this software is to identify and visualize the relationships between various factors from the point of view of stakeholders.\\
-        ~\\
-        The program implements fuzzy computing models, with which analysts can evaluate and analyze the data obtained based on the proposed fuzzy computing models. Fuzzy Cognitive Maps (FCM) make it possible to model the same system in different ways, depending on the goals and professional skills of people or groups of people, fixing the time-varying values of the simulated situation.\\
-        ~\\
-        The program generates FCM that can be used to visualize complex systems and display their development over time. At the same time, in some cases, SWOT analysis is used - this allows us to more fully characterize the factors under study.\\
-        ~\\
-        Over time, not only the factors themselves can change, but also the connections between them. The program allows you to take this into account by rebuilding and modifying maps. This makes it possible to iteratively adjust the model and search for new dependencies and vulnerabilities.\\
-        ~\\
-        The target audience of this program is mainly specialists working in the IT sector, namely analysts, project managers and IT directors. This is due to the fact that the program allows you to model the perception of success factors of IT projects and can be useful for researching and managing various aspects of such projects.\\
-        ~\\
-        At the same time, this program can be used for educational purposes and has the potential to be useful for students and teachers of IT specialties, especially for those who study or teach courses related to IT project management, data analysis, artificial intelligence or cognitive science.\\
-        ~\\
-        Finally, potential users of this program may also be authors of scientific research in the field of IT and cognitive science. It can be useful in studying the perception of factors influencing the success of IT projects, and in researching decision-making mechanisms within such projects.\\
-        ~\\
-        At the same time, it should be noted that this program can be operated mainly by people who have the necessary skills and knowledge to work with fuzzy cognitive maps. It implies the use of the program by one analyst and many stakeholders to create the result of a collective discussion.\\
-        ~\\
-        Recently, in light of the growing dependence of business on technology, the successful implementation of IT projects has become especially important for organizations of various fields of activity and scale. However, measuring and predicting success in the case of IT projects is still a difficult task, as they depend on many factors characterized by ambiguity and mutual connection with other aspects of consideration.\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        \end{minipage}
-    \hfill
-    \begin{minipage}{0.49\textwidth}
-        In this regard, the program for modeling the perception of success factors of IT projects using fuzzy cognitive maps is gaining significant relevance. The success factors of a project are often vaguely defined and interpreted, which makes the use of fuzzy cognitive maps an appropriate choice for their analysis and modeling.\\
-        ~\\
-        The methodology of cognitive modeling was proposed by the American political scientist and economist Robert Axelrod \cite{litlink12}. Cognitive modeling was designed to make decisions in poorly defined situations. Fuzzy cognitive maps, first proposed by Bart Kosko \cite{litlink13}, are a mixed type of graphical representation of knowledge that includes elements of cognitive maps and fuzzy logic.\\
-        ~\\
-        In recent years, they have again attracted the attention of researchers, just as neural networks, after their "{}oblivion"{} in the 90s of the 20th century, are now experiencing their peak popularity again. For example, fuzzy cognitive maps are used in research papers written in 2018, 2019 and 2022 \cite{litlink14, litlink15, litlink16}. Like neural networks, fuzzy cognitive maps can be used to model complex relationships and obtain results based on vague and fuzzy information.\\
-        ~\\
-        In numerous research papers, the authors consider fuzzy cognitive maps as a convenient and visual modeling tool. Factors and relationships between factors are located in FCM in a structure similar to the structure of the human brain (in a very simplified form), so the resulting model is easily perceived and convenient for discussion. Fuzzy cognitive maps are also versatile, which allows them to be used in many different areas \cite{litlink17}.\\
-        ~\\
-        Despite the neural network-like structure of fuzzy cognitive maps, the use of complex neural network algorithms is not expected within the framework of this final qualification work. This is mainly due to the specifics of the chosen methodology — fuzzy cognitive maps. This approach involves creating a model using a network structure that reveals the direct and inverse relationships between various success factors of an IT project.\\
-        ~\\
-        \begin{center}
-            \chapter{II. LITERATURE REVIEW}
-        \end{center}
-        Modeling the success factors of an IT project is one of the areas in which fuzzy cognitive maps are successfully applied. For example, in the work "{}Modeling IT projects success with Fuzzy Cognitive Maps"{} \cite{litlink18}, the authors use FCM to model the success factors of a mobile payment system, a project related to the rapidly developing world of mobile telecommunications. The methodology described in this paper uses four matrices to represent the results that the methodology provides at each of its stages. These are the Initial Success Matrix (IMS), the Fuzzified Success Matrix (FZMS), the Relationship Strength Success Matrix (SRMS) and the Final Success Matrix (FMS). The authors of the article conclude that Critical Success Factors (CSF) are the necessary conditions that a project must meet in order to be perceived as successful. Improved processes for identifying and evaluating suitable CSFs for IT projects are required due to increased complexity and uncertainty.\\
-        ~\\
-        In the work "{}Using cognitive maps for modeling project success"{} \cite{litlink19}, published in the same year, cognitive maps are used. For clarity, it examines a real construction project implemented in Turkey. The paper also describes the advantages and disadvantages of cognitive maps. Among the advantages of cognitive maps, the authors note their ability to present complex ideas and information in a simple and understandable form. Cognitive maps also help to improve the understanding and organization of knowledge, as well as contribute to more effective decision-making. However, cognitive maps also have disadvantages. They can be difficult to create and interpret, especially if they involve a large amount of information or complex relationships. In addition, they can be subjective because they are based on the knowledge and perception of an individual or a group of people.\\
-        ~\\
-        The article "{}Assessing it projects success with extended fuzzy cognitive maps \& neutrosophic cognitive maps in comparison to fuzzy cognitive maps"{} \cite{litlink20} presents a study in which the authors compare the use of extended fuzzy cognitive maps and neutrosophic cognitive maps in assessing the success of a mobile payment system project. To do this, they created various cognitive maps with several groups of stakeholders. As a result, the authors concluded that neutrosophic cognitive maps showed better results than fuzzy cognitive maps and improved cognitive maps.\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-    \end{minipage}
-\newpage
-\begin{minipage}{0.49\textwidth}
-    ~\\
-    An analysis of the literature shows that the use of cognitive maps is an effective tool for modeling and evaluating the success factors of IT projects. These methods allow you to present complex ideas and information in a simple and understandable form, improve the understanding and organization of knowledge, and contribute to more effective decision-making.\\
-    ~\\
-    However, as noted in the analyzed papers, these methods have their drawbacks, including the complexity of creating and interpreting maps, especially with a large amount of information and complex relationships, as well as subjectivity, since they are based on the knowledge and perception of an individual or a group of people.\\
-    ~\\
-    It is also worth noting that the importance of identifying and evaluating critical success factors (CSF) for IT projects is emphasized in all the papers reviewed. This confirms the relevance of our research and the chosen topic of the final qualifying work.\\
-    ~\\
-    Thus, the development and use of a program for modeling the perception of success factors of IT projects using fuzzy cognitive maps is a useful and relevant approach to solving the complex problem of IT management and planning.\\
-    \begin{center}
-        \chapter{III. METHODS}
-        \end{center}
-        The program for modeling the perception of the success factors of an IT project is based on the use of fuzzy cognitive maps.\\
-        \textbf{Types of fuzzy sets:}
-        \begin{enumerate}
-            \item Fuzzy sets (of the first type) are a key element in the field of fuzzy logic, which was first proposed by Lotfi Zadeh in 1965 \cite{litlink21}. Unlike classical binary logic, where an element either belongs to a set or not, fuzzy sets allow elements to belong to a set to a certain extent. This is achieved by introducing the membership function, which assigns to each element a number from 0 to 1, reflecting the degree of its membership in the set. This approach allows for more accurate modeling of the uncertainty and fuzziness of the real world, which makes fuzzy sets useful in many fields, including artificial intelligence, decision-making systems, image processing, and many others.\\
+            \fontsize{18}{20}\selectfont
+            \textbf{
+                A Program for Modeling the Perception of Success Factors\\
+                of an IT-Project Using Fuzzy Cognitive Maps\\
+            }
             ~\\
-            A fuzzy set $A$ is understood as a set of ordered pairs composed of elements $x$ of the universal set $X$ and the corresponding degrees of membership $\mu_A(x)$:\\
-            $$A=\{(x, \mu_A(x)) | x \in X\}$$
-            where $\mu_A(x)$ is the membership function indicating to what extent the element $x$ belongs to the fuzzy set $A$. The function $\mu_A(x)$ takes values in some linearly ordered set $M$, which is called the accessory set.
-            \item Fuzzy sets of the second type are an extension of the classical theory of fuzzy sets proposed by Lotfi Zadeh in 1975. They were introduced to simulate situations where the degree of belonging of an element to a set is itself fuzzy. Unlike ordinary fuzzy sets, where each element is assigned a degree of belonging in the range from 0 to 1, in fuzzy sets of the second type, a fuzzy set of the first type is assigned to each element. Thus, fuzzy sets of the second type allow for a large degree of uncertainty and fuzziness, which makes them useful in many applications, including decision-making systems, fuzzy information processing and modeling of complex systems. Thus, formally fuzzy sets of the second type can be expressed as:
-            $$\tilde{A}=\int_{x\in X}\int_{u\in J_{x}} \mu_{\tilde{A}}(x,u) / (x,u)$$
-            where the sign of double integration means the union of valid $x$ and $u$ for a continuous universal set (for discrete universal sets, double summation symbols are used instead).
-            \item Fuzzy Sets of Type 3 is an improved version of Type 2 sets, designed with advanced capabilities for uncertainty management. In type 3 sets, the secondary membership function is also a type 2 membership function. This means that the upper and lower limits of membership are not fixed, unlike type 2 sets. This characteristic allows fuzzy type 3 sets to cope with a higher degree of uncertainty \cite{litlink22}. A fuzzy set of type 3 can be defined as follows:\\
+            \fontsize{14}{16}\selectfont
+            Peganov Nikita\\
+            Faculty of Computer Science\\
+            National Research University Higher School of Economics\\
+            Moscow, Russia\\
+            nspeganov@edu.hse.ru\\
+        \end{center}
+        \fontsize{8}{7}\selectfont
+        \begin{minipage}{0.49\textwidth}
+            \textbf{Abstract — This research work presents a novel program for modeling the perception of success factors in Information Technology projects using Fuzzy Cognitive Maps (FCMs). The study aims to provide a comprehensive understanding of the complex relationships and interdependencies among various factors that contribute to the success of IT projects. The proposed program employs FCMs, a cognitive modeling technique that captures the inherent fuzziness and uncertainty in human reasoning and decision-making processes. The program's effectiveness is evaluated through a series of case studies involving real-world IT projects. The results demonstrate the program's potential in accurately modeling and analysis of the success of IT projects, thereby aiding project managers in strategic planning and decision-making.}\\
             ~\\
-            For each element \(x \in X\), the membership function \(\mu_{A}(x)\) a fuzzy set \(A\) of type 3 is defined as:\\
-        \end{enumerate}
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
-        ~\\
+            \textbf{Keywords — Cognitive maps, Fuzzy cognitive maps, IT-project, Success Factors, Risk Management, Success Perception, Project Management, Fuzzy Logic, Decision Making, Fuzzy Set Theory.}\\
+            ~\\
+            \begin{center}
+                \chapter{I. INTRODUCTION}
+            \end{center}
+            The general purpose of the developed program is to visualize, analyze and understand the success factors of IT projects. This is achieved by using fuzzy cognitive maps, which allows you to include any variables (factors) in the model, even those that are difficult or impossible to measure in quantitative terms. The main purpose of this software is to identify and visualize the relationships between various factors from the point of view of stakeholders.\\
+            ~\\
+            The program implements fuzzy computing models, with which analysts can evaluate and analyze the data obtained based on the proposed fuzzy computing models. Fuzzy Cognitive Maps (FCM) make it possible to model the same system in different ways, depending on the goals and professional skills of people or groups of people, fixing the time-varying values of the simulated situation.\\
+            ~\\
+            The program generates FCM that can be used to visualize complex systems and display their development over time. At the same time, in some cases, SWOT analysis is used - this allows us to more fully characterize the factors under study.\\
+            ~\\
+            Over time, not only the factors themselves can change, but also the connections between them. The program allows you to take this into account by rebuilding and modifying maps. This makes it possible to iteratively adjust the model and search for new dependencies and vulnerabilities.\\
+            ~\\
+            The target audience of this program is mainly specialists working in the IT sector, namely analysts, project managers and IT directors. This is due to the fact that the program allows you to model the perception of success factors of IT projects and can be useful for researching and managing various aspects of such projects.\\
+            ~\\
+            At the same time, this program can be used for educational purposes and has the potential to be useful for students and teachers of IT specialties, especially for those who study or teach courses related to IT project management, data analysis, artificial intelligence or cognitive science.\\
+            ~\\
+            Finally, potential users of this program may also be authors of scientific research in the field of IT and cognitive science. It can be useful in studying the perception of factors influencing the success of IT projects, and in researching decision-making mechanisms within such projects.\\
+            ~\\
+            At the same time, it should be noted that this program can be operated mainly by people who have the necessary skills and knowledge to work with fuzzy cognitive maps. It implies the use of the program by one analyst and many stakeholders to create the result of a collective discussion.\\
+            ~\\
+            Recently, in light of the growing dependence of business on technology, the successful implementation of IT projects has become especially important for organizations of various fields of activity and scale. However, measuring and predicting success in the case of IT projects is still a difficult task, as they depend on many factors characterized by ambiguity and mutual connection with other aspects of consideration.\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
         \end{minipage}
-    \hspace{0.5cm}
-    \begin{minipage}{0.49\textwidth}
-            \[\mu_{A}(x) : X \rightarrow [0,1] \times [0,1]\]
-            where the first element of the pair represents the lower limit of membership, and the second element represents the upper limit of membership.\\
-            Secondary membership function \(\mu_{A}^{'}(x)\) is defined as:\\
-            \[\mu_{A}^{'}(x) : [0,1] \rightarrow [0,1]\]
+        \hfill
+        \begin{minipage}{0.49\textwidth}
+            In this regard, the program for modeling the perception of success factors of IT projects using fuzzy cognitive maps is gaining significant relevance. The success factors of a project are often vaguely defined and interpreted, which makes the use of fuzzy cognitive maps an appropriate choice for their analysis and modeling.\\
+            ~\\
+            The methodology of cognitive modeling was proposed by the American political scientist and economist Robert Axelrod \cite{litlink12}. Cognitive modeling was designed to make decisions in poorly defined situations. Fuzzy cognitive maps, first proposed by Bart Kosko \cite{litlink13}, are a mixed type of graphical representation of knowledge that includes elements of cognitive maps and fuzzy logic.\\
+            ~\\
+            In recent years, they have again attracted the attention of researchers, just as neural networks, after their "{}oblivion"{} in the 90s of the 20th century, are now experiencing their peak popularity again. For example, fuzzy cognitive maps are used in research papers written in 2018, 2019 and 2022 \cite{litlink14, litlink15, litlink16}. Like neural networks, fuzzy cognitive maps can be used to model complex relationships and obtain results based on vague and fuzzy information.\\
+            ~\\
+            In numerous research papers, the authors consider fuzzy cognitive maps as a convenient and visual modeling tool. Factors and relationships between factors are located in FCM in a structure similar to the structure of the human brain (in a very simplified form), so the resulting model is easily perceived and convenient for discussion. Fuzzy cognitive maps are also versatile, which allows them to be used in many different areas \cite{litlink17}.\\
+            ~\\
+            Despite the neural network-like structure of fuzzy cognitive maps, the use of complex neural network algorithms is not expected within the framework of this final qualification work. This is mainly due to the specifics of the chosen methodology — fuzzy cognitive maps. This approach involves creating a model using a network structure that reveals the direct and inverse relationships between various success factors of an IT project.\\
+            ~\\
+            \begin{center}
+                \chapter{II. LITERATURE REVIEW}
+            \end{center}
+            Modeling the success factors of an IT project is one of the areas in which fuzzy cognitive maps are successfully applied. For example, in the work "{}Modeling IT projects success with Fuzzy Cognitive Maps"{} \cite{litlink18}, the authors use FCM to model the success factors of a mobile payment system, a project related to the rapidly developing world of mobile telecommunications. The methodology described in this paper uses four matrices to represent the results that the methodology provides at each of its stages. These are the Initial Success Matrix (IMS), the Fuzzified Success Matrix (FZMS), the Relationship Strength Success Matrix (SRMS) and the Final Success Matrix (FMS). The authors of the article conclude that Critical Success Factors (CSF) are the necessary conditions that a project must meet in order to be perceived as successful. Improved processes for identifying and evaluating suitable CSFs for IT projects are required due to increased complexity and uncertainty.\\
+            ~\\
+            In the work "{}Using cognitive maps for modeling project success"{} \cite{litlink19}, published in the same year, cognitive maps are used. For clarity, it examines a real construction project implemented in Turkey. The paper also describes the advantages and disadvantages of cognitive maps. Among the advantages of cognitive maps, the authors note their ability to present complex ideas and information in a simple and understandable form. Cognitive maps also help to improve the understanding and organization of knowledge, as well as contribute to more effective decision-making. However, cognitive maps also have disadvantages. They can be difficult to create and interpret, especially if they involve a large amount of information or complex relationships. In addition, they can be subjective because they are based on the knowledge and perception of an individual or a group of people.\\
+            ~\\
+            The article "{}Assessing it projects success with extended fuzzy cognitive maps \& neutrosophic cognitive maps in comparison to fuzzy cognitive maps"{} \cite{litlink20} presents a study in which the authors compare the use of extended fuzzy cognitive maps and neutrosophic cognitive maps in assessing the success of a mobile payment system project. To do this, they created various cognitive maps with several groups of stakeholders. As a result, the authors concluded that neutrosophic cognitive maps showed better results than fuzzy cognitive maps and improved cognitive maps.\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+        \end{minipage}
+    \end{figure}
+    \newpage
+    \begin{figure}[!t]
+        \fontsize{8}{7}\selectfont
+        \begin{minipage}{0.49\textwidth}
+            ~\\
+            An analysis of the literature shows that the use of cognitive maps is an effective tool for modeling and evaluating the success factors of IT projects. These methods allow you to present complex ideas and information in a simple and understandable form, improve the understanding and organization of knowledge, and contribute to more effective decision-making.\\
+            ~\\
+            However, as noted in the analyzed papers, these methods have their drawbacks, including the complexity of creating and interpreting maps, especially with a large amount of information and complex relationships, as well as subjectivity, since they are based on the knowledge and perception of an individual or a group of people.\\
+            ~\\
+            It is also worth noting that the importance of identifying and evaluating critical success factors (CSF) for IT projects is emphasized in all the papers reviewed. This confirms the relevance of our research and the chosen topic of the final qualifying work.\\
+            ~\\
+            Thus, the development and use of a program for modeling the perception of success factors of IT projects using fuzzy cognitive maps is a useful and relevant approach to solving the complex problem of IT management and planning.\\
+            \begin{center}
+                \chapter{III. METHODS}
+            \end{center}
+            The program for modeling the perception of the success factors of an IT project is based on the use of fuzzy cognitive maps.\\
+            \textbf{Types of fuzzy sets:}
+            \begin{enumerate}
+                \item Fuzzy sets (of the first type) are a key element in the field of fuzzy logic, which was first proposed by Lotfi Zadeh in 1965 \cite{litlink21}. Unlike classical binary logic, where an element either belongs to a set or not, fuzzy sets allow elements to belong to a set to a certain extent. This is achieved by introducing the membership function, which assigns to each element a number from 0 to 1, reflecting the degree of its membership in the set. This approach allows for more accurate modeling of the uncertainty and fuzziness of the real world, which makes fuzzy sets useful in many fields, including artificial intelligence, decision-making systems, image processing, and many others.\\
+                ~\\
+                A fuzzy set $A$ is understood as a set of ordered pairs composed of elements $x$ of the universal set $X$ and the corresponding degrees of membership $\mu_A(x)$:\\
+                $$A=\{(x, \mu_A(x)) | x \in X\}$$
+                where $\mu_A(x)$ is the membership function indicating to what extent the element $x$ belongs to the fuzzy set $A$. The function $\mu_A(x)$ takes values in some linearly ordered set $M$, which is called the accessory set.
+                \item Fuzzy sets of the second type are an extension of the classical theory of fuzzy sets proposed by Lotfi Zadeh in 1975. They were introduced to simulate situations where the degree of belonging of an element to a set is itself fuzzy. Unlike ordinary fuzzy sets, where each element is assigned a degree of belonging in the range from 0 to 1, in fuzzy sets of the second type, a fuzzy set of the first type is assigned to each element. Thus, fuzzy sets of the second type allow for a large degree of uncertainty and fuzziness, which makes them useful in many applications, including decision-making systems, fuzzy information processing and modeling of complex systems. Thus, formally fuzzy sets of the second type can be expressed as:
+                $$\tilde{A}=\int_{x\in X}\int_{u\in J_{x}} \mu_{\tilde{A}}(x,u) / (x,u)$$
+                where the sign of double integration means the union of valid $x$ and $u$ for a continuous universal set (for discrete universal sets, double summation symbols are used instead).
+                \item Fuzzy Sets of Type 3 is an improved version of Type 2 sets, designed with advanced capabilities for uncertainty management. In type 3 sets, the secondary membership function is also a type 2 membership function. This means that the upper and lower limits of membership are not fixed, unlike type 2 sets. This characteristic allows fuzzy type 3 sets to cope with a higher degree of uncertainty \cite{litlink22}. A fuzzy set of type 3 can be defined as follows:\\
+                ~\\
+                For each element \(x \in X\), the membership function \(\mu_{A}(x)\) a fuzzy set \(A\) of type 3 is defined as:\\
+                \[\mu_{A}(x) : X \rightarrow [0,1] \times [0,1]\]
+                where the first element of the pair represents the lower limit of membership, and the second element represents the upper limit of membership.\\
+                Secondary membership function \(\mu_{A}^{'}(x)\) is defined as:\\
+                \[\mu_{A}^{'}(x) : [0,1] \rightarrow [0,1]\]
+            \end{enumerate}
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+        \end{minipage}
+        \hspace{0.5cm}
+        \begin{minipage}{0.49\textwidth}
             where \(\mu_{A}^{'}(x)\) represents the degree of confidence that \(x\) belongs to the set \(A\).\\
-        ~\\
-        4. An intuitionistic fuzzy set is a generalization of a fuzzy set that includes the degree of non-belonging of a function in addition to the membership function. It was introduced by Atanasov as a way to deal more comprehensively with uncertainty and inaccuracies. An intuitionistic fuzzy set can be defined as:\\
+            ~\\
+            4. An intuitionistic fuzzy set is a generalization of a fuzzy set that includes the degree of non-belonging of a function in addition to the membership function. It was introduced by Atanasov as a way to deal more comprehensively with uncertainty and inaccuracies. An intuitionistic fuzzy set can be defined as:\\
             ~\\
             Let $X$ be a nonempty set. The intuitionistic fuzzy set (IFS) $A$ in $X$ is defined as $A = \{(x,\mu_A(x), \nu_A(x)) | x \in X\}$, where $\mu_A(x): X\rightarrow [0,1]$ and $\nu_A(x): X\rightarrow [0,1]$ are functions representing the degree of belonging and non-participation of each element $x$ in $X$ to the set $A$, respectively, satisfying the condition $0\leq\mu_A(x) + \nu_A(x) \leq 1$ for each $x\in X$.\\
             ~\\
             In this definition, $\mu_A(x)$ is an affiliation function, and $\nu_A(x)$ is a non-affiliation function. Condition $0 \leq \mu_A(x) + \nu_A(x)\leq 1$ guarantees that the sum of the degrees of membership and non-membership for any element does not exceed 1, which is a fundamental property of intuitionistic fuzzy sets.\\
-        In this final qualifying work, sets of type 1 and type 2, as well as intuitionistic fuzzy sets, will be considered. Fuzzy sets of type 3 are not intuitive enough, and also complicate data entry on the part of the program user.\\
-        \textbf{Types of accessory functions:}
-        Membership functions are used in fuzzy set theory to determine the degree to which an element belongs to a particular set. Here are a few basic types of membership functions:
-        \begin{enumerate}
-            \item Triangular membership function: This is the simplest membership function, which has the shape of a triangle. It is defined by three points: the beginning, the top and the end.
-            \item Gaussian membership function: This function has the shape of a bell and is defined by two parameters: center and width. The Gaussian membership function is often used in cases where the data has a normal distribution.
-            \item Trapezoidal membership function: This function has the shape of a trapezoid and is defined by four points: the beginning, the beginning of the plateau, the end of the plateau and the end.
-            \item Sigmoidal membership function: This function has the shape of an S-shaped curve and is defined by two parameters: center and width. The sigmoidal membership function is often used in cases where the data has a binary distribution.
-            \item Z-shaped and S-shaped membership functions: They are used to represent increasing and decreasing trends.
-            \item Parabolic membership function: This function has the shape of a parabola and is defined by two parameters: center and width.
-            \item Beta membership function: This function is defined by four parameters and can take various forms, including bell shape, S-curve and others.
-            \item Gamma membership function: This function is defined by two parameters and can take various forms, including bell shape, S-shaped curve and others.
-        \end{enumerate}
-        Each of these membership functions has its advantages and disadvantages, and the choice of a specific function depends on the specifics of the task and the data. In this paper, the triangular membership function, the Gaussian membership function and the trapezoidal membership function will be considered as the most popular.\\
-        \textbf{Defuzzification algorithms:}
-        \begin{enumerate}
-            \item The Center of gravity method (COG - Center Of Gravity), which calculates the center of gravity of the membership function.
-            \item is the Bisector Of Area (BOA) method, where the bisector of area under the membership function is calculated.
-            \item The Mean Of Maximum (MOM) method, where the average value of the maximum values of the membership function is calculated.
-            \item is the Maximum Of maximums (Maximum Of Maximum - MOM) method, where the maximum of the maximum values of the membership function is selected.
-            \item is a method of minimum Of maximums (Minimum Of Maximum - MOM), where the value of the membership function on the set is determined by the minimum of the maximum values.
-        \end{enumerate}
+            In this final qualifying work, sets of type 1 and type 2, as well as intuitionistic fuzzy sets, will be considered. Fuzzy sets of type 3 are not intuitive enough, and also complicate data entry on the part of the program user.\\
+            \textbf{Types of accessory functions:}
+            Membership functions are used in fuzzy set theory to determine the degree to which an element belongs to a particular set. Here are a few basic types of membership functions:
+            \begin{enumerate}
+                \item Triangular membership function: This is the simplest membership function, which has the shape of a triangle. It is defined by three points: the beginning, the top and the end.
+                \item Gaussian membership function: This function has the shape of a bell and is defined by two parameters: center and width. The Gaussian membership function is often used in cases where the data has a normal distribution.
+                \item Trapezoidal membership function: This function has the shape of a trapezoid and is defined by four points: the beginning, the beginning of the plateau, the end of the plateau and the end.
+                \item Sigmoidal membership function: This function has the shape of an S-shaped curve and is defined by two parameters: center and width. The sigmoidal membership function is often used in cases where the data has a binary distribution.
+                \item Z-shaped and S-shaped membership functions: They are used to represent increasing and decreasing trends.
+                \item Parabolic membership function: This function has the shape of a parabola and is defined by two parameters: center and width.
+                \item Beta membership function: This function is defined by four parameters and can take various forms, including bell shape, S-curve and others.
+                \item Gamma membership function: This function is defined by two parameters and can take various forms, including bell shape, S-shaped curve and others.
+            \end{enumerate}
+            Each of these membership functions has its advantages and disadvantages, and the choice of a specific function depends on the specifics of the task and the data. In this paper, the triangular membership function, the Gaussian membership function and the trapezoidal membership function will be considered as the most popular.\\
+            \textbf{Defuzzification algorithms:}
+            \begin{enumerate}
+                \item The Center of gravity method (COG - Center Of Gravity), which calculates the center of gravity of the membership function.
+                \item is the Bisector Of Area (BOA) method, where the bisector of area under the membership function is calculated.
+                \item The Mean Of Maximum (MOM) method, where the average value of the maximum values of the membership function is calculated.
+                \item is the Maximum Of maximums (Maximum Of Maximum - MOM) method, where the maximum of the maximum values of the membership function is selected.
+                \item is a method of minimum Of maximums (Minimum Of Maximum - MOM), where the value of the membership function on the set is determined by the minimum of the maximum values.
+            \end{enumerate}
+            In this paper, the center of gravity method, the area bisector method and the maximum maxima method will be used.
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+        \end{minipage}
+    \end{figure}
+    \newpage
+    \begin{figure}[!t]
+        \fontsize{8}{7}\selectfont
+        \begin{minipage}{0.49\textwidth}
+            \begin{center}
+                \chapter{IV. EXPECTED RESULTS}
+            \end{center}
+            The expected result of this work is a working program for modeling the perception of success factors of an IT project using fuzzy cognitive maps.\\
+            ~\\
+            The program for modeling the perception of the success factors of an IT project using fuzzy cognitive maps is designed to provide a qualitative and objective analysis of the key factors determining the success of an IT project.
+            \\ IT departments of various organizations can become the main consumers of the program. The program will allow taking into account the influence of various factors on the final success of the project, such as the quality of project management, the skills and experience of the team, the technologies and methodologies used, compliance with customer requirements, etc.\\
+            For educational purposes, the program can be used in research centers and universities to study the principles of modeling and analysis of success factors in IT projects.\
+            Analytical companies and IT consulting agencies can use the program to provide services for evaluating and predicting the success of IT projects based on modeling the relationship of success factors.
+            ~\\
+            Thus, this program allows not only to get a quantitative and qualitative understanding of the future success of the project, but also to identify the main ways to optimize resources and risks.\\
+            ~\\
+            However, it should be noted that the final conclusions and interpretation of the data obtained are the result of teamwork and discussion in the group. Modeling provides us with the opportunity to transform complex processes into understandable and interpretable data. This data, in turn, is converted into words that we use to communicate with stakeholders. This ensures the continuation of the dialogue, allows you to form conclusions and make informed decisions.\\
+            The initial assessment of the success of the developed program for modeling the perception of success factors of an IT project using fuzzy cognitive maps was carried out according to the following criteria:\\
+            \begin{enumerate}
+                \item \textbf{Compliance with the stated terms of reference:} The developed program must fully comply with the requirements and functionality described in the terms of reference. Every detail should be worked out, starting from the general concept and ending with individual interface elements.
+                \item \textbf{Quality of documentation:} The program must be accompanied by detailed and understandable documentation, which will allow the operator to use all the functions of the program without problems. The documentation should reflect all aspects of using the program, including a description of possible errors and ways to solve them.
+                \item \textbf{Ease of use:} The program should be easy to use. The interface should be intuitive, and the program's features should be easily accessible.
+                \item \textbf{Stability of operation:} The program should work stably and without failures, regardless of the amount of data being processed and the complexity of the tasks.
+            \end{enumerate}
+            Based on the results of the evaluation according to the above criteria, it is possible to judge the initial success of the project. If there are significant shortcomings and deviations from the requirements of the TOR, the program should be finalized and the identified problems should be eliminated.\\
+            ~\\
+            The subsequent evaluation of the success of the project is carried out according to the following criteria:
+            \begin{enumerate}
+                \item \textbf{The decision of the commission on the thesis:} The evaluation of the commission is a direct indicator of the success of the project. The Commission will examine all aspects of the work, from the elaboration of the assignment to its completion.
 
-        ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-            ~\\
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.49\textwidth}
-        In this paper, the center of gravity method, the area bisector method and the maximum maxima method will be used.
-        \begin{center}
-            \chapter{IV. EXPECTED RESULTS}
-        \end{center}
-        The expected result of this work is a working program for modeling the perception of success factors of an IT project using fuzzy cognitive maps.\\
-        ~\\
-        The program for modeling the perception of the success factors of an IT project using fuzzy cognitive maps is designed to provide a qualitative and objective analysis of the key factors determining the success of an IT project.
-        \\ IT departments of various organizations can become the main consumers of the program. The program will allow taking into account the influence of various factors on the final success of the project, such as the quality of project management, the skills and experience of the team, the technologies and methodologies used, compliance with customer requirements, etc.\\
-        For educational purposes, the program can be used in research centers and universities to study the principles of modeling and analysis of success factors in IT projects.\
-        Analytical companies and IT consulting agencies can use the program to provide services for evaluating and predicting the success of IT projects based on modeling the relationship of success factors.
-        ~\\
-        Thus, this program allows not only to get a quantitative and qualitative understanding of the future success of the project, but also to identify the main ways to optimize resources and risks.\\
-        ~\\
-        However, it should be noted that the final conclusions and interpretation of the data obtained are the result of teamwork and discussion in the group. Modeling provides us with the opportunity to transform complex processes into understandable and interpretable data. This data, in turn, is converted into words that we use to communicate with stakeholders. This ensures the continuation of the dialogue, allows you to form conclusions and make informed decisions.\\
-        The initial assessment of the success of the developed program for modeling the perception of success factors of an IT project using fuzzy cognitive maps was carried out according to the following criteria:\\
-        \begin{enumerate}
-            \item \textbf{Compliance with the stated terms of reference:} The developed program must fully comply with the requirements and functionality described in the terms of reference. Every detail should be worked out, starting from the general concept and ending with individual interface elements.
-            \item \textbf{Quality of documentation:} The program must be accompanied by detailed and understandable documentation, which will allow the operator to use all the functions of the program without problems. The documentation should reflect all aspects of using the program, including a description of possible errors and ways to solve them.
-            \item \textbf{Ease of use:} The program should be easy to use. The interface should be intuitive, and the program's features should be easily accessible.
-            \item \textbf{Stability of operation:} The program should work stably and without failures, regardless of the amount of data being processed and the complexity of the tasks.
-        \end{enumerate}
-        Based on the results of the evaluation according to the above criteria, it is possible to judge the initial success of the project. If there are significant shortcomings and deviations from the requirements of the TOR, the program should be finalized and the identified problems should be eliminated.\\
-        ~\\
-        The subsequent evaluation of the success of the project is carried out according to the following criteria:
-        \begin{enumerate}
-            \item \textbf{The decision of the commission on the thesis:} The evaluation of the commission is a direct indicator of the success of the project. The Commission will examine all aspects of the work, from the elaboration of the assignment to its completion.
+                \item \textbf{The assessment received:} The final grade for the thesis is an important indicator, but not the only one. It is a reflection of all the strengths and weaknesses of the thesis, which were noticed during its defense.
 
-            \item \textbf{The assessment received:} The final grade for the thesis is an important indicator, but not the only one. It is a reflection of all the strengths and weaknesses of the thesis, which were noticed during its defense.
-
-            \item \textbf{Comments and evaluation of the head of work:} The supervisor evaluates the work as scientific research and analyzes it based on his understanding of the subject area and research experience.
-        \end{enumerate}
-        Accurate and specific evaluation parameters are needed to assess the success of an IT project. In the context of our project, the main evaluation parameters will be:
-        \begin{itemize}
-            \item \textbf{Number of users}: This parameter reflects the total number of users using this program. An increase in this number indicates the success of the program in the market.
-            \item \textbf{User Ratings}: Ratings and feedback from users can provide valuable information about how well the program responds to user needs, and what improvements it requires.
-        \end{itemize}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.49\textwidth}
-        \begin{itemize}
-            \item \textbf{Number of mentions in research papers}: The more a program is mentioned in academic or industrial research, the greater its impact on the field of science and technology, which is a sign of its success.
-            \item \textbf{Popularity on the Internet}: This parameter can be measured through various indicators, such as the number of search queries, mentions on social networks, etc. An increase in this indicator indicates that the program is attracting more and more interest.
-        \end{itemize}
-        These parameters are a cumulative indicator of the success of this project and will be used to evaluate and analyze the effectiveness of the product throughout its life cycle.\\
+                \item \textbf{Comments and evaluation of the head of work:} The supervisor evaluates the work as scientific research and analyzes it based on his understanding of the subject area and research experience.
+            \end{enumerate}
+            Accurate and specific evaluation parameters are needed to assess the success of an IT project. In the context of our project, the main evaluation parameters will be:
+            \begin{itemize}
+                \item \textbf{Number of users}: This parameter reflects the total number of users using this program. An increase in this number indicates the success of the program in the market.
+                \item \textbf{User Ratings}: Ratings and feedback from users can provide valuable information about how well the program responds to user needs, and what improvements it requires.
+            \end{itemize}
         ~\\
-        Additionally, the parameters for evaluating the success of a project are parameters that can only be clarified by collecting metrics and receiving feedback from users:
-        \begin{itemize}
-            \item \textbf{Modeling accuracy:} The final product should provide accurate modeling of the perception of IT projects, while providing the ability to easily include or exclude various parameters.
-            \item \textbf{Efficiency of use:} Using the program should not require significant time or resources to dive into the details of using the program.
-            \item \textbf{Adaptability to change:} The program must be able to adapt to changes in environmental conditions or parameters.
-            \item \textbf{User-friendliness of the interface:} The program interface should be intuitive for users, providing easy access to basic functions and settings.
-            \item \textbf{The ability to scale:} The program should provide the ability to scale to work with larger or more complex projects in the future.
-        \end{itemize}
-        \begin{center}
-            \chapter{V. CONCLUSION}
-        \end{center}
-        In conclusion, the proposed program for modeling the perception of success factors of an IT project using fuzzy cognitive maps presents a novel and effective approach to understanding the factors of the success of IT projects. This program will provide a comprehensive and dynamic software that can adapt to the ever-changing landscape of IT projects.\\
         ~\\
-        The use of fuzzy cognitive maps allows for the incorporation of human knowledge and experience into the model, making it more accurate and reliable. It also allows for the consideration of the complex interrelationships between various success factors, which traditional models (like SWOT) often overlook.\\
         ~\\
-        The development and implementation of this program will not only enhance our understanding of IT project success factors but also provide valuable insights for project managers, stakeholders, and decision-makers. It will enable them to make more informed decisions, improve project planning and management, and ultimately increase the success rate of IT projects.\\
         ~\\
-        However, it is important to note that the effectiveness of this program will largely depend on the quality and accuracy of the data inputted into the program. Therefore, continuous monitoring, evaluation, and refinement of the program will be necessary to ensure its reliability and validity.\\
         ~\\
-        Overall, this program promises to be a valuable tool in the field of IT project management, contributing to both theory and practice. It is our hope that this project will pave the way for further research and development in this area, leading to more sophisticated and effective models for predicting the success of IT projects.\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    ~\\
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.49\textwidth}
-        \begin{center}
-            \chapter{REFERENCES}
-        \end{center}
-        \begin{thebibliography}{}
-            \bibitem{litlink12} \textit{Robert Axelrod} (1976) Structure of Decision: The Cognitive Maps of Political Elites // Сайт jstor.org (https://www.jstor.org/stable/j.ctt13x0vw3) Просмотрено: 17 января 2024.
-            \bibitem{litlink13} \textit{Bart Kosko} (1985) Fuzzy cognitive maps // Сайт sipi.usc.edu (http://sipi.usc.edu/~kosko/FCM.pdf) Просмотрено: 17 января 2024.
-            \bibitem{litlink14} \textit{Papageorgiou, Elpiniki \& Papageorgiou, Konstantinos \& Dikopoulou, Zoumpoulia \& Mourhir, Asmaa} (2018) A Fuzzy Cognitive Map web-based tool for modeling and decision making // Сайт researchgate.net (https://www.researchgate.net/publication/336591466\_A\_Fuz\\
-            zy\_Cognitive\_Map\_web-based\_tool\_for\_modeling\_and\_dec\\ision\_making) Просмотрено: 17.01.2024.
-            \bibitem{litlink15} \textit{Felix Benjamín, Gerardo \& Nápoles, Gonzalo \& Falcon, Rafael \& Froelich, Wojciech \& Vanhoof, Koen \& Bello, Rafael} (2019) A Review on Methods and Software for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Сайт researchgate.net (https://www.researchgate.net/publication/319167451\_A\_Rev\\iew\_on\_Methods\_and\_Software\_for\_Fuzzy\_Cognitive\_Map\\s/citation/download) Просмотрено: 17 января 2024.
-            \bibitem{litlink16} \textit{Pete Barbrook-Johnson \& Alexandra S. Penn} (2022) Fuzzy Cognitive Mapping // Сайт link.springer.com (https://link.springer.com/chapter/10.1007/978-3-031-01919-7\_6) Просмотрено: 17 января 2024.
-            \bibitem{litlink17} \textit{Glykas, Michael} (2010) Fuzzy cognitive maps. Advances in theory, methodologies, tools and applications // Сайт researchgate.net (https://www.researchgate.net/publication/268170676\_Fuzzy\_\\cognitive\_maps\_Advances\_in\_theory\_methodologies\_tools\_\\and\_\\applications) Просмотрено: 17 января 2024.
-            \bibitem{litlink18} \textit{Luis Rodriguez-Repiso, Rossitza Setchi, Jose L. Salmeron} (2007) Modelling IT projects success with Fuzzy Cognitive Maps // Сайт sciencedirect.com (https://doi.org/10.1016/j.eswa.2006.01.032) Просмотрено: 17 января 2024.
-            \bibitem{litlink19} \textit{Atasoy, Güzide} (2007) Using cognitive maps for modeling project success // Сайт open.metu.edu.tr (https://open.metu.edu.tr/handle/11511/16910) Просмотрено: 17 января 2024.
-            \bibitem{litlink20} \textit{Bhutani, K., Kumar, M., Garg, G., \& Aggarwal, S.} (2016). Assessing it projects success with extended fuzzy cognitive maps \& neutrosophic cognitive maps in comparison to fuzzy cognitive maps. Neutrosophic Sets and Systems, 12(1), 9-19.
-            \bibitem{litlink21} \textit{L.A. Zadeh} (1965) Fuzzy sets // Сайт www.sciencedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586\\590241X) Просмотрено: 16 февраля 2024.
-            \bibitem{litlink22} \textit{G. M. Mendez, Ismael Lopez-Juarez, P. N. Montes-Dorantes, M. A. Garcia} (2023) A New Method for the Design of Interval Type-3 Fuzzy Logic Systems With Uncertain Type-2 Non-Singleton Inputs (IT3 NSFLS-2): A Case Study in a Hot Strip Mill // Сайт ieeexplore.ieee.org (https://ieeexplore.ieee.org/document/10114383) Просмотрено: 16 февраля 2024.
-        \end{thebibliography}
-    \end{minipage}
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.49\textwidth}
+            \begin{itemize}
+                \item \textbf{Number of mentions in research papers}: The more a program is mentioned in academic or industrial research, the greater its impact on the field of science and technology, which is a sign of its success.
+                \item \textbf{Popularity on the Internet}: This parameter can be measured through various indicators, such as the number of search queries, mentions on social networks, etc. An increase in this indicator indicates that the program is attracting more and more interest.
+            \end{itemize}
+            These parameters are a cumulative indicator of the success of this project and will be used to evaluate and analyze the effectiveness of the product throughout its life cycle.\\
+            ~\\
+            Additionally, the parameters for evaluating the success of a project are parameters that can only be clarified by collecting metrics and receiving feedback from users:
+            \begin{itemize}
+                \item \textbf{Modeling accuracy:} The final product should provide accurate modeling of the perception of IT projects, while providing the ability to easily include or exclude various parameters.
+                \item \textbf{Efficiency of use:} Using the program should not require significant time or resources to dive into the details of using the program.
+                \item \textbf{Adaptability to change:} The program must be able to adapt to changes in environmental conditions or parameters.
+                \item \textbf{User-friendliness of the interface:} The program interface should be intuitive for users, providing easy access to basic functions and settings.
+                \item \textbf{The ability to scale:} The program should provide the ability to scale to work with larger or more complex projects in the future.
+            \end{itemize}
+            \begin{center}
+                \chapter{V. CONCLUSION}
+            \end{center}
+            In conclusion, the proposed program for modeling the perception of success factors of an IT project using fuzzy cognitive maps presents a novel and effective approach to understanding the factors of the success of IT projects. This program will provide a comprehensive and dynamic software that can adapt to the ever-changing landscape of IT projects.\\
+            ~\\
+            The use of fuzzy cognitive maps allows for the incorporation of human knowledge and experience into the model, making it more accurate and reliable. It also allows for the consideration of the complex interrelationships between various success factors, which traditional models (like SWOT) often overlook.\\
+            ~\\
+            The development and implementation of this program will not only enhance our understanding of IT project success factors but also provide valuable insights for project managers, stakeholders, and decision-makers. It will enable them to make more informed decisions, improve project planning and management, and ultimately increase the success rate of IT projects.\\
+            ~\\
+            However, it is important to note that the effectiveness of this program will largely depend on the quality and accuracy of the data inputted into the program. Therefore, continuous monitoring, evaluation, and refinement of the program will be necessary to ensure its reliability and validity.\\
+            ~\\
+            Overall, this program promises to be a valuable tool in the field of IT project management, contributing to both theory and practice. It is our hope that this project will pave the way for further research and development in this area, leading to more sophisticated and effective models for predicting the success of IT projects.\\
+            \begin{center}
+                \chapter{REFERENCES}
+            \end{center}
+            \begin{thebibliography}{}
+                \bibitem{litlink12} \textit{Robert Axelrod} (1976) Structure of Decision: The Cognitive Maps of Political Elites // Сайт jstor.org (https://www.jstor.org/stable/j.ctt13x0vw3) Просмотрено: 17 января 2024.
+                \bibitem{litlink13} \textit{Bart Kosko} (1985) Fuzzy cognitive maps // Сайт sipi.usc.edu (http://sipi.usc.edu/~kosko/FCM.pdf) Просмотрено: 17 января 2024.
+                \bibitem{litlink14} \textit{Papageorgiou, Elpiniki \& Papageorgiou, Konstantinos \& Dikopoulou, Zoumpoulia \& Mourhir, Asmaa} (2018) A Fuzzy Cognitive Map web-based tool for modeling and decision making // Сайт researchgate.net (https://www.researchgate.net/publication/336591466\_A\_Fuz\\
+                zy\_Cognitive\_Map\_web-based\_tool\_for\_modeling\_and\_dec\\ision\_making) Просмотрено: 17.01.2024.
+            \end{thebibliography}
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+        \end{minipage}
+    \end{figure}
+    \newpage
+    \begin{figure}[!t]
+        \fontsize{8}{7}\selectfont
+        \begin{minipage}{0.49\textwidth}
+            \begin{thebibliography}{}
+                \bibitem{litlink15} \textit{Felix Benjamín, Gerardo \& Nápoles, Gonzalo \& Falcon, Rafael \& Froelich, Wojciech \& Vanhoof, Koen \& Bello, Rafael} (2019) A Review on Methods and Software for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Сайт researchgate.net (https://www.researchgate.net/publication/319167451\_A\_Rev\\iew\_on\_Methods\_and\_Software\_for\_Fuzzy\_Cognitive\_Map\\s/citation/download) Просмотрено: 17 января 2024.
+                \bibitem{litlink16} \textit{Pete Barbrook-Johnson \& Alexandra S. Penn} (2022) Fuzzy Cognitive Mapping // Сайт link.springer.com (https://link.springer.com/chapter/10.1007/978-3-031-01919-7\_6) Просмотрено: 17 января 2024.
+                \bibitem{litlink17} \textit{Glykas, Michael} (2010) Fuzzy cognitive maps. Advances in theory, methodologies, tools and applications // Сайт researchgate.net (https://www.researchgate.net/publication/268170676\_Fuzzy\_\\cognitive\_maps\_Advances\_in\_theory\_methodologies\_tools\_\\and\_\\applications) Просмотрено: 17 января 2024.
+                \bibitem{litlink18} \textit{Luis Rodriguez-Repiso, Rossitza Setchi, Jose L. Salmeron} (2007) Modelling IT projects success with Fuzzy Cognitive Maps // Сайт sciencedirect.com (https://doi.org/10.1016/j.eswa.2006.01.032) Просмотрено: 17 января 2024.
+                \bibitem{litlink19} \textit{Atasoy, Güzide} (2007) Using cognitive maps for modeling project success // Сайт open.metu.edu.tr (https://open.metu.edu.tr/handle/11511/16910) Просмотрено: 17 января 2024.
+                \bibitem{litlink20} \textit{Bhutani, K., Kumar, M., Garg, G., \& Aggarwal, S.} (2016). Assessing it projects success with extended fuzzy cognitive maps \& neutrosophic cognitive maps in comparison to fuzzy cognitive maps. Neutrosophic Sets and Systems, 12(1), 9-19.
+                \bibitem{litlink21} \textit{L.A. Zadeh} (1965) Fuzzy sets // Сайт www.sciencedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586\\590241X) Просмотрено: 16 февраля 2024.
+                \bibitem{litlink22} \textit{G. M. Mendez, Ismael Lopez-Juarez, P. N. Montes-Dorantes, M. A. Garcia} (2023) A New Method for the Design of Interval Type-3 Fuzzy Logic Systems With Uncertain Type-2 Non-Singleton Inputs (IT3 NSFLS-2): A Case Study in a Hot Strip Mill // Сайт ieeexplore.ieee.org (https://ieeexplore.ieee.org/document/10114383) Просмотрено: 16 февраля 2024.
+            \end{thebibliography}
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        ~\\
+        \end{minipage}
+    \end{figure}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  29 FEB 2024 00:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.14)  29 FEB 2024 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,26 +983,6 @@ LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <18> not available
 
 LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 52.
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 63--67
-\T2A/cmr/bx/n/8 modeling the perception of success factors in Information
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 63--67
-\T2A/cmr/bx/n/8 Technology projects using Fuzzy Cognitive Maps (FCMs).
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 63--67
-\T2A/cmr/bx/n/8 of the complex relationships and interdependencies among
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 63--67
-\T2A/cmr/bx/n/8 effectiveness is evaluated through a series of case studies
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--67
@@ -3005,7 +2985,7 @@ Here is how much of TeX's memory you used:
  37883 multiletter control sequences out of 15000+600000
  478638 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 100i,11n,104p,876b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,11n,104p,868b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati0800.6
 00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0
 800.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
@@ -3022,7 +3002,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PP.pdf (3 pages, 170674 bytes).
+ut/PP.pdf (3 pages, 170636 bytes).
 PDF statistics:
  341 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream

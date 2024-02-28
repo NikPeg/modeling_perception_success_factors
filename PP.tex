@@ -105,6 +105,33 @@
             ~\\
             ~\\
             ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
         \end{minipage}
         \hfill
         \begin{minipage}{0.49\textwidth}
@@ -122,6 +149,23 @@
             The success of IT projects, such as a mobile payment system project, can be assessed using various cognitive mapping techniques.\\
             In a study conducted by the authors of the article "{}Assessing it projects success with extended fuzzy cognitive maps \& neutrosophic cognitive maps in comparison to fuzzy cognitive maps"{} \cite{litlink20}, they compared the effectiveness of extended fuzzy cognitive maps and neutrosophic cognitive maps in evaluating the success of an IT project. The authors created various cognitive maps with several groups of stakeholders to carry out this comparison.\\
             The findings of this study represent a significant advancement in the field of IT project success assessment. The authors concluded that neutrosophic cognitive maps outperformed fuzzy cognitive maps and improved cognitive maps in assessing the success of the project. This suggests that neutrosophic cognitive maps could potentially be a more effective tool for evaluating the success of IT projects.\\
+            ~\\
+            An analysis of the literature shows that the use of cognitive maps is an effective tool for modeling and evaluating the success factors of IT projects. These methods allow you to present complex ideas and information in a simple and understandable form, improve the understanding and organization of knowledge, and contribute to more effective decision-making.\\
+            ~\\
+            However, as noted in the analyzed papers, these methods have their drawbacks, including the complexity of creating and interpreting maps, especially with a large amount of information and complex relationships, as well as subjectivity, since they are based on the knowledge and perception of an individual or a group of people.\\
+            ~\\
+            It is also worth noting that the importance of identifying and evaluating critical success factors (CSF) for IT projects is emphasized in all the papers reviewed. This confirms the relevance of our research and the chosen topic of the final qualifying work.\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
             ~\\
             ~\\
             ~\\
@@ -166,15 +210,9 @@
         \fontsize{8}{7}\selectfont
         \begin{minipage}{0.49\textwidth}
             ~\\
-            An analysis of the literature shows that the use of cognitive maps is an effective tool for modeling and evaluating the success factors of IT projects. These methods allow you to present complex ideas and information in a simple and understandable form, improve the understanding and organization of knowledge, and contribute to more effective decision-making.\\
-            ~\\
-            However, as noted in the analyzed papers, these methods have their drawbacks, including the complexity of creating and interpreting maps, especially with a large amount of information and complex relationships, as well as subjectivity, since they are based on the knowledge and perception of an individual or a group of people.\\
-            ~\\
-            It is also worth noting that the importance of identifying and evaluating critical success factors (CSF) for IT projects is emphasized in all the papers reviewed. This confirms the relevance of our research and the chosen topic of the final qualifying work.\\
-            ~\\
             Thus, the development and use of a program for modeling the perception of success factors of IT projects using fuzzy cognitive maps is a useful and relevant approach to solving the complex problem of IT management and planning.\\
             \begin{center}
-                \chapter{III. METHODS}
+                \chapter{III. METHODOLOGY}
             \end{center}
             In this study, a software program was developed. It uses fuzzy cognitive maps to model and understand the perception of success factors in IT projects. The hypotheses tested include the effectiveness of fuzzy cognitive maps in visualizing and analyzing the complex relationships between success factors, the adaptability of the model over time, and its ability to identify new dependencies and vulnerabilities. It is also hypothesized that this program can be a useful tool for IT professionals, educators, students, and researchers, enhancing decision-making and project success rates in the IT sector.\\
             ~\\
@@ -198,6 +236,12 @@
                 \item \textbf{The ability to scale:} The program should provide the ability to scale to work with larger or more complex projects in the future.
             \end{itemize}
             ~\\
+            When designing and developing software for modeling the perception of success factors of an IT project using fuzzy cognitive maps, the following key technical and software tools were selected:\\
+            \begin{itemize}
+                \item Django. Django is a powerful and flexible Python web framework that allows you to quickly create complex web applications. It provides a high level of security and supports data model-based development, which significantly speeds up the application creation process. Django also contains sophisticated tools for form processing and user authentication.
+                \item JavaScript. This programming language is used to create the client side of a web application. It provides an interactive and dynamic user interface, allows you to process user input, manage page elements and interact with the server.
+                \item Additional funds. To work with databases, a Postgres relational database can be selected, which provides sufficient functionality for storing and processing data in this project.
+            \end{itemize}
             ~\\
             ~\\
             ~\\
@@ -206,25 +250,11 @@
             ~\\
             ~\\
             ~\\
-            The program for modeling the perception of the success factors of an IT project is based on the use of fuzzy cognitive maps.\\
-            \textbf{Types of fuzzy sets:}
-            \begin{enumerate}
-                \item Fuzzy sets (of the first type) are a key element in the field of fuzzy logic, which was first proposed by Lotfi Zadeh in 1965 \cite{litlink21}. Unlike classical binary logic, where an element either belongs to a set or not, fuzzy sets allow elements to belong to a set to a certain extent. This is achieved by introducing the membership function, which assigns to each element a number from 0 to 1, reflecting the degree of its membership in the set. This approach allows for more accurate modeling of the uncertainty and fuzziness of the real world, which makes fuzzy sets useful in many fields, including artificial intelligence, decision-making systems, image processing, and many others.\\
-                ~\\
-                A fuzzy set $\tilde{A}$ is understood as a set of ordered pairs composed of elements $x$ of the universal set $X$ and the corresponding degrees of membership $\mu_A(x)$:\\
-                $$\tilde{A}=\{(x, \mu_A(x)) | x \in X\}$$
-                where $\mu_A(x)$ is the membership function indicating to what extent the element $x$ belongs to the fuzzy set $\tilde{A}$. The function $\mu_A(x)$ takes values in some linearly ordered set $M$, which is called the accessory set.
-                \item Fuzzy sets of the second type are an extension of the classical theory of fuzzy sets proposed by Lotfi Zadeh in 1975. They were introduced to simulate situations where the degree of belonging of an element to a set is itself fuzzy. Unlike ordinary fuzzy sets, where each element is assigned a degree of belonging in the range from 0 to 1, in fuzzy sets of the second type, a fuzzy set of the first type is assigned to each element. Thus, fuzzy sets of the second type allow for a large degree of uncertainty and fuzziness, which makes them useful in many applications, including decision-making systems, fuzzy information processing and modeling of complex systems. Thus, formally fuzzy sets of the second type can be expressed as:
-                $$\tilde{A}=\int_{x\in X}\int_{u\in J_{x}} \mu_{\tilde{A}}(x,u) / (x,u)$$
-                where the sign of double integration means the union of valid $x$ and $u$ for a continuous universal set (for discrete universal sets, double summation symbols are used instead).
-                \item Fuzzy Sets of Type 3 is an improved version of Type 2 sets, designed with advanced capabilities for uncertainty management. In type 3 sets, the secondary membership function is also a type 2 membership function. This means that the upper and lower limits of membership are not fixed, unlike type 2 sets. This characteristic allows fuzzy type 3 sets to cope with a higher degree of uncertainty \cite{litlink22}. A fuzzy set of type 3 can be defined as follows:\\
-                ~\\
-                For each element \(x \in X\), the membership function \(\mu_{A}(x)\) a fuzzy set \(\tilde{A}\) of type 3 is defined as:\\
-                \[\mu_{A}(x) : X \rightarrow [0,1] \times [0,1]\]
-                where the first element of the pair represents the lower limit of membership, and the second element represents the upper limit of membership.\\
-                Secondary membership function \(\mu_{A}^{'}(x)\) is defined as:\\
-                \[\mu_{A}^{'}(x) : [0,1] \rightarrow [0,1]\]
-            \end{enumerate}
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
             ~\\
             ~\\
             ~\\
@@ -261,38 +291,39 @@
             ~\\
             ~\\
         \end{minipage}
-        \hspace{0.5cm}
         \begin{minipage}{0.49\textwidth}
-            where \(\mu_{A}^{'}(x)\) represents the degree of confidence that \(x\) belongs to the set \(A\).\\
+            All the selected technologies are open and widely used in practice, which provides good information support and opportunities for further development of the project.\\
             ~\\
-            4. An intuitionistic fuzzy set is a generalization of a fuzzy set that includes the degree of non-belonging of a function in addition to the membership function. It was introduced by Atanasov as a way to deal more comprehensively with uncertainty and inaccuracies. An intuitionistic fuzzy set can be defined as:\\
-            ~\\
-            Let $X$ be a nonempty set. The intuitionistic fuzzy set (IFS) $\tilde{A}$ in $X$ is defined as $\tilde{A} = \{(x,\mu_A(x), \nu_A(x)) | x \in X\}$, where $\mu_A(x): X\rightarrow [0,1]$ and $\nu_A(x): X\rightarrow [0,1]$ are functions representing the degree of belonging and non-participation of each element $x$ in $X$ to the set $A$, respectively, satisfying the condition $0\leq\mu_A(x) + \nu_A(x) \leq 1$ for each $x\in X$.\\
-            ~\\
-            In this definition, $\mu_A(x)$ is an affiliation function, and $\nu_A(x)$ is a non-affiliation function. Condition $0 \leq \mu_A(x) + \nu_A(x)\leq 1$ guarantees that the sum of the degrees of membership and non-membership for any element does not exceed 1, which is a fundamental property of intuitionistic fuzzy sets.\\
-            In this final qualifying work, sets of type 1 and type 2, as well as intuitionistic fuzzy sets, will be considered. Fuzzy sets of type 3 are not intuitive enough, and also complicate data entry on the part of the program user.\\
-            \textbf{Types of accessory functions:}
-            Membership functions are used in fuzzy set theory to determine the degree to which an element belongs to a particular set. Here are a few basic types of membership functions:
+            The program for modeling the perception of the success factors of an IT project is based on the use of fuzzy sets.\\
+            \textbf{Types of fuzzy sets:}
             \begin{enumerate}
-                \item Triangular membership function: This is the simplest membership function, which has the shape of a triangle. It is defined by three points: the beginning, the top and the end.
-                \item Gaussian membership function: This function has the shape of a bell and is defined by two parameters: center and width. The Gaussian membership function is often used in cases where the data has a normal distribution.
-                \item Trapezoidal membership function: This function has the shape of a trapezoid and is defined by four points: the beginning, the beginning of the plateau, the end of the plateau and the end.
-                \item Sigmoidal membership function: This function has the shape of an S-shaped curve and is defined by two parameters: center and width. The sigmoidal membership function is often used in cases where the data has a binary distribution.
-                \item Z-shaped and S-shaped membership functions: They are used to represent increasing and decreasing trends.
-                \item Parabolic membership function: This function has the shape of a parabola and is defined by two parameters: center and width.
-                \item Beta membership function: This function is defined by four parameters and can take various forms, including bell shape, S-curve and others.
-                \item Gamma membership function: This function is defined by two parameters and can take various forms, including bell shape, S-shaped curve and others.
+                \item Fuzzy sets (of the first type) are a key element in the field of fuzzy logic, which was first proposed by Lotfi Zadeh in 1965 \cite{litlink21}. Unlike classical binary logic, where an element either belongs to a set or not, fuzzy sets allow elements to belong to a set to a certain extent. This is achieved by introducing the membership function, which assigns to each element a number from 0 to 1, reflecting the degree of its membership in the set. This approach allows for more accurate modeling of the uncertainty and fuzziness of the real world, which makes fuzzy sets useful in many fields, including artificial intelligence, decision-making systems, image processing, and many others.\\
+                ~\\
+                A fuzzy set $\tilde{A}$ is understood as a set of ordered pairs composed of elements $x$ of the universal set $X$ and the corresponding degrees of membership $\mu_A(x)$:\\
+                $$\tilde{A}=\{(x, \mu_A(x)) | x \in X\}$$
+                where $\mu_A(x)$ is the membership function indicating to what extent the element $x$ belongs to the fuzzy set $\tilde{A}$. The function $\mu_A(x)$ takes values in some linearly ordered set $M$, which is called the accessory set.
+                \item Fuzzy sets of the second type are an extension of the classical theory of fuzzy sets proposed by Lotfi Zadeh in 1975. They were introduced to simulate situations where the degree of belonging of an element to a set is itself fuzzy. Unlike ordinary fuzzy sets, where each element is assigned a degree of belonging in the range from 0 to 1, in fuzzy sets of the second type, a fuzzy set of the first type is assigned to each element. Thus, fuzzy sets of the second type allow for a large degree of uncertainty and fuzziness, which makes them useful in many applications, including decision-making systems, fuzzy information processing and modeling of complex systems. Thus, formally fuzzy sets of the second type can be expressed as:
+                $$\tilde{A}=\int_{x\in X}\int_{u\in J_{x}} \mu_{\tilde{A}}(x,u) / (x,u)$$
+                where the sign of double integration means the union of valid $x$ and $u$ for a continuous universal set (for discrete universal sets, double summation symbols are used instead).
+                \item Fuzzy Sets of Type 3 is an improved version of Type 2 sets, designed with advanced capabilities for uncertainty management. In type 3 sets, the secondary membership function is also a type 2 membership function. This means that the upper and lower limits of membership are not fixed, unlike type 2 sets. This characteristic allows fuzzy type 3 sets to cope with a higher degree of uncertainty \cite{litlink22}. A fuzzy set of type 3 can be defined as follows:\\
+                ~\\
+                For each element \(x \in X\), the membership function \(\mu_{A}(x)\) a fuzzy set \(\tilde{A}\) of type 3 is defined as:\\
+                \[\mu_{A}(x) : X \rightarrow [0,1] \times [0,1]\]
+                where the first element of the pair represents the lower limit of membership, and the second element represents the upper limit of membership.\\
+                Secondary membership function \(\mu_{A}^{'}(x)\) is defined as:\\
+                \[\mu_{A}^{'}(x) : [0,1] \rightarrow [0,1]\]
+                where \(\mu_{A}^{'}(x)\) represents the degree of confidence that \(x\) belongs to the set \(A\).
+                \item An intuitionistic fuzzy set is a generalization of a fuzzy set that includes the degree of non-belonging of a function in addition to the membership function. It was introduced by Atanasov as a way to deal more comprehensively with uncertainty and inaccuracies. An intuitionistic fuzzy set can be defined as:\\
+                ~\\
+                Let $X$ be a nonempty set. The intuitionistic fuzzy set (IFS) $\tilde{A}$ in $X$ is defined as $\tilde{A} = \{(x,\mu_A(x), \nu_A(x)) | x \in X\}$, where $\mu_A(x): X\rightarrow [0,1]$ and $\nu_A(x): X\rightarrow [0,1]$ are functions representing the degree of belonging and non-participation of each element $x$ in $X$ to the set $A$, respectively, satisfying the condition $0\leq\mu_A(x) + \nu_A(x) \leq 1$ for each $x\in X$.\\
+                ~\\
+                In this definition, $\mu_A(x)$ is an affiliation function, and $\nu_A(x)$ is a non-affiliation function. Condition $0 \leq \mu_A(x) + \nu_A(x)\leq 1$ guarantees that the sum of the degrees of membership and non-membership for any element does not exceed 1, which is a fundamental property of intuitionistic fuzzy sets.\\
             \end{enumerate}
-            Each of these membership functions has its advantages and disadvantages, and the choice of a specific function depends on the specifics of the task and the data. In this paper, the triangular membership function, the Gaussian membership function and the trapezoidal membership function will be considered as the most popular.\\
-            \textbf{Defuzzification algorithms:}
-            \begin{enumerate}
-                \item The Center of gravity method (COG - Center Of Gravity), which calculates the center of gravity of the membership function.
-                \item is the Bisector Of Area (BOA) method, where the bisector of area under the membership function is calculated.
-                \item The Mean Of Maximum (MOM) method, where the average value of the maximum values of the membership function is calculated.
-                \item is the Maximum Of maximums (Maximum Of Maximum - MOM) method, where the maximum of the maximum values of the membership function is selected.
-                \item is a method of minimum Of maximums (Minimum Of Maximum - MOM), where the value of the membership function on the set is determined by the minimum of the maximum values.
-            \end{enumerate}
-            In this paper, the center of gravity method, the area bisector method and the maximum maxima method will be used.
+            ~\\
+            ~\\
+            ~\\
+            ~\\
+            ~\\
             ~\\
             ~\\
             ~\\
@@ -342,6 +373,9 @@
     \begin{figure}[!t]
         \fontsize{8}{7}\selectfont
         \begin{minipage}{0.49\textwidth}
+            In this final qualifying work, sets of type 1 and type 2, as well as intuitionistic fuzzy sets, was considered. Fuzzy sets of type 3 are not intuitive enough, and also complicate data entry on the part of the program user.\\
+            ~\\
+            The project presented several challenges. Firstly, the complexity of IT projects and the multitude of success factors make it difficult to accurately model and analyze these factors and their interrelationships. Secondly, the ambiguity and uncertainty inherent in these factors pose a challenge in applying fuzzy cognitive maps. Thirdly, the development of a user-friendly software program that can effectively visualize these complex relationships and adapt to changes over time is a significant task. Lastly, validating the effectiveness of the program in enhancing decision-making and improving IT project success rates will require rigorous testing and evaluation.\\
             \begin{center}
                 \chapter{IV. EXPECTED RESULTS}
             \end{center}

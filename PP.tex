@@ -178,15 +178,15 @@
             \begin{enumerate}
                 \item Fuzzy sets (of the first type) are a key element in the field of fuzzy logic, which was first proposed by Lotfi Zadeh in 1965 \cite{litlink21}. Unlike classical binary logic, where an element either belongs to a set or not, fuzzy sets allow elements to belong to a set to a certain extent. This is achieved by introducing the membership function, which assigns to each element a number from 0 to 1, reflecting the degree of its membership in the set. This approach allows for more accurate modeling of the uncertainty and fuzziness of the real world, which makes fuzzy sets useful in many fields, including artificial intelligence, decision-making systems, image processing, and many others.\\
                 ~\\
-                A fuzzy set $A$ is understood as a set of ordered pairs composed of elements $x$ of the universal set $X$ and the corresponding degrees of membership $\mu_A(x)$:\\
-                $$A=\{(x, \mu_A(x)) | x \in X\}$$
-                where $\mu_A(x)$ is the membership function indicating to what extent the element $x$ belongs to the fuzzy set $A$. The function $\mu_A(x)$ takes values in some linearly ordered set $M$, which is called the accessory set.
+                A fuzzy set $\tilde{A}$ is understood as a set of ordered pairs composed of elements $x$ of the universal set $X$ and the corresponding degrees of membership $\mu_A(x)$:\\
+                $$\tilde{A}=\{(x, \mu_A(x)) | x \in X\}$$
+                where $\mu_A(x)$ is the membership function indicating to what extent the element $x$ belongs to the fuzzy set $\tilde{A}$. The function $\mu_A(x)$ takes values in some linearly ordered set $M$, which is called the accessory set.
                 \item Fuzzy sets of the second type are an extension of the classical theory of fuzzy sets proposed by Lotfi Zadeh in 1975. They were introduced to simulate situations where the degree of belonging of an element to a set is itself fuzzy. Unlike ordinary fuzzy sets, where each element is assigned a degree of belonging in the range from 0 to 1, in fuzzy sets of the second type, a fuzzy set of the first type is assigned to each element. Thus, fuzzy sets of the second type allow for a large degree of uncertainty and fuzziness, which makes them useful in many applications, including decision-making systems, fuzzy information processing and modeling of complex systems. Thus, formally fuzzy sets of the second type can be expressed as:
                 $$\tilde{A}=\int_{x\in X}\int_{u\in J_{x}} \mu_{\tilde{A}}(x,u) / (x,u)$$
                 where the sign of double integration means the union of valid $x$ and $u$ for a continuous universal set (for discrete universal sets, double summation symbols are used instead).
                 \item Fuzzy Sets of Type 3 is an improved version of Type 2 sets, designed with advanced capabilities for uncertainty management. In type 3 sets, the secondary membership function is also a type 2 membership function. This means that the upper and lower limits of membership are not fixed, unlike type 2 sets. This characteristic allows fuzzy type 3 sets to cope with a higher degree of uncertainty \cite{litlink22}. A fuzzy set of type 3 can be defined as follows:\\
                 ~\\
-                For each element \(x \in X\), the membership function \(\mu_{A}(x)\) a fuzzy set \(A\) of type 3 is defined as:\\
+                For each element \(x \in X\), the membership function \(\mu_{A}(x)\) a fuzzy set \(\tilde{A}\) of type 3 is defined as:\\
                 \[\mu_{A}(x) : X \rightarrow [0,1] \times [0,1]\]
                 where the first element of the pair represents the lower limit of membership, and the second element represents the upper limit of membership.\\
                 Secondary membership function \(\mu_{A}^{'}(x)\) is defined as:\\
@@ -234,7 +234,7 @@
             ~\\
             4. An intuitionistic fuzzy set is a generalization of a fuzzy set that includes the degree of non-belonging of a function in addition to the membership function. It was introduced by Atanasov as a way to deal more comprehensively with uncertainty and inaccuracies. An intuitionistic fuzzy set can be defined as:\\
             ~\\
-            Let $X$ be a nonempty set. The intuitionistic fuzzy set (IFS) $A$ in $X$ is defined as $A = \{(x,\mu_A(x), \nu_A(x)) | x \in X\}$, where $\mu_A(x): X\rightarrow [0,1]$ and $\nu_A(x): X\rightarrow [0,1]$ are functions representing the degree of belonging and non-participation of each element $x$ in $X$ to the set $A$, respectively, satisfying the condition $0\leq\mu_A(x) + \nu_A(x) \leq 1$ for each $x\in X$.\\
+            Let $X$ be a nonempty set. The intuitionistic fuzzy set (IFS) $\tilde{A}$ in $X$ is defined as $\tilde{A} = \{(x,\mu_A(x), \nu_A(x)) | x \in X\}$, where $\mu_A(x): X\rightarrow [0,1]$ and $\nu_A(x): X\rightarrow [0,1]$ are functions representing the degree of belonging and non-participation of each element $x$ in $X$ to the set $A$, respectively, satisfying the condition $0\leq\mu_A(x) + \nu_A(x) \leq 1$ for each $x\in X$.\\
             ~\\
             In this definition, $\mu_A(x)$ is an affiliation function, and $\nu_A(x)$ is a non-affiliation function. Condition $0 \leq \mu_A(x) + \nu_A(x)\leq 1$ guarantees that the sum of the degrees of membership and non-membership for any element does not exceed 1, which is a fundamental property of intuitionistic fuzzy sets.\\
             In this final qualifying work, sets of type 1 and type 2, as well as intuitionistic fuzzy sets, will be considered. Fuzzy sets of type 3 are not intuitive enough, and also complicate data entry on the part of the program user.\\

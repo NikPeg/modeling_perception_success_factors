@@ -50,14 +50,7 @@
             color: #000000; /* Change text color on hover */
         }
 
-        .button::after {
-            content: "▼"; /* Add arrow as pseudo-element */
-            margin-left: 5px; /* Add space between text and arrow */
-            vertical-align: middle; /* Align the arrow vertically */
-            font-size: 15px;
-        }
-
-        .bigbutton {
+        .big-button {
             margin-left: 10px;
             padding: 8px 16px;
             border: none;
@@ -67,16 +60,48 @@
             cursor: pointer;
             font-size: 30px;
         }
+
+        .text-container {
+            max-width: 66.666%; /* Set maximum width to 2/3 of the screen */
+            text-align: left; /* Align text to the left */
+            margin: 0; /* Remove any margin */
+            padding: 0; /* Remove any padding */
+        }
+
+        .centered-text {
+            font-family: 'Roboto', sans-serif; /* Choose a fashionable font */
+            font-size: 100px;
+            margin: 0; /* Remove any margin */
+            padding: 0; /* Remove any padding */
+        }
+
+        .centered-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .very-bold-text {
+            font-weight: 500; /* Make the text very bold */
+        }
     </style>
     {% load static %}
 </head>
 <body>
+<div class="centered-content">
+    <div class="text-container">
+        <div class="centered-text">
+            <p class="very-bold-text">How to model success factors of your IT-Project. Do it together with Fuzzit.</p>
+        </div>
+    </div>
+</div>
 <div class="header">
     <button class="button">About</button>
     <button class="button">GitHub</button>
     <button class="button">Contacts</button>
     <button class="button">Log in</button>
-    <button class="bigbutton">Get started</button>
+    <button class="big-button">Get started</button>
 </div>
 <img src="{% static 'images/fuzzit.png' %}" alt="Fuzzit Logo" class="centered-image">
 <hr class="line">

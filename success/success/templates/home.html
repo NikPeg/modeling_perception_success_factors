@@ -8,7 +8,7 @@
         body, html {
             height: 100%;
             margin: 0;
-            background-color: #ffffff;
+            background-color: #fdfffb;
         }
 
         .centered-image {
@@ -49,7 +49,7 @@
         }
 
         .button:hover {
-            color: #000000; /* Change text color on hover */
+            text-decoration: underline; /* Underline text on hover */
         }
 
         .big-button {
@@ -105,7 +105,9 @@
     <button class="button">Log in</button>
     <button class="big-button">Get started</button>
 </div>
-<img src="{% static 'images/fuzzit.png' %}" alt="Fuzzit Logo" class="centered-image">
+<a href="{% url 'home' %}">
+    <img src="{% static 'images/fuzzit.png' %}" alt="Fuzzit Logo" class="centered-image">
+</a>
 <hr class="line">
 </body>
 </html>

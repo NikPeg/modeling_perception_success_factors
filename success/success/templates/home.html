@@ -87,6 +87,19 @@
         .very-bold-text {
             font-weight: 500; /* Make the text very bold */
         }
+
+        .login-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+        }
     </style>
     {% load static %}
 </head>
@@ -102,9 +115,32 @@
     <a href="{% url 'about' %}" class="button">About</a>
     <button class="button" onclick="window.location.href='https://github.com/NikPeg/modeling_perception_success_factors'">GitHub</button>
     <button class="button" onclick="window.location.href='https://t.me/nikpeg'">Contacts</button>
-    <button class="button">Log in</button>
+    <button class="button" onclick="showLoginPopup()">Log in</button>
     <button class="big-button">Get started</button>
 </div>
+<div class="login-popup" id="loginPopup">
+    <h2>Login</h2>
+    <form action="#" method="post">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+    <button onclick="hideLoginPopup()">Close</button>
+</div>
+
+<script>
+    // Функция для отображения всплывающего окна
+    function showLoginPopup() {
+        document.getElementById("loginPopup").style.display = "block";
+    }
+
+    // Функция для скрытия всплывающего окна
+    function hideLoginPopup() {
+        document.getElementById("loginPopup").style.display = "none";
+    }
+</script>
 <a href="{% url 'home' %}">
     <img src="{% static 'images/fuzzit.png' %}" alt="Fuzzit Logo" class="centered-image">
 </a>

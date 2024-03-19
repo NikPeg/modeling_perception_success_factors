@@ -1,9 +1,8 @@
-// Функция для отображения всплывающего окна
 function showLoginPopup() {
+    document.getElementById("backgroundOverlay").style.display = "block";
     document.getElementById("loginPopup").style.display = "block";
 }
-
-// Функция для скрытия всплывающего окна
 function hideLoginPopup() {
+    document.getElementById("backgroundOverlay").style.display = "none";
     document.getElementById("loginPopup").style.display = "none";
 }

@@ -35,16 +35,20 @@
     <button class="button" onclick="showLoginPopup()">Log in</button>
     <button class="big-button">Get started</button>
 </div>
+<div class="background-overlay" id="backgroundOverlay"></div>
 <div class="login-popup" id="loginPopup">
+    <button class="close-btn" onclick="hideLoginPopup()">✖</button>
     <h2>Login</h2>
     <form action="#" method="post">
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
+        <label for="email" style="display: none;">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br>
+        <label for="password" style="display: none;">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br><br>
         <button type="submit">Login</button>
     </form>
-    <button onclick="hideLoginPopup()">Close</button>
+    <h2></h2>
+    <a href="{% url 'about' %}" class="login-button">Reset password</a>
+    <p>No account? <a href="{% url 'about' %}" class="login-button">Create one</a></p>
 </div>
 <a href="{% url 'home' %}">
     <img src="{% static 'images/fuzzit.png' %}" alt="Fuzzit Logo" class="centered-image">

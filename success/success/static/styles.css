@@ -158,3 +158,13 @@
     text-decoration: none; /* Remove underline */
     font-family: 'Roboto', sans-serif; /* Устанавливаем шрифт Roboto */
 }
+
+.login-popup button.register-button {
+    padding: 10px 20px;
+    background-color: #C61981;
+    color: #fff;
+    font-size: 30px; /* Set font size to 16px */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

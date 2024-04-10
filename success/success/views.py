@@ -40,4 +40,4 @@ def register_view(request):
             return redirect('home')  # Замените 'home' на путь для перенаправления пользователя
     else:
         form = SignUpForm()
-    return render(request, 'registration/register.html', {'form': form})
+    return render(request, 'register.html', {'form': form})

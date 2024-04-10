@@ -39,7 +39,9 @@
 <div class="login-popup" id="loginPopup">
     <button class="close-btn" onclick="hideLoginPopup()">✖</button>
     <h2>Log in to Fuzzit</h2>
-    <form action="#" method="post">
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
         <label for="email" style="display: none;"></label><br>
         <input type="email" id="email" name="email" placeholder="Email" required><br>
         <label for="password" style="display: none;">:</label><br>
@@ -53,7 +55,9 @@
 <div class="login-popup" id="registerPopup">
     <button class="close-btn" onclick="hideRegisterPopup()">✖</button>
     <h2>Sign up to Fuzzit</h2>
-    <form action="#" method="post">
+    <form action="{% url 'register' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
         <label for="registerEmail" style="display: none;"></label><br>
         <input type="email" id="registerEmail" name="email" placeholder="Email" required><br>
         <label for="registerPassword" style="display: none;"></label><br>

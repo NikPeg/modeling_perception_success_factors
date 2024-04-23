@@ -1,10 +1,11 @@
+from django.contrib.admin import register
 from django.contrib.auth import authenticate, login
+from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib import messages
-from .forms import SignUpForm
-
+from django.contrib.auth.models import User
 
 def home_view(request):
     return render(request, 'home.html')
@@ -18,27 +19,26 @@ def login_view(request):
     if request.method == 'POST':
         email = request.POST.get('email')
         password = request.POST.get('password')
-        user = authenticate(request, email=email, password=password)
-        if user is not None:
-            login(request, user)
-            messages.success(request, 'You have successfully logged in.')
-            return redirect('home')  # Redirect to a new URL
+        user_qs = User.objects.filter(email=email)
+        if user_qs.exists() and authenticate(request, username=email, email=email, password=password):
+            return redirect('base')  # Redirect to a new URL
         else:
             messages.error(request, 'Invalid login credentials.')
             return redirect('home')
-    return render(request, 'login.html')
+    return redirect('home')
 
 
 def register_view(request):
     if request.method == 'POST':
-        form = SignUpForm(request.POST)
-        if form.is_valid():
-            user = form.save()
-            username = form.cleaned_data.get('username')
-            raw_password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=raw_password)
-            login(request, user)
-            return redirect('home')  # Замените 'home' на путь для перенаправления пользователя
-    else:
-        form = SignUpForm()
-    return render(request, 'register.html', {'form': form})
+        passwords = request.POST.getlist("password")
+        if passwords[0] != passwords[1]:
+            messages.error(request, "Passwords don't match!")
+            return redirect('home')
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        User.objects.create_user(email, email, password)
+        return redirect('base')
+
+
+def base_view(request):
+    return render(request, 'base.html')

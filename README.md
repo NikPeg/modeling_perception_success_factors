@@ -6,4 +6,6 @@
 1. Активируйте виртуальную среду: `source succenv/bin/activate` в Linux или `succenv\Scripts\activate` в Windows
 2. Перейдите в папку django-проекта: `cd success`
 3. Установите зависимости: `pip3 install -r requirements.txt`
-4. Запустите сервер: `python manage.py runserver`. Он будет доступен по адресу: http://127.0.0.1:8000/.
+4. Примените миграции: `python manage.py migrate`
+5. Создайте суперпользователя: `python manage.py createsuperuser`
+6. Запустите сервер: `python manage.py runserver`. Он будет доступен по адресу: http://127.0.0.1:8000/.

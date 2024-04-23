@@ -21,7 +21,7 @@ def login_view(request):
         password = request.POST.get('password')
         user_qs = User.objects.filter(email=email)
         if user_qs.exists() and authenticate(request, username=email, email=email, password=password):
-            return redirect('base')  # Redirect to a new URL
+            return redirect('base', email)  # Redirect to a new URL
         else:
             messages.error(request, 'Invalid login credentials.')
             return redirect('home')
@@ -37,8 +37,8 @@ def register_view(request):
         email = request.POST.get('email')
         password = request.POST.get('password')
         User.objects.create_user(email, email, password)
-        return redirect('base')
+        return redirect('base', email)
 
 
-def base_view(request):
-    return render(request, 'base.html')
+def base_view(request, username):
+    return render(request, 'base.html', {'username': username})

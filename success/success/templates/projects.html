@@ -15,6 +15,13 @@
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 </head>
 <body>
+
+<div class="left-header" >
+    <img src="{% static 'images/login.png' %}" alt="Login Logo" class="centered-image account-logo" style="display: inline">
+
+    <label class="top-left-label" style="display: inline-block; position : absolute; top:30px; left:100px;">{{username}}</label>
+</div>
+
 <div class="centered-content">
     <div class="text-container">
         <div class="centered-text">
@@ -22,12 +29,10 @@
         </div>
     </div>
 </div>
+
 <div class="header">
-    <a href="{% url 'about' %}" class="button">About</a>
-    <button class="button" onclick="window.location.href='https://github.com/NikPeg/modeling_perception_success_factors'">GitHub</button>
-    <button class="button" onclick="window.location.href='https://t.me/nikpeg'">Contacts</button>
-    <button class="button" onclick="showLoginPopup()">Log in</button>
-    <button class="big-button" onclick="showRegisterPopup()">Get started</button>
+    <button class="button" onclick="showLoginPopup()">Import</button>
+    <button class="big-button" onclick="showRegisterPopup()">Create</button>
 </div>
 <div class="background-overlay" id="backgroundOverlay"></div>
 <div class="login-popup" id="loginPopup">
@@ -57,9 +62,6 @@
         <button class="register-button" type="submit">Create account</button>
     </form>
 </div>
-<a href="{% url 'home' %}">
-    <img src="{% static 'images/login.png' %}" alt="Login Logo" class="centered-image" style="height: 65px; width: 65px;">
-</a>
 <div class="full-width-rectangle"></div>
 <script src="{% static 'script.js' %}"></script>
 </body>

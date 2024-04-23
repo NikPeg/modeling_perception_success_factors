@@ -1,10 +1,20 @@
+body{
+    font-size: 30px; /* Set font size to 16px */
+    font-family: 'Roboto', sans-serif;
+}
+
 .centered-image {
-    position: absolute;
     top: 0;
     left: 0;
-    width: 150px; /* Adjust width as needed */
-    height: auto; /* Preserve aspect ratio */
     padding: 20px; /* Optional padding */
+}
+
+.main-page-logo{
+    width: 150px;
+}
+
+.account-logo{
+    height: 65px;
 }
 
 .full-width-rectangle {
@@ -21,6 +31,10 @@
     top: 30px;
     right: 30px;
     text-align: right;
+}
+
+.left-header {
+    text-align: left;
 }
 
 .button {
@@ -170,12 +184,10 @@
     cursor: pointer;
 }
 
-.error {
-    color: red;
-    background-color: #ffc0cb; /* Light red */
-}
-
-.success {
-    color: green;
-    background-color: #b2fab4; /* Light green */
+.top-left-label {
+    /*z-index: 30;*/
+    /*top: 10px;*/
+    /*left: 0;*/
+    /*padding: 8px;*/
+    /*margin: 0;*/
 }

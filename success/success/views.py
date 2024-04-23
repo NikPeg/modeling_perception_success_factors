@@ -1,6 +1,8 @@
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
-
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login
+from django.contrib import messages
 from .forms import SignUpForm
 
 
@@ -14,17 +16,16 @@ def about_view(request):
 
 def login_view(request):
     if request.method == 'POST':
-        email = request.POST['email']
-        password = request.POST['password']
+        email = request.POST.get('email')
+        password = request.POST.get('password')
         user = authenticate(request, email=email, password=password)
         if user is not None:
             login(request, user)
-            # Redirect to a new page upon successful login
-            return redirect('home')  # Replace 'home' with the name of your desired URL pattern
+            messages.success(request, 'You have successfully logged in.')
+            return redirect('home')  # Redirect to a new URL
         else:
-            # Handle invalid login credentials (e.g., display error message)
-            return render(request, 'login.html', {'error_message': 'Invalid email or password'})
-
+            messages.error(request, 'Invalid login credentials.')
+            return redirect('home')
     return render(request, 'login.html')
 
 

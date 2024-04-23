@@ -169,3 +169,13 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.error {
+    color: red;
+    background-color: #ffc0cb; /* Light red */
+}
+
+.success {
+    color: green;
+    background-color: #b2fab4; /* Light green */
+}

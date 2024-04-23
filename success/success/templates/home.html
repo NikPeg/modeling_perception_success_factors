@@ -15,6 +15,17 @@
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 </head>
 <body>
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <script>
+        // Safely encode the message to be JavaScript-friendly
+        var msgText = "{{ message|escapejs }}";
+        alert(msgText);  // Display the message text in an alert box
+    </script>
+    {% endfor %}
+</ul>
+{% endif %}
 <div class="centered-content">
     <div class="text-container">
         <div class="centered-text">

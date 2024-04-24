@@ -14,3 +14,11 @@ function hideRegisterPopup() {
     document.getElementById("backgroundOverlay").style.display = "none";
     document.getElementById("registerPopup").style.display = "none";
 }
+function showCreatePopup() {
+    document.getElementById("backgroundOverlay").style.display = "block";
+    document.getElementById("createPopup").style.display = "block";
+}
+function hideCreatePopup() {
+    document.getElementById("backgroundOverlay").style.display = "none";
+    document.getElementById("createPopup").style.display = "none";
+}

@@ -120,6 +120,8 @@ body{
     text-align: left;
 }
 .login-popup input[type="email"],
+.login-popup input[type="text"],
+.login-popup input[type="radio"],
 .login-popup input[type="password"] {
     width: 100%;
     padding: 10px;

@@ -1,0 +1,26 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Аннотация}{3}{}%
+\contentsline {section}{\numberline {2}Введение}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Наименование программы на русском языке}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Наименование программы на английском языке}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Документы, на основании которых ведется разработка}{4}{}%
+\contentsline {section}{\numberline {3}Назначение и область применения}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Назначение программы}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Целевая аудитория продукта}{5}{}%
+\contentsline {subsection}{\numberline {3.3}Актуальность проблемы}{5}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Функциональное назначение}{8}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Эксплуатационное назначение}{8}{}%
+\contentsline {subsection}{\numberline {3.4}Область применения программы}{9}{}%
+\contentsline {section}{\numberline {4}Требования к программе или программному изделию}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Общие требования}{10}{}%
+\contentsline {subsection}{\numberline {4.2}Функциональные требования}{10}{}%
+\contentsline {subsection}{\numberline {4.3}Нефункциональные требования}{10}{}%
+\contentsline {section}{\numberline {5}Требования к программной документации}{11}{}%
+\contentsline {section}{\numberline {6}Технико-экономические показатели}{12}{}%
+\contentsline {subsection}{\numberline {6.1}Цели и задачи проекта}{12}{}%
+\contentsline {subsection}{\numberline {6.2}Ожидаемые результаты}{12}{}%
+\contentsline {subsection}{\numberline {6.3}Ресурсы проекта}{12}{}%
+\contentsline {section}{\numberline {7}Стадии и этапы разработки}{13}{}%
+\contentsline {section}{\numberline {8}Порядок контроля и приемки}{14}{}%
+\contentsline {section}{\numberline {9}Список использованных источников}{15}{}%
+\contentsline {section}{Приложения}{17}{}%

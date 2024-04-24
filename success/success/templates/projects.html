@@ -10,35 +10,69 @@
             margin: 0;
             background-color: #fdfffb;
         }
+        .project {
+            width: 270px;
+            height: 100px;
+            background-color: #f0f0f0;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            line-height: 100px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-family: 'Roboto', sans-serif;
+        }
     </style>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 </head>
 <body>
 
-<div class="left-header" >
+<div class="left-header">
     <img src="{% static 'images/login.png' %}" alt="Login Logo" class="centered-image account-logo" style="display: inline">
-
-    <label class="top-left-label" style="display: inline-block; position : absolute; top:30px; left:100px;">{{username}}</label>
-</div>
-
-<div class="centered-content">
-    <div class="text-container">
-        <div class="centered-text">
-            <p class="very-bold-text">Log in!</p>
-        </div>
-    </div>
+    <label class="top-left-label" style="display: inline-block; position : absolute; top:30px; left:100px; font-family: 'Roboto', sans-serif;">{{username}}</label>
 </div>
 
 <div class="header">
     <button class="button" onclick="showLoginPopup()">Import</button>
     <button class="big-button" onclick="showRegisterPopup()">Create</button>
 </div>
+
+<div class="templates-container">
+    <p class="very-bold-text" style="margin-left: 10px;">Popular templates:</p>
+    <div class="project">Mobile app</div>
+    <div class="project">Web site</div>
+    <div class="project">DevOps</div>
+    <div class="project">AI project</div>
+    <div class="project">All templates→</div>
+</div>
+
+<div class="recent-projects-container">
+    <p class="very-bold-text" style="margin-left: 10px;">My projects:</p>
+    <div class="project">VR SDK</div>
+    <div class="project">MyFitnessPal</div>
+    <div class="project">Zoho CRM</div>
+    <div class="project">Code Review Tool</div>
+    <div class="project">All projects→</div>
+</div>
+
+<div class="public-projects-container">
+    <p class="very-bold-text" style="margin-left: 10px;">Public projects:</p>
+    <div class="project">Blockchain SCMS</div>
+    <div class="project">AI Dashboard</div>
+    <div class="project">IoT Home System</div>
+    <div class="project">AI Healthcare</div>
+    <div class="project">All projects→</div>
+</div>
+
 <div class="background-overlay" id="backgroundOverlay"></div>
 <div class="login-popup" id="loginPopup">
     <button class="close-btn" onclick="hideLoginPopup()">✖</button>
     <h2>Log in to Fuzzit</h2>
     <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
         <label for="email" style="display: none;"></label><br>
         <input type="email" id="email" name="email" placeholder="Email" required><br>
         <label for="password" style="display: none;">:</label><br>
@@ -52,7 +86,9 @@
 <div class="login-popup" id="registerPopup">
     <button class="close-btn" onclick="hideRegisterPopup()">✖</button>
     <h2>Sign up to Fuzzit</h2>
-    <form action="#" method="post">
+    <form action="{% url 'register' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
         <label for="registerEmail" style="display: none;"></label><br>
         <input type="email" id="registerEmail" name="email" placeholder="Email" required><br>
         <label for="registerPassword" style="display: none;"></label><br>

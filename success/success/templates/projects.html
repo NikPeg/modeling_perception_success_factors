@@ -77,11 +77,24 @@
         <label for="projectName"> </label><br>
         <input style="display: inline-block" type="text" id="projectName" name="projectName" placeholder="Project name" required><br>
 
+        <label id="privacyLabel" style="text-align: center;">Choose privacy:</label>
+
         <input style="display: inline; width: 15px" type="radio" id="private" name="projectType" value="private" required>
-        <label for="private" style="display: inline-block">Private Project</label><br>
+        <label for="private" style="display: inline-block">Private</label><br>
 
         <input type="radio" id="public" name="projectType" value="public" required style="display: inline; width: 15px">
-        <label for="public" style="display: inline-block">Public Project</label><br>
+        <label for="public" style="display: inline-block">Public</label><br>
+
+        <label id="fuzzyLabel" style="text-align: center;">Choose type of fuzzy sets:</label>
+
+        <input style="display: inline; width: 15px" type="radio" id="first" name="setsType" value="first" required>
+        <label for="first" style="display: inline-block">First</label><br>
+
+        <input type="radio" id="second" name="setsType" value="second" required style="display: inline; width: 15px">
+        <label for="second" style="display: inline-block">Second</label><br>
+
+        <input type="radio" id="intuitionistic" name="setsType" value="intuitionistic" required style="display: inline; width: 15px">
+        <label for="intuitionistic" style="display: inline-block">Intuitionistic</label><br>
 
         <button class="register-button" type="submit">Create account</button>
     </form>

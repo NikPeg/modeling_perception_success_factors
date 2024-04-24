@@ -42,3 +42,13 @@ def register_view(request):
 
 def projects_view(request, username):
     return render(request, 'projects.html', {'username': username})
+
+
+def project_view(request, name):
+    return render(request, 'project.html', {'name': name})
+
+
+def create_view(request):
+    if request.method == 'POST':
+        name = request.POST.get("projectName")
+        return redirect('project', name)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  24 APR 2024 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  24 APR 2024 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -990,7 +990,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/TZ.toc<<t1.c
-map>>)
+map>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>)
 \tf@toc=\write4
 \openout4 = `TZ.toc'.
 
@@ -1253,25 +1253,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 307--308
+Underfull \hbox (badness 1859) in paragraph at lines 380--381
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
@@ -1284,39 +1293,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 []\T2A/cmr/m/it/10 Felix Benjam^^A^^Yn, Gerardo & N^^Aapoles, Gonzalo & Falcon,
  Rafael & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 308--309
+Overfull \hbox (158.02309pt too wide) in paragraph at lines 381--382
 \T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
 _Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 310--311
+Overfull \hbox (242.83571pt too wide) in paragraph at lines 383--384
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
 ications)
  []
 
 
-Overfull \hbox (106.65271pt too wide) in paragraph at lines 314--315
+Overfull \hbox (106.65271pt too wide) in paragraph at lines 387--388
 []\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
 encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
 241X)
@@ -1330,18 +1339,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--325
+Underfull \hbox (badness 10000) in paragraph at lines 395--398
 
  []
 
-./TZ.tex:327: Misplaced alignment tab character &.
-l.327 ...ess\_factors?type=design\&node-id=0\%3A1&
+./TZ.tex:400: Misplaced alignment tab character &.
+l.400 ...ess\_factors?type=design\&node-id=0\%3A1&
                                                   mode=design&t=p9Rw1aMudymy...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1350,8 +1359,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./TZ.tex:327: Misplaced alignment tab character &.
-l.327 ...?type=design\&node-id=0\%3A1&mode=design&
+./TZ.tex:400: Misplaced alignment tab character &.
+l.400 ...?type=design\&node-id=0\%3A1&mode=design&
                                                   t=p9Rw1aMudymyfiVe-1\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1361,23 +1370,23 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (28.38686pt too wide) in paragraph at lines 325--328
+Overfull \hbox (28.38686pt too wide) in paragraph at lines 398--401
 \T2A/cmr/m/n/10 https://www.figma.com/file/PL5iRCOK6h7RpPK1ZqKQgE/modeling_perc
 eption_success_factors?type=design&node-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--328
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
@@ -1393,17 +1402,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[17] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/TZ.aux)
+[18] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/TZ.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 20314 strings out of 479721
- 389189 string characters out of 5887697
+ 20344 strings out of 479721
+ 389581 string characters out of 5887697
  1070343 words of memory out of 5000000
- 37883 multiletter control sequences out of 15000+600000
- 476090 words of font info for 37 fonts, out of 8000000 for 9000
+ 37897 multiletter control sequences out of 15000+600000
+ 476544 words of font info for 39 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  100i,11n,104p,1733b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.6
@@ -1414,10 +1423,10 @@ rm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a
 t2a/larm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/
 lh-t2a/labx1000.600pk>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/TZ.pdf (18 pages, 151243 bytes).
+ut/TZ.pdf (19 pages, 164684 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 501 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

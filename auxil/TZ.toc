@@ -1,0 +1,15 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Аннотация}{3}{}%
+\contentsline {section}{\numberline {2}Введение}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Наименование программы на русском языке}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Наименование программы на английском языке}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Документы, на основании которых ведется разработка}{4}{}%
+\contentsline {section}{\numberline {3}Назначение и область применения}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Назначение программы}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Целевая аудитория продукта}{5}{}%
+\contentsline {subsection}{\numberline {3.3}Актуальность проблемы}{5}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Функциональное назначение}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Эксплуатационное назначение}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Область применения программы}{8}{}%
+\contentsline {section}{\numberline {4}Технические характеристики}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Постановка задачи на разработку программы}{9}{}%

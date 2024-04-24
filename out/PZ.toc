@@ -18,8 +18,9 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Виды функций принадлежности}{11}{}%
 \contentsline {subsubsection}{\numberline {4.2.3}Алгоритмы дефаззификации}{12}{}%
 \contentsline {subsubsection}{\numberline {4.2.4}Алгоритмы дефаззификации для выбранных видов нечетких множеств}{13}{}%
-\contentsline {subsection}{\numberline {4.3}Описание входных и выходных данных программы}{14}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Входные данные}{14}{}%
+\contentsline {subsubsection}{\numberline {4.2.5}Схема расчета по шагам (reasoning process)}{14}{}%
+\contentsline {subsection}{\numberline {4.3}Описание входных и выходных данных программы}{15}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Входные данные}{15}{}%
 \contentsline {subsubsection}{\numberline {4.3.2}Выходные данные}{15}{}%
 \contentsline {subsection}{\numberline {4.4}Интерфейс программы}{15}{}%
 \contentsline {subsection}{\numberline {4.5}Выбор технических и программных средств}{16}{}%

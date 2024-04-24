@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  24 APR 2024 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  24 APR 2024 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,23 +897,23 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux)
 \openout1 = `PZ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Info: Redefining \th on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Info: Redefining \th on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1004,7 +1004,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
+Underfull \hbox (badness 10000) in paragraph at lines 122--125
 
  []
 
@@ -1017,7 +1017,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
 
  []
 
@@ -1030,107 +1030,107 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--165
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--165
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--165
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--165
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--191
+Underfull \hbox (badness 10000) in paragraph at lines 165--190
 
  []
 
@@ -1152,12 +1152,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
+Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
  []
 
@@ -1170,22 +1170,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--223
+Underfull \hbox (badness 10000) in paragraph at lines 219--222
 
  []
 
 
-Overfull \hbox (3.5607pt too wide) in paragraph at lines 229--230
+Overfull \hbox (3.5607pt too wide) in paragraph at lines 228--229
 \T2A/cmr/m/n/10 Таким об-ра-зом, дан-ная про-грам-ма мо-жет быть при-ме-не-на в
  раз-лич-ных об-ла-стях свя-зан-ных с IT-технологиями,
  []
@@ -1199,12 +1199,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 252--255
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--255
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
 
  []
 
@@ -1217,32 +1217,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 260--263
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--263
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--266
+Underfull \hbox (badness 10000) in paragraph at lines 262--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--272
 
  []
 
@@ -1258,15 +1258,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <pictures//all.png, id=60, 475.7775pt x 475.7775pt>
 File: pictures//all.png Graphic file (type png)
 <use pictures//all.png>
-Package pdftex.def Info: pictures//all.png  used on input line 290.
+Package pdftex.def Info: pictures//all.png  used on input line 289.
 (pdftex.def)             Requested size: 250.24199pt x 250.24428pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
@@ -1279,82 +1279,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [11 <./pictures//all.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 304--307
+Underfull \hbox (badness 10000) in paragraph at lines 303--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 307--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--342
+Underfull \hbox (badness 10000) in paragraph at lines 324--341
 
  []
 
@@ -1367,33 +1367,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 344--350
+Underfull \hbox (badness 10000) in paragraph at lines 343--349
 
  []
 
 
-./PZ.tex:359: LaTeX Error: Unicode character Ој (U+03BC)
+./PZ.tex:358: LaTeX Error: Unicode character Ој (U+03BC)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.359 ...С†РёРµР№ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё $Ој
+l.358 ...С†РёРµР№ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё $Ој
                                                   _A(x)$, Рё РїСѓСЃС‚СЊ $X$ ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./PZ.tex:359: LaTeX Error: Unicode character Ој (U+03BC)
+./PZ.tex:358: LaTeX Error: Unicode character Ој (U+03BC)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.359 ...ѕ РІСЃРµС… $x$, РґР»СЏ РєРѕС‚РѕСЂС‹С… $Ој
+l.358 ...ѕ РІСЃРµС… $x$, РґР»СЏ РєРѕС‚РѕСЂС‹С… $Ој
                                                   _A(x)$ РґРѕСЃС‚РёРіР°РµС‚ ...
 
 You may provide a definition with
@@ -1408,282 +1408,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 413--417
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
 
-./PZ.tex:423: LaTeX Error: Environment algorithm undefined.
+./PZ.tex:435: LaTeX Error: Undefined tab position.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423     \begin{algorithm}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./PZ.tex:424: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.424         \caption
-                      {РђР»РіРѕСЂРёС‚Рј Р°РЅР°Р»РёР·Р° РЅРµС‡РµС‚РєРѕР№ РєРѕ...
-
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
+l.435         8: \> \> \> \>
+                             $sum \gets sum + A[i, j] \cdot f(S[j])$ \\
+You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-./PZ.tex:425: LaTeX Error: Environment algorithmic undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425         \begin{algorithmic}
-                                 [1]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./PZ.tex:426: Undefined control sequence.
-l.426             \Procedure
-                            {AnalyzeFuzzyCognitiveMap}{$C, A, S_0, \alpha, \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:427: Undefined control sequence.
-l.427                 \State
-                             $S \gets S_0$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:428: Undefined control sequence.
-l.428                 \State
-                             $iter \gets 0$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:429: Undefined control sequence.
-l.429                 \While
-                            {$iter < maxIter$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:430: Undefined control sequence.
-l.430                     \State
-                                 $S_{new} \gets \textbf{zero}(n)$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:431: Undefined control sequence.
-l.431                     \For
-                              {$i \gets 1 \text{ to } n$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:432: Undefined control sequence.
-l.432                         \State
-                                     $sum \gets 0$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:433: Undefined control sequence.
-l.433                         \For
-                                  {$j \gets 1 \text{ to } n$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:434: Undefined control sequence.
-l.434                             \State
-                                         $sum \gets sum + A[i, j] \cdot f(S[...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:435: Undefined control sequence.
-l.435                         \EndFor
-                                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:436: Undefined control sequence.
-l.436                         \State
-                                     $S_{new}[i] \gets f(sum)$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:437: Undefined control sequence.
-l.437                     \EndFor
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:438: Undefined control sequence.
-l.438                     \If
-                             {$\|S_{new} - S\| < \epsilon$}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:439: Undefined control sequence.
-l.439                         \State
-                                     \textbf{break}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:440: Undefined control sequence.
-l.440                     \EndIf
-                                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:441: Undefined control sequence.
-l.441                     \State
-                                 $S \gets \alpha \cdot S_{new} + (1 - \alpha...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:442: Undefined control sequence.
-l.442                     \State
-                                 $iter \gets iter + 1$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:443: Undefined control sequence.
-l.443                 \EndWhile
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:444: Undefined control sequence.
-l.444                 \State
-                             \textbf{return} $S$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./PZ.tex:445: Undefined control sequence.
-l.445             \EndProcedure
-                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./PZ.tex:446: LaTeX Error: \begin{document} ended by \end{algorithmic}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446         \end{algorithmic}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./PZ.tex:447: LaTeX Error: \begin{document} ended by \end{algorithm}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.447     \end{algorithm}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 425--451
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--471
-
- []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1694,52 +1433,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 461--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
+Underfull \hbox (badness 10000) in paragraph at lines 461--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
+Underfull \hbox (badness 10000) in paragraph at lines 461--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
+Underfull \hbox (badness 10000) in paragraph at lines 461--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--498
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
@@ -1752,7 +1471,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
@@ -1765,20 +1529,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 518--523
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--523
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--523
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1788,17 +1538,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 549--552
+Underfull \hbox (badness 10000) in paragraph at lines 517--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--566
+Underfull \hbox (badness 10000) in paragraph at lines 517--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--566
+Underfull \hbox (badness 10000) in paragraph at lines 517--522
 
  []
 
@@ -1811,6 +1561,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 548--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--565
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--565
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1820,25 +1584,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 586--587
+Underfull \hbox (badness 1859) in paragraph at lines 585--586
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
@@ -1851,39 +1624,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
 []\T2A/cmr/m/it/10 Felix Benjam^^A^^Yn, Gerardo & N^^Aapoles, Gonzalo & Falcon,
  Rafael & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 587--588
+Overfull \hbox (158.02309pt too wide) in paragraph at lines 586--587
 \T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
 _Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 589--590
+Overfull \hbox (242.83571pt too wide) in paragraph at lines 588--589
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
 ications)
  []
 
 
-Overfull \hbox (106.65271pt too wide) in paragraph at lines 593--594
+Overfull \hbox (106.65271pt too wide) in paragraph at lines 592--593
 []\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
 encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
 241X)
@@ -1897,24 +1670,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--606
+Underfull \hbox (badness 10000) in paragraph at lines 602--605
 
  []
 
 
-Overfull \hbox (28.38686pt too wide) in paragraph at lines 606--609
+Overfull \hbox (28.38686pt too wide) in paragraph at lines 605--608
 \T2A/cmr/m/n/10 https://www.figma.com/file/PL5iRCOK6h7RpPK1ZqKQgE/modeling_perc
 eption_success_factors?type=design&node-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--609
+Underfull \hbox (badness 10000) in paragraph at lines 605--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
 
  []
 
@@ -1924,12 +1702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 609--610
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
-
- []
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 27.
+Package caption Warning: Unused \captionsetup[table] on input line 26.
 See the caption package documentation for explanation.
 
 
@@ -1940,36 +1713,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[22] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux) )
- 
+[23] (/home/nspeganov/Desktop/modeling_perception_success_factors/out/PZ.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20381 strings out of 479721
- 390117 string characters out of 5887697
+ 20379 strings out of 479721
+ 390091 string characters out of 5887697
  1071343 words of memory out of 5000000
- 37923 multiletter control sequences out of 15000+600000
+ 37921 multiletter control sequences out of 15000+600000
  479801 words of font info for 43 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  100i,12n,104p,1733b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.600
-pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.
-600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
-1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/l
-abx1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2
-a/larm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh
--t2a/labx1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb>
+ </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.6
+00pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx120
+0.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tc
+rm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a
+/labx1440.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-
+t2a/larm1000.600pk> </home/nspeganov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/
+lh-t2a/labx1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb>
 Output written on /home/nspeganov/Desktop/modeling_perception_success_factors/o
-ut/PZ.pdf (23 pages, 346393 bytes).
+ut/PZ.pdf (24 pages, 349692 bytes).
 PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 563 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 

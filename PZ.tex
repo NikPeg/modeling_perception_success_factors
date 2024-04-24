@@ -419,32 +419,32 @@
     \textbf{Схема расчета по шагам}
     Для анализа НКК используется следующий алгоритм:
 
-    \begin{algorithm}
-        \caption{Алгоритм анализа нечеткой когнитивной карты}
-        \begin{algorithmic}[1]
-            \Procedure{AnalyzeFuzzyCognitiveMap}{$C, A, S_0, \alpha, \epsilon, maxIter$}
-                \State $S \gets S_0$
-                \State $iter \gets 0$
-                \While{$iter < maxIter$}
-                    \State $S_{new} \gets \textbf{zero}(n)$
-                    \For{$i \gets 1 \text{ to } n$}
-                        \State $sum \gets 0$
-                        \For{$j \gets 1 \text{ to } n$}
-                            \State $sum \gets sum + A[i, j] \cdot f(S[j])$
-                        \EndFor
-                        \State $S_{new}[i] \gets f(sum)$
-                    \EndFor
-                    \If{$\|S_{new} - S\| < \epsilon$}
-                        \State \textbf{break}
-                    \EndIf
-                    \State $S \gets \alpha \cdot S_{new} + (1 - \alpha) \cdot S$
-                    \State $iter \gets iter + 1$
-                \EndWhile
-                \State \textbf{return} $S$
-            \EndProcedure
-        \end{algorithmic}
-    \end{algorithm}
-    Алгоритм представлен в псевдокоде, где $C$ - матрица концептов, $A$ - матрица весов связей, $S_0$ - начальное состояние системы, $\alpha$ - коэффициент сглаживания, $\epsilon$ - порог сходимости, $maxIter$ - максимальное количество итераций. Функция $f$ - функция активации.\\
+    \textbf{Algorithm:} Analyze Fuzzy Cognitive Map
+
+    \begin{tabbing}
+        \hspace*{2em}\= \hspace*{2em}\= \hspace*{2em}\= \kill
+        \textbf{Input:} $C, A, S_0, \alpha, \epsilon, maxIter$ \\
+        \textbf{Output:} Final state vector $S$ \\
+        1: \> $S \gets S_0$ \\
+        2: \> $iter \gets 0$ \\
+        3: \> \textbf{while} $iter < maxIter$ \textbf{do} \\
+        4: \> \> $S_{new} \gets \textbf{zero}(n)$ \\
+        5: \> \> \textbf{for} $i \gets 1$ \textbf{to} $n$ \textbf{do} \\
+        6: \> \> \> $sum \gets 0$ \\
+        7: \> \> \> \textbf{for} $j \gets 1$ \textbf{to} $n$ \textbf{do} \\
+        8: \> \> \> \> $sum \gets sum + A[i, j] \cdot f(S[j])$ \\
+        9: \> \> \> \textbf{end for} \\
+        10: \> \> \> $S_{new}[i] \gets f(sum)$ \\
+        11: \> \> \textbf{end for} \\
+        12: \> \> \textbf{if} $\|S_{new} - S\| < \epsilon$ \textbf{then} \\
+        13: \> \> \> \textbf{break} \\
+        14: \> \> \textbf{end if} \\
+        15: \> \> $S \gets \alpha \cdot S_{new} + (1 - \alpha) \cdot S$ \\
+        16: \> \> $iter \gets iter + 1$ \\
+        17: \> \textbf{end while} \\
+        18: \> \textbf{return} $S$ \\
+    \end{tabbing}
+    Алгоритм представлен в псевдокоде, где $C$ - матрица факторов, $A$ - матрица весов связей, $S_0$ - начальное состояние системы, $\alpha$ - коэффициент сглаживания, $\epsilon$ - порог сходимости, $maxIter$ - максимальное количество итераций. Функция $f$ - функция активации.\\
     ~\\
     \textbf{Объяснение алгоритма}
     \begin{itemize}

@@ -31,47 +31,15 @@
 
 <div class="left-header">
     <img src="{% static 'images/logo.png' %}" alt="Project Logo" class="centered-image account-logo" style="display: inline; width: 140px; height: 60px;">
-    <label class="top-left-label" style="display: inline-block; position : absolute; top:30px; left:160px; font-family: 'Roboto', sans-serif;">{{name}}</label>
+    <label class="top-left-label" style="display: inline-block; position : absolute; top:35px; left:160px; font-family: 'Roboto', sans-serif;">{{name}}</label>
 </div>
 
 <div class="header">
-    <button class="button" onclick="showCreatePopup()">Import</button>
-    <button class="big-button" onclick="showCreatePopup()">Create</button>
+    <input type="number" class="input-field" id="StepsInput" placeholder="Steps number">
+    <button class="play-button" onclick="showCreatePopup()">▶</button>
 </div>
 
 <div class="background-overlay" id="backgroundOverlay"></div>
-<div class="login-popup" id="createPopup">
-    <button class="close-btn" onclick="hideCreatePopup()">✖</button>
-    <h2 style="margin-bottom: 0">Create project</h2>
-    <form action="{% url 'create' %}" method="post" >
-        {% csrf_token %}
-        {{ form.as_p }}
-
-        <label for="projectName"> </label><br>
-        <input style="display: inline-block" type="text" id="projectName" name="projectName" placeholder="Project name" required><br>
-
-        <label id="privacyLabel" style="text-align: center;">Choose privacy:</label>
-
-        <input style="display: inline; width: 15px" type="radio" id="private" name="projectType" value="private" required>
-        <label for="private" style="display: inline-block">Private</label><br>
-
-        <input type="radio" id="public" name="projectType" value="public" required style="display: inline; width: 15px">
-        <label for="public" style="display: inline-block">Public</label><br>
-
-        <label id="fuzzyLabel" style="text-align: center;">Choose type of fuzzy sets:</label>
-
-        <input style="display: inline; width: 15px" type="radio" id="first" name="setsType" value="first" required>
-        <label for="first" style="display: inline-block">First</label><br>
-
-        <input type="radio" id="second" name="setsType" value="second" required style="display: inline; width: 15px">
-        <label for="second" style="display: inline-block">Second</label><br>
-
-        <input type="radio" id="intuitionistic" name="setsType" value="intuitionistic" required style="display: inline; width: 15px">
-        <label for="intuitionistic" style="display: inline-block">Intuitionistic</label><br>
-
-        <button class="register-button" type="submit">Create account</button>
-    </form>
-</div>
 <div class="full-width-rectangle"></div>
 <script src="{% static 'script.js' %}"></script>
 </body>

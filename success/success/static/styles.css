@@ -223,10 +223,16 @@ body{
     cursor: pointer;
 }
 
-.top-left-label {
-    /*z-index: 30;*/
-    /*top: 10px;*/
-    /*left: 0;*/
-    /*padding: 8px;*/
-    /*margin: 0;*/
+.buttons-container {
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }

@@ -33,3 +33,15 @@ function updateContainerWidth() {
 
 // Call the function initially
 updateContainerWidth();
+
+function play() {
+    console.log('playing!');
+}
+
+function pause() {
+    console.log('pause!');
+}
+
+function sandwich() {
+    console.log('sandwich!');
+}

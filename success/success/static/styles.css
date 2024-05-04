@@ -67,30 +67,30 @@ body{
 
 .play-button {
     position: fixed;
-    top: 15px;
+    top: 20px;
     margin-left: 10px;
-    right: 10px;
+    right: 15px;
     border: none;
     background-color: transparent; /* Remove background color */
     color: #C61981; /* Set text color */
     cursor: pointer;
     transition: color 0.3s; /* Add transition effect */
-    font-size: 60px; /* Set font size to 16px */
+    font-size: 40px; /* Set font size to 16px */
     text-decoration: none; /* Remove underline */
     font-family: 'Roboto', sans-serif; /* Устанавливаем шрифт Roboto */
 }
 
 .pause-button {
     position: fixed;
-    top: 15px;
+    top: 20px;
     margin-left: 10px;
-    right: 75px;
+    right: 65px;
     border: none;
     background-color: transparent; /* Remove background color */
     color: #C61981; /* Set text color */
     cursor: pointer;
     transition: color 0.3s; /* Add transition effect */
-    font-size: 62px; /* Set font size to 16px */
+    font-size: 40px; /* Set font size to 16px */
     text-decoration: none; /* Remove underline */
     font-family: 'Roboto', sans-serif; /* Устанавливаем шрифт Roboto */
 }
@@ -98,8 +98,8 @@ body{
 .input-field {
     position: fixed;
     top: 29px;
-    right: 125px;
-    height: 37px;
+    right: 100px;
+    height: 25px;
     width: 140px;
     margin-right: 10px; /* Add margin to separate from the help text */
     font-size: 20px;
@@ -226,8 +226,41 @@ body{
 .buttons-container {
     width: 50px;
     height: 200px;
-    position: absolute;
+    position: fixed;
     top: 40%;
+    left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.upper-container {
+    width: 500px;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.right-container {
+    width: 248px;
+    height: 47px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
     background-color: white;
     border-radius: 10px;
     display: flex;

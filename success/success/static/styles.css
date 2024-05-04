@@ -240,7 +240,6 @@ body{
 }
 
 .upper-container {
-    width: 500px;
     height: 50px;
     position: fixed;
     top: 10px;
@@ -253,6 +252,8 @@ body{
     align-items: center;
     padding: 10px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    --name-width: calc(200px + var(--name-length, 0) * 15px);
+    width: var(--name-width);
 }
 
 .right-container {
@@ -269,4 +270,18 @@ body{
     align-items: center;
     padding: 10px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.sandwich-button {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: #C61981;
+    margin: 4px 0;
 }

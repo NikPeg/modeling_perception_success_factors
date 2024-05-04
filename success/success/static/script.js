@@ -22,3 +22,14 @@ function hideCreatePopup() {
     document.getElementById("backgroundOverlay").style.display = "none";
     document.getElementById("createPopup").style.display = "none";
 }
+
+function updateContainerWidth() {
+    const nameElement = document.querySelector('.top-left-label');
+    const upperContainer = document.querySelector('.upper-container');
+    const nameLength = nameElement.textContent.length;
+    console.log(nameLength);
+    upperContainer.style.setProperty('--name-length', nameLength);
+}
+
+// Call the function initially
+updateContainerWidth();

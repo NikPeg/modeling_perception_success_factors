@@ -45,3 +45,15 @@ function pause() {
 function sandwich() {
     console.log('sandwich!');
 }
+
+function add_factor() {
+    console.log('add factor!');
+}
+
+function add_edge() {
+    console.log('add edge!');
+}
+
+function delete_entity() {
+    console.log('delete!');
+}

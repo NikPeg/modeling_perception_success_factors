@@ -57,8 +57,15 @@ function sandwich() {
     }
 }
 
-function add_factor() {
+function showFactorPopup() {
     console.log('add factor!');
+    document.getElementById("projectBackgroundOverlay").style.display = "block";
+    document.getElementById("factorPopup").style.display = "block";
+}
+
+function hideFactorPopup() {
+    document.getElementById("projectBackgroundOverlay").style.display = "none";
+    document.getElementById("factorPopup").style.display = "none";
 }
 
 function add_edge() {

@@ -26,9 +26,11 @@ function hideCreatePopup() {
 function updateContainerWidth() {
     const nameElement = document.querySelector('.top-left-label');
     const upperContainer = document.querySelector('.upper-container');
+    const sandwichContainer = document.querySelector('.sandwich-container');
     const nameLength = nameElement.textContent.length;
     console.log(nameLength);
     upperContainer.style.setProperty('--name-length', nameLength);
+    sandwichContainer.style.setProperty('--name-length', nameLength);
 }
 
 // Call the function initially
@@ -44,6 +46,15 @@ function pause() {
 
 function sandwich() {
     console.log('sandwich!');
+
+    const sandwichElement = document.getElementById("sandwich");
+    console.log(sandwichElement.style.display);
+    if (!sandwichElement.style.display) {
+        sandwichElement.style.display = "flex";
+    }
+    else {
+        sandwichElement.style.display = null;
+    }
 }
 
 function add_factor() {
@@ -56,4 +67,12 @@ function add_edge() {
 
 function delete_entity() {
     console.log('delete!');
+}
+
+function export_project() {
+    console.log('export!');
+}
+
+function save_project() {
+    console.log('save!');
 }

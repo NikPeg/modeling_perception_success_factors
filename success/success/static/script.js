@@ -68,8 +68,15 @@ function hideFactorPopup() {
     document.getElementById("factorPopup").style.display = "none";
 }
 
-function add_edge() {
+function showEdgePopup() {
     console.log('add edge!');
+    document.getElementById("projectBackgroundOverlay").style.display = "block";
+    document.getElementById("edgePopup").style.display = "block";
+}
+
+function hideEdgePopup() {
+    document.getElementById("projectBackgroundOverlay").style.display = "none";
+    document.getElementById("edgePopup").style.display = "none";
 }
 
 function delete_entity() {

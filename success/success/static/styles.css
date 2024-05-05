@@ -97,12 +97,14 @@ body{
 
 .input-field {
     position: fixed;
-    top: 29px;
-    right: 100px;
-    height: 25px;
-    width: 140px;
-    margin-right: 10px; /* Add margin to separate from the help text */
-    font-size: 20px;
+    top: 25px;
+    right: 110px;
+    width: 165px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
 }
 
 .input-field::placeholder {
@@ -275,7 +277,7 @@ body{
 }
 
 .right-container {
-    width: 248px;
+    width: 260px;
     height: 47px;
     position: fixed;
     top: 10px;

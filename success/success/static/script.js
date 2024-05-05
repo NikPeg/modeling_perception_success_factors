@@ -80,6 +80,7 @@ function hideEdgePopup() {
 }
 
 function delete_entity() {
+    window.alert("Press any entity to delete it.");
     console.log('delete!');
 }
 

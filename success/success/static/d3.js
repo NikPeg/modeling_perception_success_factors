@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
         {source: "Node1", target: "Node2", type: "licensing"},
         {source: "Node2", target: "Node3", type: "suit"},
         {source: "Node3", target: "Node4", type: "resolved"},
+        {source: "Node1", target: "Node3", type: "meme"},
+        {source: "Node1", target: "Node5", type: "meme"},
         // Add more nodes and links as needed
     ];
 
@@ -11,7 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const width = window.innerWidth;
         const height = window.innerHeight;
         const types = Array.from(new Set(suits.map(d => d.type)));
-        const nodes = Array.from(new Set(suits.flatMap(l => [l.source, l.target])), id => ({id}));
+        let nodes = Array.from(new Set(suits.flatMap(l => [l.source, l.target])), id => ({id}));
+        nodes.push({id: "Node6"});
+        nodes.push({id: "Node 7"});
         const links = suits.map(d => Object.create(d));
 
         const color = d3.scaleOrdinal(types, d3.schemeCategory10);

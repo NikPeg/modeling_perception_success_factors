@@ -57,6 +57,11 @@ def factor_view(request, username, name):
         return redirect('project', username, name)
 
 
+def edge_view(request, username, name):
+    if request.method == 'POST':
+        return redirect('project', username, name)
+
+
 def create_view(request, username):
     if request.method == 'POST':
         name = request.POST.get("projectName")

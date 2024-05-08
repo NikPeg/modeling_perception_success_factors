@@ -13,4 +13,5 @@ urlpatterns = [
     path('projects/<str:username>/', projects_view, name='projects'),
     path('d3/', d3_view, name='d3'),
     path('factor/<str:username>/<str:name>/', factor_view, name='factor'),
+    path('edge/<str:username>/<str:name>/', edge_view, name='edge'),
 ]

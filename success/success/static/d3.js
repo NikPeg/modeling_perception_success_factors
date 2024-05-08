@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     const chart = (() => {
-        const width = 928;
-        const height = 600;
+        const width = window.innerWidth;
+        const height = window.innerHeight;
         const types = Array.from(new Set(suits.map(d => d.type)));
         const nodes = Array.from(new Set(suits.flatMap(l => [l.source, l.target])), id => ({id}));
         const links = suits.map(d => Object.create(d));

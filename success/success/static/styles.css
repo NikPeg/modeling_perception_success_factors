@@ -5,12 +5,16 @@ body{
 
 .centered-image {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
     width: 150px;
 }
 
 .account-logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 65px;
     height: 65px;
 }
 

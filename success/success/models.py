@@ -4,8 +4,8 @@ from django.contrib.auth.models import User
 
 
 class Project(models.Model):
-    # One-to-one relationship with Django's built-in User model
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    # One-to-many relationship with Django's built-in User model
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     # Project name
     name = models.CharField(max_length=100)
@@ -15,7 +15,11 @@ class Project(models.Model):
         ('PUBLIC', 'Public'),
         ('PRIVATE', 'Private'),
     )
-    privacy = models.CharField(max_length=7, choices=PRIVACY_CHOICES, default='private')
+    privacy = models.CharField(max_length=7, choices=PRIVACY_CHOICES, default="PRIVATE")
 
     def __str__(self):
         return self.name
+
+    constraints = [
+        models.UniqueConstraint(fields=['user', 'name'], name='unique name for user')
+    ]

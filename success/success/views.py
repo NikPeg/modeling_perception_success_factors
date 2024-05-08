@@ -6,6 +6,8 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib import messages
 from django.contrib.auth.models import User
+from .utils import *
+
 
 def home_view(request):
     return render(request, 'home.html')
@@ -49,6 +51,7 @@ def d3_view(request):
 
 
 def project_view(request, username, name):
+    create_project(username, name)
     return render(request, 'project.html', {'username': username, 'name': name})
 
 

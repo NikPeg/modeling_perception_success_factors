@@ -7,9 +7,10 @@ urlpatterns = [
     path("", home_view, name="home"),
     path("about/", about_view, name='about'),
     path('login/', login_view, name='login'),
-    path('create/', create_view, name='create'),
-    path('project/<str:name>/', project_view, name='project'),
+    path('create/<str:username>/', create_view, name='create'),
+    path('project/<str:username>/<str:name>/', project_view, name='project'),
     path('register/', register_view, name='register'),
     path('projects/<str:username>/', projects_view, name='projects'),
     path('d3/', d3_view, name='d3'),
+    path('factor/<str:username>/<str:name>/', factor_view, name='factor'),
 ]

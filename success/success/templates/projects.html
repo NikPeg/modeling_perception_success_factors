@@ -70,7 +70,7 @@
 <div class="login-popup" id="createPopup">
     <button class="close-btn" onclick="hideCreatePopup()">✖</button>
     <h2 style="margin-bottom: 0">Create project</h2>
-    <form action="{% url 'create' %}" method="post" >
+    <form action="{% url 'create' username=username%}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}
 

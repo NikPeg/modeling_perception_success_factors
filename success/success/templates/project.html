@@ -51,7 +51,7 @@
 <div class="login-popup" id="factorPopup">
     <button class="close-btn" onclick="hideFactorPopup()">✖</button>
     <h2 style="margin-bottom: 0">Add factor</h2>
-    <form action="{% url 'create' %}" method="post" >
+    <form action="{% url 'factor' username=username name=name%}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}
 
@@ -83,7 +83,7 @@
 <div class="login-popup" id="edgePopup">
     <button class="close-btn" onclick="hideEdgePopup()">✖</button>
     <h2 style="margin-bottom: 0">Add relationship</h2>
-    <form action="{% url 'create' %}" method="post" >
+    <form action="{% url 'factor' username=username name=name%}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}
 

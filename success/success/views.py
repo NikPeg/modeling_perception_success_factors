@@ -48,11 +48,16 @@ def d3_view(request):
     return render(request, 'd3.html')
 
 
-def project_view(request, name):
-    return render(request, 'project.html', {'name': name})
+def project_view(request, username, name):
+    return render(request, 'project.html', {'username': username, 'name': name})
 
 
-def create_view(request):
+def factor_view(request, username, name):
+    if request.method == 'POST':
+        return redirect('project', username, name)
+
+
+def create_view(request, username):
     if request.method == 'POST':
         name = request.POST.get("projectName")
-        return redirect('project', name)
+        return redirect('project', username, name)

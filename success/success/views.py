@@ -1,3 +1,5 @@
+import json
+
 from django.contrib.admin import register
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import UserCreationForm
@@ -52,7 +54,9 @@ def d3_view(request):
 
 def project_view(request, username, name):
     create_project(username, name)
-    return render(request, 'project.html', {'username': username, 'name': name})
+    factors = get_all_factors(username, name)
+    factors_json = json.dumps(factors)
+    return render(request, 'project.html', {'username': username, 'name': name, 'factors': factors_json})
 
 
 def factor_view(request, username, name):

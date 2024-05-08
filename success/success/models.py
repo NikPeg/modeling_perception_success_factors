@@ -23,3 +23,14 @@ class Project(models.Model):
     constraints = [
         models.UniqueConstraint(fields=['user', 'name'], name='unique name for user')
     ]
+
+
+class Factor(models.Model):
+    # One-to-many relationship with project
+    project = models.ForeignKey(Project, on_delete=models.CASCADE)
+
+    # Factor name
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name

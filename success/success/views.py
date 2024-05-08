@@ -44,6 +44,10 @@ def projects_view(request, username):
     return render(request, 'projects.html', {'username': username})
 
 
+def d3_view(request):
+    return render(request, 'd3.html')
+
+
 def project_view(request, name):
     return render(request, 'project.html', {'name': name})
 

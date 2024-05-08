@@ -11,4 +11,5 @@ urlpatterns = [
     path('project/<str:name>/', project_view, name='project'),
     path('register/', register_view, name='register'),
     path('projects/<str:username>/', projects_view, name='projects'),
+    path('d3/', d3_view, name='d3'),
 ]

@@ -59,16 +59,18 @@ def project_view(request, username, name):
     return render(request, 'project.html', {'username': username, 'name': name, 'factors': factors_json})
 
 
-def factor_view(request, username, name):
+def factor_view(request, username, project_name):
     if request.method == 'POST':
         factor_name = request.POST.get("factorName")
-        create_factor(username, name, factor_name)
-        return redirect('project', username, name)
+        create_factor(username, project_name, factor_name)
+        return redirect('project', username, project_name)
 
 
-def edge_view(request, username, name):
+def link_view(request, username, project_name):
     if request.method == 'POST':
-        return redirect('project', username, name)
+        link_name = request.POST.get("linkName")
+        create_link(username, project_name, link_name)
+        return redirect('project', username, project_name)
 
 
 def create_view(request, username):

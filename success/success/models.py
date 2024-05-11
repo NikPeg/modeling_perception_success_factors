@@ -34,3 +34,14 @@ class Factor(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Link(models.Model):
+    # One-to-many relationship with project
+    project = models.ForeignKey(Project, on_delete=models.CASCADE)
+
+    # link name
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name

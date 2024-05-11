@@ -68,15 +68,15 @@ function hideFactorPopup() {
     document.getElementById("factorPopup").style.display = "none";
 }
 
-function showEdgePopup() {
-    console.log('add edge!');
+function showLinkPopup() {
+    console.log('add link!');
     document.getElementById("projectBackgroundOverlay").style.display = "block";
-    document.getElementById("edgePopup").style.display = "block";
+    document.getElementById("linkPopup").style.display = "block";
 }
 
 function hideEdgePopup() {
     document.getElementById("projectBackgroundOverlay").style.display = "none";
-    document.getElementById("edgePopup").style.display = "none";
+    document.getElementById("linkPopup").style.display = "none";
 }
 
 function delete_entity() {

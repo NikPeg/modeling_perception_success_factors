@@ -22,7 +22,7 @@
 
 <div class="buttons-container">
     <button title="Add new factor" onclick="showFactorPopup()"><img src="{% static 'images/factor.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 15px; left: 15px;"></button>
-    <button title="Add new relationship" onclick="showEdgePopup()"><img src="{% static 'images/arrow.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 70px; left: 15px;"></button>
+    <button title="Add new relationship" onclick="showLinkPopup()"><img src="{% static 'images/arrow.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 70px; left: 15px;"></button>
     <button title="Delete anything" onclick="delete_entity()"><img src="{% static 'images/scissors.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 125px; left: 15px;"></button>
 </div>
 
@@ -51,7 +51,7 @@
 <div class="login-popup" id="factorPopup">
     <button class="close-btn" onclick="hideFactorPopup()">✖</button>
     <h2 style="margin-bottom: 0">Add factor</h2>
-    <form action="{% url 'factor' username=username name=name%}" method="post" >
+    <form action="{% url 'factor' username=username project_name=name%}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}
 
@@ -80,23 +80,23 @@
     </form>
 </div>
 
-<div class="login-popup" id="edgePopup">
-    <button class="close-btn" onclick="hideEdgePopup()">✖</button>
+<div class="login-popup" id="linkPopup">
+    <button class="close-btn" onclick="hideLinkPopup()">✖</button>
     <h2 style="margin-bottom: 0">Add relationship</h2>
-    <form action="{% url 'edge' username=username name=name%}" method="post" >
+    <form action="{% url 'link' username=username project_name=name%}" method="post" >
         {% csrf_token %}
         {{ form.as_p }}
 
-        <label for="edgeName"> </label><br>
-        <input style="display: inline-block" type="text" id="edgeName" name="edgeName" placeholder="Relationship name" required><br>
+        <label for="linkName"> </label><br>
+        <input style="display: inline-block" type="text" id="linkName" name="linkName" placeholder="Link name" required><br>
 
         <label for="weightValue"> </label>
-        <input style="display: inline-block" type="number" step="0.01" id="weightValue" name="factorName" placeholder="Weight" required><br>
+        <input style="display: inline-block" type="number" step="0.01" id="weightValue" name="weightValue" placeholder="Weight" required><br>
 
         <label for="uncertaintyValue"> </label>
-        <input style="display: inline-block" type="number" step="0.01" id="uncertaintyValue" name="factorName" placeholder="Uncertainty" required><br>
+        <input style="display: inline-block" type="number" step="0.01" id="uncertaintyValue" name="uncertaintyValue" placeholder="Uncertainty" required><br>
 
-        <label id="connectionLabel" style="text-align: center;">Type of Connection:</label>
+        <label id="connectionLabel" style="text-align: center;">Link Type:</label>
 
         <input style="display: inline; width: 15px" type="radio" id="support" name="activationType" value="private" required>
         <label for="triangular" style="display: inline-block">Support</label><br>

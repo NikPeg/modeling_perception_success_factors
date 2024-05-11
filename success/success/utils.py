@@ -16,6 +16,12 @@ def create_factor(username, project_name, name):
     Factor.objects.create(project=project, name=name)
 
 
+def create_link(username, project_name, name):
+    user = User.objects.get(username=username)
+    project = Project.objects.get(user=user, name=project_name)
+    Link.objects.create(project=project, name=name)
+
+
 def get_all_factors(username, project_name):
     user = User.objects.get(username=username)
     project = Project.objects.get(user=user, name=project_name)

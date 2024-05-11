@@ -12,6 +12,6 @@ urlpatterns = [
     path('register/', register_view, name='register'),
     path('projects/<str:username>/', projects_view, name='projects'),
     path('d3/', d3_view, name='d3'),
-    path('factor/<str:username>/<str:name>/', factor_view, name='factor'),
-    path('edge/<str:username>/<str:name>/', edge_view, name='edge'),
+    path('factor/<str:username>/<str:project_name>/', factor_view, name='factor'),
+    path('link/<str:username>/<str:project_name>/', link_view, name='link'),
 ]

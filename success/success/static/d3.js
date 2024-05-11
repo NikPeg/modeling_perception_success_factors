@@ -16,6 +16,14 @@ document.addEventListener("DOMContentLoaded", function() {
         let nodes = Array.from(new Set(suits.flatMap(l => [l.source, l.target])), id => ({id}));
         nodes.push({id: "Node6"});
         nodes.push({id: "Node 7"});
+        dataArray.map(item => {
+            // return { id: item };
+            nodes.push({id: item});
+        });
+
+        // console.log(transformedArray);
+        // nodes += transformedArray;
+        console.log(nodes);
         const links = suits.map(d => Object.create(d));
 
         const color = d3.scaleOrdinal(types, d3.schemeCategory10);

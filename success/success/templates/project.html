@@ -114,9 +114,9 @@
 <script>
 
     // Now you can use dataArray in your JavaScript code
-    console.log('{{ factors }}');  // Output: [1, 2, 3]
+    console.log('{{ factors | safe }}');  // Output: [1, 2, 3]
     // Parse the JSON string back into an array
-    var dataArray = JSON.parse('{{ factors }}');
+    var dataArray = JSON.parse('{{ factors | safe }}');
     console.log(dataArray);  // Output: [1, 2, 3]
 </script>
 <script src="{% static 'd3.js' %}"></script>

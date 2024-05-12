@@ -55,7 +55,8 @@ def d3_view(request):
 def project_view(request, username, name):
     create_project(username, name)
     factors = get_all_factors(username, name)
-    return render(request, 'project.html', {'username': username, 'name': name, 'factors': factors})
+    links = get_all_links(username, name)
+    return render(request, 'project.html', {'username': username, 'name': name, 'factors': factors, 'links': links})
 
 
 def factor_view(request, username, project_name):
@@ -68,8 +69,8 @@ def factor_view(request, username, project_name):
 def link_view(request, username, project_name):
     if request.method == 'POST':
         link_name = request.POST.get("linkName")
-        source_name = request.POST.get("source-factor")
-        target_name = request.POST.get("target-factor")
+        source_name = request.POST.get("sourceFactor")
+        target_name = request.POST.get("targetFactor")
         create_link(username, project_name, link_name, source_name, target_name)
         return redirect('project', username, project_name)
 

@@ -96,15 +96,15 @@
         <label for="uncertaintyValue"> </label>
         <input style="display: inline-block" type="number" step="0.01" id="uncertaintyValue" name="uncertaintyValue" placeholder="Uncertainty" required><br>
 
-        <label for="source-factor">Choose source factor:</label>
-        <select name="factor" id="source-factor">
+        <label for="sourceFactor">Choose source factor:</label>
+        <select name="sourceFactor" id="sourceFactor">
             {% for factor in factors %}
             <option value="{{ factor | safe }}">{{ factor }}</option>
             {% endfor %}
         </select>
 
-        <label for="target-factor">Choose target factor:</label>
-        <select name="factor" id="target-factor">
+        <label for="targetFactor">Choose target factor:</label>
+        <select name="targetFactor" id="targetFactor">
             {% for factor in factors %}
             <option value="{{ factor | safe }}">{{ factor }}</option>
             {% endfor %}
@@ -120,7 +120,8 @@
 <div class="background-overlay" id="backgroundOverlay"></div>
 <script src="{% static 'script.js' %}"></script>
 <script>
-    var dataArray = {{ factors | safe }};
+    var factorsArray = {{ factors | safe }};
+    var suits = {{ links | safe }};
 </script>
 <script src="{% static 'd3.js' %}"></script>
 </body>

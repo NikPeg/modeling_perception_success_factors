@@ -1,30 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const suits = [
-        // Sample data
-        {source: "Node1", target: "Node2", type: "licensing"},
-        {source: "Node2", target: "Node3", type: "suit"},
-        {source: "Node3", target: "Node4", type: "resolved"},
-        {source: "Node1", target: "Node3", type: "meme"},
-        {source: "Node1", target: "Node5", type: "meme"},
-        // Add more nodes and links as needed
-    ];
 
     const chart = (() => {
         const width = window.innerWidth;
         const height = window.innerHeight;
         const types = Array.from(new Set(suits.map(d => d.type)));
-        let nodes = Array.from(new Set(suits.flatMap(l => [l.source, l.target])), id => ({id}));
-        nodes.push({id: "Node6"});
-        nodes.push({id: "Node 7"});
-        dataArray.map(item => {
-            // return { id: item };
+        console.log(suits);
+        let nodes = [];
+        factorsArray.map(item => {
             nodes.push({id: item});
         });
 
-        // console.log(transformedArray);
-        // nodes += transformedArray;
         console.log(nodes);
         const links = suits.map(d => Object.create(d));
+
+        console.log(links);
 
         const color = d3.scaleOrdinal(types, d3.schemeCategory10);
 

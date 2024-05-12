@@ -96,13 +96,14 @@
         <label for="uncertaintyValue"> </label>
         <input style="display: inline-block" type="number" step="0.01" id="uncertaintyValue" name="uncertaintyValue" placeholder="Uncertainty" required><br>
 
-        <label id="connectionLabel" style="text-align: center;">Link Type:</label>
+        <label for="factor-select">Choose a factor:</label>
+        <select name="factor" id="factor-select">
+            {% for factor in factors %}
+            <option value="{{ factor | safe }}">{{ factor }}</option>
+            {% endfor %}
+        </select>
 
-        <input style="display: inline; width: 15px" type="radio" id="support" name="activationType" value="private" required>
-        <label for="triangular" style="display: inline-block">Support</label><br>
-
-        <input type="radio" id="obstacle" name="activationType" value="obstacle" required style="display: inline; width: 15px">
-        <label for="gaussian" style="display: inline-block">Obstacle</label><br>
+        <br>
         <br>
 
         <button class="register-button" type="submit">Add</button>
@@ -112,12 +113,7 @@
 <div class="background-overlay" id="backgroundOverlay"></div>
 <script src="{% static 'script.js' %}"></script>
 <script>
-
-    // Now you can use dataArray in your JavaScript code
-    console.log('{{ factors | safe }}');  // Output: [1, 2, 3]
-    // Parse the JSON string back into an array
-    var dataArray = JSON.parse('{{ factors | safe }}');
-    console.log(dataArray);  // Output: [1, 2, 3]
+    var dataArray = {{ factors | safe }};
 </script>
 <script src="{% static 'd3.js' %}"></script>
 </body>

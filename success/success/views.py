@@ -55,8 +55,7 @@ def d3_view(request):
 def project_view(request, username, name):
     create_project(username, name)
     factors = get_all_factors(username, name)
-    factors_json = json.dumps(factors)
-    return render(request, 'project.html', {'username': username, 'name': name, 'factors': factors_json})
+    return render(request, 'project.html', {'username': username, 'name': name, 'factors': factors})
 
 
 def factor_view(request, username, project_name):

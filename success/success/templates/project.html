@@ -96,8 +96,15 @@
         <label for="uncertaintyValue"> </label>
         <input style="display: inline-block" type="number" step="0.01" id="uncertaintyValue" name="uncertaintyValue" placeholder="Uncertainty" required><br>
 
-        <label for="factor-select">Choose a factor:</label>
-        <select name="factor" id="factor-select">
+        <label for="source-factor">Choose source factor:</label>
+        <select name="factor" id="source-factor">
+            {% for factor in factors %}
+            <option value="{{ factor | safe }}">{{ factor }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="target-factor">Choose target factor:</label>
+        <select name="factor" id="target-factor">
             {% for factor in factors %}
             <option value="{{ factor | safe }}">{{ factor }}</option>
             {% endfor %}

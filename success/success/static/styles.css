@@ -34,6 +34,13 @@ body{
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
+.recent-projects-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates 5 columns of equal width */
+    gap: 10px; /* Space between grid items */
+    padding-left: 10px; /* Adjusted padding here */
+}
+
 .header {
     position: absolute;
     top: 30px;

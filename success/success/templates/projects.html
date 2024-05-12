@@ -50,11 +50,9 @@
 
 <div class="recent-projects-container">
     <p class="very-bold-text" style="margin-left: 10px;">My projects:</p>
-    <div class="project">VR SDK</div>
-    <div class="project">MyFitnessPal</div>
-    <div class="project">Zoho CRM</div>
-    <div class="project">Code Review Tool</div>
-    <div class="project">All projects→</div>
+    {% for project in projects %}
+    <div class="project">{{ project }}</div>
+    {% endfor %}
 </div>
 
 <div class="public-projects-container">

@@ -33,6 +33,11 @@ def get_all_factors(username, project_name):
     return list(Factor.objects.filter(project=project).values_list("name", flat=True))
 
 
+def get_all_projects(username):
+    user = User.objects.get(username=username)
+    return list(Project.objects.filter(user=user).values_list("name", flat=True))
+
+
 def get_all_links(username, project_name):
     user = User.objects.get(username=username)
     project = Project.objects.get(user=user, name=project_name)

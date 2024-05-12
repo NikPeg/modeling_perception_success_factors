@@ -45,7 +45,8 @@ def register_view(request):
 
 
 def projects_view(request, username):
-    return render(request, 'projects.html', {'username': username})
+    projects = get_all_projects(username)
+    return render(request, 'projects.html', {'username': username, 'projects': projects})
 
 
 def d3_view(request):

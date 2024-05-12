@@ -36,9 +36,11 @@ body{
 
 .recent-projects-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Creates 5 columns of equal width */
-    gap: 10px; /* Space between grid items */
-    padding-left: 10px; /* Adjusted padding here */
+    grid-template-columns: repeat(5, 300px); /* Creates 5 columns of equal width */
+    gap: 0; /* Space between grid items */
+    padding-left: 0; /* Padding on the left */
+    margin-left: 0; /* Ensures there's no additional margin pushing content right */
+    width: 100%; /* Ensures the grid takes full width of its container */
 }
 
 .header {

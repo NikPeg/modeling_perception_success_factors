@@ -74,7 +74,7 @@ function showLinkPopup() {
     document.getElementById("linkPopup").style.display = "block";
 }
 
-function hideEdgePopup() {
+function hideLinkPopup() {
     document.getElementById("projectBackgroundOverlay").style.display = "none";
     document.getElementById("linkPopup").style.display = "none";
 }

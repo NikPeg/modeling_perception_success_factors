@@ -97,11 +97,16 @@
         <label for="linkName"> </label><br>
         <input style="display: inline-block" type="text" id="linkName" name="linkName" placeholder="Link name" required><br>
 
-        <label for="weightValue"> </label>
-        <input style="display: inline-block" type="number" step="0.01" id="weightValue" name="weightValue" placeholder="Weight" required><br>
-
-        <label for="uncertaintyValue"> </label>
-        <input style="display: inline-block" type="number" step="0.01" id="uncertaintyValue" name="uncertaintyValue" placeholder="Uncertainty" required><br>
+        <label for="linkValue">Choose the linguistic variable:</label>
+        <select name="linkValue" id="linkValue" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
+            <option value="Total" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Total</option>
+            <option value="Very high" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Very high</option>
+            <option value="High" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">High</option>
+            <option value="Moderate" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Moderate</option>
+            <option value="Low" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Low</option>
+            <option value="Very low" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Very low</option>
+            <option value="No influence" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">No influence</option>
+        </select><br><br>
 
         <label for="sourceFactor">Choose source factor:</label>
         <select name="sourceFactor" id="sourceFactor">

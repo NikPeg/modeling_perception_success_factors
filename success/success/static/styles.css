@@ -325,3 +325,9 @@ body{
     background-color: #C61981;
     margin: 4px 0;
 }
+
+.select {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+}

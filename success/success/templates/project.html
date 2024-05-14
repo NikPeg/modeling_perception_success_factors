@@ -58,12 +58,19 @@
         <label for="factorName"> </label><br>
         <input style="display: inline-block" type="text" id="factorName" name="factorName" placeholder="Factor name" required><br>
 
-        <label for="factorValue"> </label>
-        <input style="display: inline-block" type="number" step="0.01" id="factorValue" name="factorValue" placeholder="Factor value" required><br>
-
-        <label for="threshold"> </label>
-        <input style="display: inline-block" type="number" step="0.01" id="threshold" name="threshold" placeholder="Threshold" required><br>
-
+        <label for="factorValue">Choose the linguistic variable:</label>
+        <select name="factorValue" id="factorValue" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
+            <option value="Excellent" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Excellent</option>
+            <option value="Very good" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Very good</option>
+            <option value="Good" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Good</option>
+            <option value="Above average" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Above average</option>
+            <option value="Average" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Average</option>
+            <option value="Below average" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Below average</option>
+            <option value="Satisfactory" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Satisfactory</option>
+            <option value="Fair" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Fair</option>
+            <option value="Poor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Poor</option>
+            <option value="Very poor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Very poor</option>
+        </select><br><br>
         <label id="activationLabel" style="text-align: center;">Activation function:</label>
 
         <input style="display: inline; width: 15px" type="radio" id="triangular" name="activationType" value="private" required>

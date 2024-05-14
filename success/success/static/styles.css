@@ -116,7 +116,7 @@ body{
     position: fixed;
     top: 25px;
     right: 110px;
-    width: 165px;
+    width: 185px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -297,7 +297,7 @@ body{
 }
 
 .right-container {
-    width: 260px;
+    width: 280px;
     height: 47px;
     position: fixed;
     top: 10px;

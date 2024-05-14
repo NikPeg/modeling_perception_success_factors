@@ -109,16 +109,16 @@
         </select><br><br>
 
         <label for="sourceFactor">Choose source factor:</label>
-        <select name="sourceFactor" id="sourceFactor">
+        <select name="sourceFactor" id="sourceFactor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
             {% for factor in factors %}
-            <option value="{{ factor | safe }}">{{ factor }}</option>
+            <option value="{{ factor | safe }}" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">{{ factor }}</option>
             {% endfor %}
-        </select>
+        </select><br><br>
 
         <label for="targetFactor">Choose target factor:</label>
-        <select name="targetFactor" id="targetFactor">
+        <select name="targetFactor" id="targetFactor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
             {% for factor in factors %}
-            <option value="{{ factor | safe }}">{{ factor }}</option>
+            <option value="{{ factor | safe }}" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">{{ factor }}</option>
             {% endfor %}
         </select>
 

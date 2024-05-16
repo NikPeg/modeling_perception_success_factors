@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  16 MAY 2024 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  16 MAY 2024 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,7 +1033,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:\Users\pegan\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (PZ.aux)
+)
+(C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.aux)
 \openout1 = `PZ.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -1123,11 +1124,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 47.
-
 Package hyperref Info: Link coloring OFF on input line 47.
+
 (C:\Users\pegan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1143,11 +1141,13 @@ LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
 
-(PZ.out) (PZ.out)
+(C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.out)
+(C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.out)
 \@outlinefile=\write4
 \openout4 = `PZ.out'.
 
- [1
+
+[1
 
 {C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
@@ -1166,7 +1166,9 @@ been already used, duplicate ignored
 l.113     \newpage
                    [1
 
-] (PZ.toc)
+]
+(C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.toc<<t1.cmap
+>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>)
 \tf@toc=\write5
 \openout5 = `PZ.toc'.
 
@@ -1185,33 +1187,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--120
  []
 
 
-LaTeX Warning: Citation `litlink1' on page 3 undefined on input line 121.
-
-
-LaTeX Warning: Citation `litlink2' on page 3 undefined on input line 122.
-
-
-LaTeX Warning: Citation `litlink3' on page 3 undefined on input line 123.
-
-
-LaTeX Warning: Citation `litlink4' on page 3 undefined on input line 124.
-
-
-LaTeX Warning: Citation `litlink5' on page 3 undefined on input line 125.
-
-
-LaTeX Warning: Citation `litlink6' on page 3 undefined on input line 127.
-
-
-LaTeX Warning: Citation `litlink7' on page 3 undefined on input line 128.
-
-
-LaTeX Warning: Citation `litlink8' on page 3 undefined on input line 130.
-
-
-LaTeX Warning: Citation `litlink9' on page 3 undefined on input line 130.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
 (fancyhdr)                \setlength{\headheight}{22.01514pt}.
@@ -1220,13 +1195,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [3]
-
-LaTeX Warning: Citation `litlink10' on page 4 undefined on input line 138.
-
-
-LaTeX Warning: Citation `litlink11' on page 4 undefined on input line 140.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 138--141
 
  []
@@ -1278,33 +1246,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--159
 Underfull \hbox (badness 10000) in paragraph at lines 152--159
 
  []
-
-
-LaTeX Warning: Citation `litlink12' on page 5 undefined on input line 164.
-
-
-LaTeX Warning: Citation `litlink13' on page 5 undefined on input line 164.
-
-
-LaTeX Warning: Citation `litlink14' on page 5 undefined on input line 166.
-
-
-LaTeX Warning: Citation `litlink15' on page 5 undefined on input line 166.
-
-
-LaTeX Warning: Citation `litlink16' on page 5 undefined on input line 166.
-
-
-LaTeX Warning: Citation `litlink17' on page 5 undefined on input line 168.
-
-
-LaTeX Warning: Citation `litlink18' on page 5 undefined on input line 172.
-
-
-LaTeX Warning: Citation `litlink19' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `litlink20' on page 5 undefined on input line 176.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--185
@@ -1436,10 +1377,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [8]
-
-LaTeX Warning: Citation `litlink21' on page 9 undefined on input line 246.
-
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 Underfull \hbox (badness 10000) in paragraph at lines 246--249
 
  []
@@ -1458,10 +1395,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [9]
-
-LaTeX Warning: Citation `litlink22' on page 10 undefined on input line 254.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 254--257
 
  []
@@ -1500,7 +1433,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [10]
-<pictures//all.png, id=156, 475.7775pt x 475.7775pt>
+<pictures//all.png, id=309, 475.7775pt x 475.7775pt>
 File: pictures//all.png Graphic file (type png)
 <use pictures//all.png>
 Package pdftex.def Info: pictures//all.png  used on input line 284.
@@ -1653,10 +1586,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [13]
-
-LaTeX Warning: Citation `litlink23' on page 14 undefined on input line 401.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 407--411
 
  []
@@ -1964,6 +1893,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [24]
+Overfull \hbox (2.52875pt too wide) in paragraph at lines 738--740
+[]\T2A/cmr/bx/n/10 Дополнительные ана-ли-зы: \T2A/cmr/m/n/10 Ис-поль-зо-ва-ние 
+дру-гих ме-то-дов ана-ли-за и ин-стру-мен-тов, та-ких как SWOT-
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1973,25 +1907,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 792--793
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 764--765
+Underfull \hbox (badness 1859) in paragraph at lines 796--797
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
@@ -2004,39 +1947,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 []\T2A/cmr/m/it/10 Felix Benjamn, Gerardo & Napoles, Gonzalo & Falcon, Rafae
 l & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 765--766
+Overfull \hbox (158.02309pt too wide) in paragraph at lines 797--798
 \T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
 _Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 767--768
+Overfull \hbox (242.83571pt too wide) in paragraph at lines 799--800
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
 ications)
  []
 
 
-Overfull \hbox (106.65271pt too wide) in paragraph at lines 771--772
+Overfull \hbox (106.65271pt too wide) in paragraph at lines 803--804
 []\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
 encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
 241X)
@@ -2050,34 +1993,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 779--779
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 811--811
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--784
+Underfull \hbox (badness 10000) in paragraph at lines 813--816
 
  []
 
 
-Overfull \hbox (28.38686pt too wide) in paragraph at lines 784--787
+Overfull \hbox (28.38686pt too wide) in paragraph at lines 816--819
 \T2A/cmr/m/n/10 https://www.figma.com/file/PL5iRCOK6h7RpPK1ZqKQgE/modeling_perc
 eption_success_factors?type=design&node-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--787
+Underfull \hbox (badness 10000) in paragraph at lines 816--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 788--789
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
 
@@ -2093,21 +2036,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[28] (PZ.aux<<t1.cmap>>)
-
-LaTeX Warning: There were undefined references.
-
+[29] (C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.aux)
 Package rerunfilecheck Info: File `PZ.out' has not changed.
 (rerunfilecheck)             Checksum: 45CCC797EE77DFD76B8AC1A1C239BA89;11367.
  ) 
 Here is how much of TeX's memory you used:
- 27178 strings out of 478582
- 497882 string characters out of 2844345
- 1075598 words of memory out of 3000000
- 44720 multiletter control sequences out of 15000+600000
+ 27223 strings out of 478582
+ 498829 string characters out of 2844345
+ 1076598 words of memory out of 3000000
+ 44761 multiletter control sequences out of 15000+600000
  479801 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,12n,104p,1742b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,12n,104p,1735b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati10
 00.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 bx1200.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
@@ -2127,9 +2067,9 @@ cm/cmsy10.pfb><C:/Users/pegan/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy5.pfb><C:/Users/pegan/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb>
 Output written on C:/Users\pegan\Desktop\modeling_perception_success_factors\ou
-t\PZ.pdf (29 pages, 438874 bytes).
+t\PZ.pdf (30 pages, 465079 bytes).
 PDF statistics:
- 824 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 947 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

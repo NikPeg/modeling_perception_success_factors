@@ -1,0 +1,29 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{3}{section.1}%
+\contentsline {section}{\numberline {2}Установка и настройка}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Системные требования}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Шаг 1: Активируйте виртуальную среду}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Для Linux:}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Для Windows:}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Шаг 2: Перейдите в папку django-проекта}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Шаг 3: Установите зависимости}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Шаг 4: Примените миграции}{4}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Шаг 5: Создайте суперпользователя}{4}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Шаг 6: Запустите сервер}{4}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Основные функции и интерфейс}{5}{section.3}%
+\contentsline {section}{\numberline {4}Создание и редактирование нечетких когнитивных карт}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Добавление фактора}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Добавление связи между факторами}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Удаление сущности}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Анализ и моделирование}{6}{section.5}%
+\contentsline {section}{\numberline {6}Отчёт о результатах работы алгоритма}{6}{section.6}%
+\contentsline {section}{\numberline {7}Примеры использования}{6}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Пример 1: Анализ влияния команды на успех проекта}{7}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Пример 2: Влияние технологий на проект}{7}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Пример 3: Оценка рисков проекта}{7}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Использование результатов программы стейкхолдерами}{8}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Этапы использования результатов программы}{8}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Рекомендации по интерпретации результатов}{8}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Заключение}{8}{section.9}%
+\contentsline {section}{\numberline {10}Список использованных источников}{9}{section.10}%
+\contentsline {section}{Приложения}{11}{section.10}%

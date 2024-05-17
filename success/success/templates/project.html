@@ -94,9 +94,6 @@
         {% csrf_token %}
         {{ form.as_p }}
 
-        <label for="linkName"> </label><br>
-        <input style="display: inline-block" type="text" id="linkName" name="linkName" placeholder="Link name" required><br>
-
         <label for="linkValue">Choose the linguistic variable:</label>
         <select name="linkValue" id="linkValue" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
             <option value="Total" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">Total</option>
@@ -108,14 +105,14 @@
             <option value="No influence" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">No influence</option>
         </select><br><br>
 
-        <label for="sourceFactor">Choose source factor:</label>
+        <label style="text-align: center" for="sourceFactor">Choose source factor:</label>
         <select name="sourceFactor" id="sourceFactor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
             {% for factor in factors %}
             <option value="{{ factor | safe }}" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">{{ factor }}</option>
             {% endfor %}
         </select><br><br>
 
-        <label for="targetFactor">Choose target factor:</label>
+        <label style="text-align: center" for="targetFactor">Choose target factor:</label>
         <select name="targetFactor" id="targetFactor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
             {% for factor in factors %}
             <option value="{{ factor | safe }}" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">{{ factor }}</option>

@@ -52,11 +52,8 @@ class Link(models.Model):
     # One-to-many relationship with project
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
 
-    # link name
-    name = models.CharField(max_length=100)
-
     source = models.ForeignKey(Factor, on_delete=models.CASCADE, related_name="source_links", default=None)
     target = models.ForeignKey(Factor, on_delete=models.CASCADE, related_name="target_links", default=None)
 
     def __str__(self):
-        return self.name
+        return f"{self.source.name}->{self.target.name}"

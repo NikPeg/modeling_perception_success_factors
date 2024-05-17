@@ -26,12 +26,11 @@ def create_factor(username, project_name, name):
     Factor.objects.create(project=project, name=name)
 
 
-def create_link(username, project_name, name, source, target):
+def create_link(username, project_name, source, target):
     user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
     Link.objects.create(
         project=project,
-        name=name,
         source=Factor.objects.get(name=source),
         target=Factor.objects.get(name=target),
     )

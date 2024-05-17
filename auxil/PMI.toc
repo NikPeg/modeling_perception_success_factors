@@ -1,0 +1,64 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Цели и задачи испытаний}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Область применения}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Нормативные ссылки}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Структура документа}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Цели и задачи испытаний}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Цели испытаний}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Задачи испытаний}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Общие положения}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Основные понятия и определения}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Общие требования к программе испытаний}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Анализ требований}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Требования к функциональности}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Требования к производительности}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Требования к пользовательскому интерфейсу}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Требования к безопасности}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Требования к совместимости}{8}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Подготовка к испытаниям}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Испытательная среда}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Средства и инструменты испытаний}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Подготовка тестовых данных}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Настройка окружения}{9}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Методика испытаний}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Методика функционального тестирования}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Методика тестирования на совместимость}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Методика тестирования безопасности}{10}{subsection.6.3}%
+\contentsline {section}{\numberline {7}План испытаний}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}График проведения испытаний}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Обязанности тестировщика}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Критерии начала и завершения испытаний}{12}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Условия прерывания испытаний}{12}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Документация результатов испытаний}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Форматы отчётов}{13}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Шаблоны журналов}{13}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Процедуры записи и хранения результатов}{14}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Функциональные тесты}{15}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Сценарии тестирования функциональности}{15}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Сценарий 1: Создание нового проекта}{15}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Сценарий 2: Добавление фактора}{15}{subsubsection.9.1.2}%
+\contentsline {subsubsection}{\numberline {9.1.3}Сценарий 3: Добавление связи между факторами}{15}{subsubsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.4}Сценарий 4: Сохранение проекта}{15}{subsubsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.5}Сценарий 5: Импорт проекта}{16}{subsubsection.9.1.5}%
+\contentsline {subsubsection}{\numberline {9.1.6}Сценарий 6: Выполнение анализа НКК}{16}{subsubsection.9.1.6}%
+\contentsline {subsubsection}{\numberline {9.1.7}Сценарий 7: Удаление сущности (фактора или связи)}{16}{subsubsection.9.1.7}%
+\contentsline {subsection}{\numberline {9.2}Анализ совпадений и расхождений}{16}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Тесты на совместимость}{17}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Цели и задачи тестирования}{17}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Методика тестирования}{17}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Результаты тестирования}{17}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Выводы и рекомендации}{18}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Анализ и интерпретация результатов}{19}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Результаты функционального тестирования}{19}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Результаты нагрузочного тестирования}{19}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Результаты тестирования на совместимость}{19}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Результаты тестирования безопасности}{19}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Заключение}{20}{subsection.11.5}%
+\contentsline {subsubsection}{\numberline {11.5.1}Рекомендации}{20}{subsubsection.11.5.1}%
+\contentsline {section}{\numberline {12}Заключение}{21}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Основные выводы}{21}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Рекомендации}{21}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Завершение испытаний}{21}{subsection.12.3}%
+\contentsline {section}{\numberline {13}Список использованных источников}{22}{section.13}%
+\contentsline {section}{Приложения}{24}{section.13}%

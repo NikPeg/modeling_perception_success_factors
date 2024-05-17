@@ -38,14 +38,32 @@ class Template(models.Model):
 
 
 class Factor(models.Model):
+    _NAME_TO_VALUE = {
+        "Very poor": 0.1,
+        "Poor": 0.2,
+        "Fair": 0.3,
+        "Satisfactory": 0.4,
+        "Below average": 0.5,
+        "Average": 0.6,
+        "Above average": 0.7,
+        "Good": 0.8,
+        "Very good": 0.9,
+        "Excellent": 1.0,
+    }
     # One-to-many relationship with project
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
 
     # Factor name
     name = models.CharField(max_length=100)
 
+    value = models.FloatField(default=0.5)
+
     def __str__(self):
         return self.name
+
+    @classmethod
+    def term_to_value(cls, term):
+        return cls._NAME_TO_VALUE[term]
 
 
 class Link(models.Model):

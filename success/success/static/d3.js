@@ -3,19 +3,19 @@ document.addEventListener("DOMContentLoaded", function() {
     const chart = (() => {
         const width = window.innerWidth;
         const height = window.innerHeight;
-        const types = Array.from(new Set(suits.map(d => d.type)));
+        const types = Array.from(new Set(suits.map(d => d.type))).sort();
         console.log(suits);
-        let nodes = [];
-        factorsArray.map(item => {
-            nodes.push({id: item});
-        });
+        let nodes = factorsArray;
+        console.log(nodes);
 
         console.log(nodes);
         const links = suits.map(d => Object.create(d));
 
         console.log(links);
 
-        const color = d3.scaleOrdinal(types, d3.schemeCategory10);
+        const color = d3.scaleOrdinal()
+            .domain(types) // The categories you want to color
+            .range(["#FFD1DC", "#FF9BBB", "#FF6587", "#FF2F56", "#FF1028", "#FF080A", "#FF0000"]);
 
         const simulation = d3.forceSimulation(nodes)
             .force("link", d3.forceLink(links).id(d => d.id))
@@ -52,13 +52,17 @@ document.addEventListener("DOMContentLoaded", function() {
             .attr("stroke", d => color(d.type))
             .attr("marker-end", d => `url(${new URL(`#arrow-${d.type}`, location)})`);
 
+        const colorScale = d3.scaleLinear()
+            .domain([0, 1]) // Assuming value ranges from 0 to 1
+            .range(["#66cfcf", "#006969"]);
+
         const node = svg.append("g")
-            .attr("fill", "currentColor")
             .attr("stroke-linecap", "round")
             .attr("stroke-linejoin", "round")
             .selectAll("g")
             .data(nodes)
             .join("g")
+            .attr("fill", d => colorScale(d.value))  // Use the color scale for fill
             .call(drag(simulation));
 
         node.append("circle")

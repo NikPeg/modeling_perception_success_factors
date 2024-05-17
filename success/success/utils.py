@@ -13,10 +13,10 @@ def create_project(username: str, name: str):
     )
 
 
-def create_factor(username, project_name, name):
+def create_factor(username, project_name, name, value):
     user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
-    Factor.objects.create(project=project, name=name)
+    Factor.objects.create(project=project, name=name, value=value)
 
 
 def create_link(username, project_name, source, target, value):
@@ -33,7 +33,8 @@ def create_link(username, project_name, source, target, value):
 def get_all_factors(username, project_name):
     user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
-    return list(Factor.objects.filter(project=project).values_list("name", flat=True))
+    factors = list(Factor.objects.filter(project=project).values_list("name", "value"))
+    return [{"id": factor[0], "value": factor[1]} for factor in factors]
 
 
 def get_all_projects(username):

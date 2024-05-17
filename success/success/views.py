@@ -65,7 +65,8 @@ def project_view(request, username, name):
 def factor_view(request, username, project_name):
     if request.method == 'POST':
         factor_name = request.POST.get("factorName")
-        create_factor(username, project_name, factor_name)
+        value = Factor.term_to_value(request.POST.get("factorValue"))
+        create_factor(username, project_name, factor_name, value)
         return redirect('project', username, project_name)
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  17 MAY 2024 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  17 MAY 2024 14:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,27 +1037,27 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:/Users\pegan\Desktop\modeling_perception_success_factors\auxil\PMI.aux)
 \openout1 = `PMI.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Info: Redefining \th on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Info: Redefining \th on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1124,7 +1124,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 67.
 
 (C:\Users\pegan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1137,9 +1137,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count344
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
 
 (C:/Users\pegan\Desktop\modeling_perception_success_factors\auxil\PMI.out)
 (C:/Users\pegan\Desktop\modeling_perception_success_factors\auxil\PMI.out)
@@ -1147,9 +1147,31 @@ LaTeX Info: Redefining \nameref on input line 46.
 \openout4 = `PMI.out'.
 
 
-[1
+PMI.tex:112: Undefined control sequence.
+\mytable -> \AddToShipoutPictureBG 
+                                   {\begin {tikzpicture}[remember picture, o...
+l.112     \mytable
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>> [1
 
 {C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+PMI.tex:141: Undefined control sequence.
+\mytable -> \AddToShipoutPictureBG 
+                                   {\begin {tikzpicture}[remember picture, o...
+l.141     \mytable
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1163,12 +1185,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119     \newpage
+l.142     \newpage
                    [1
 
 ]
 (C:/Users\pegan\Desktop\modeling_perception_success_factors\auxil\PMI.toc<<t1.c
-map>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+map>>
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1291,132 +1313,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14]
 
-PMI.tex:546: LaTeX Error: There's no line here to end.
+PMI.tex:569: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.546         \begin
+l.569         \begin
                     {enumerate}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:554: LaTeX Error: There's no line here to end.
+PMI.tex:577: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.554         \begin
+l.577         \begin
                     {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:559: LaTeX Error: There's no line here to end.
+PMI.tex:582: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559         \begin
+l.582         \begin
                     {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:568: LaTeX Error: There's no line here to end.
+PMI.tex:591: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.568         \begin
+l.591         \begin
                     {enumerate}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:574: LaTeX Error: There's no line here to end.
+PMI.tex:597: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.574         \begin
+l.597         \begin
                     {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:578: LaTeX Error: There's no line here to end.
+PMI.tex:601: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.578         \begin
+l.601         \begin
                     {itemize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:587: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.587         \begin
-                    {enumerate}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:594: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.594         \begin
-                    {itemize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:598: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.598         (
-               Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:605: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605         \begin
-                    {enumerate}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1429,21 +1398,20 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.610         \begin
-                    {itemize}
+                    {enumerate}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:614: LaTeX Error: There's no line here to end.
+PMI.tex:617: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614         (
-               Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
-
+l.617         \begin
+                    {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1455,7 +1423,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.621         \begin
+l.621         (
+               Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:628: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.628         \begin
+                    {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:633: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633         \begin
+                    {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:637: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637         (
+               Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:644: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.644         \begin
                     {enumerate}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1471,26 +1493,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15]
 
-PMI.tex:626: LaTeX Error: There's no line here to end.
+PMI.tex:649: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.626         \begin
+l.649         \begin
                     {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:630: LaTeX Error: There's no line here to end.
+PMI.tex:653: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.630         (
+l.653         (
                Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
 
 Your command was ignored.
@@ -1498,67 +1520,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:637: LaTeX Error: There's no line here to end.
+PMI.tex:660: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.637         \begin
+l.660         \begin
                     {enumerate}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:642: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.642         \begin
-                    {itemize}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:648: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.648         (
-               Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:655: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.655         \begin
-                    {enumerate}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-PMI.tex:661: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.661         \begin
-                    {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1570,7 +1539,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.665         (
+l.665         \begin
+                    {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:671: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.671         (
                Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
 
 Your command was ignored.
@@ -1578,13 +1560,53 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-PMI.tex:674: LaTeX Error: There's no line here to end.
+PMI.tex:678: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.674         \begin
+l.678         \begin
+                    {enumerate}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:684: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684         \begin
+                    {itemize}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:688: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.688         (
+               Р—Р°РїРѕР»РЅСЏРµС‚СЃСЏ РїРѕСЃР»Рµ РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РµСЃ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+PMI.tex:697: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.697         \begin
                     {itemize}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1618,14 +1640,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 
-PMI.tex:794: LaTeX Error: \begin{itemize} on input line 791 ended by \end{itemi
+PMI.tex:817: LaTeX Error: \begin{itemize} on input line 814 ended by \end{itemi
 temize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.794     \end{itemitemize}
+l.817     \end{itemitemize}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1640,13 +1662,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [19]
-Overfull \hbox (1.26108pt too wide) in paragraph at lines 850--851
+Overfull \hbox (1.26108pt too wide) in paragraph at lines 873--874
 []\T2A/cmr/m/n/10 Программа де-мон-стри-ру-ет хо-ро-шую про-из-во-ди-тель-ность
 , хо-тя до-пол-ни-тель-ная оп-ти-ми-за-ция мо-жет улуч-
  []
 
 
-Overfull \hbox (1.39993pt too wide) in paragraph at lines 852--853
+Overfull \hbox (1.39993pt too wide) in paragraph at lines 875--876
 []\T2A/cmr/m/n/10 Программа за-щи-ще-на от боль-шин-ства рас-про-стра-нјн-ных у
 гроз, и все вы-яв-лен-ны-еуяз-ви-мо-сти бы-ли устра-
  []
@@ -1669,43 +1691,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 935--936
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 916--917
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 916--917
+Underfull \hbox (badness 1859) in paragraph at lines 939--940
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 916--917
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--918
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
 []\T2A/cmr/m/it/10 Felix Benjamn, Gerardo & Napoles, Gonzalo & Falcon, Rafae
 l & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--918
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--918
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
@@ -1719,7 +1741,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [22]
-Overfull \hbox (4.64388pt too wide) in paragraph at lines 919--920
+Overfull \hbox (4.64388pt too wide) in paragraph at lines 942--943
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances 
  []
@@ -1733,17 +1755,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 929--929
+Underfull \hbox (badness 10000) in paragraph at lines 952--952
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 933--936
+Underfull \hbox (badness 10000) in paragraph at lines 956--959
 
  []
 
-PMI.tex:938: Misplaced alignment tab character &.
-l.938 ...s\_factors?type=design\&\\node-id=0\%3A1&
+PMI.tex:961: Misplaced alignment tab character &.
+l.961 ...s\_factors?type=design\&\\node-id=0\%3A1&
                                                   mode=design&t=p9Rw1aMudymy...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1752,8 +1774,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-PMI.tex:938: Misplaced alignment tab character &.
-l.938 ...ype=design\&\\node-id=0\%3A1&mode=design&
+PMI.tex:961: Misplaced alignment tab character &.
+l.961 ...ype=design\&\\node-id=0\%3A1&mode=design&
                                                   t=p9Rw1aMudymyfiVe-1\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1763,23 +1785,23 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (4.22609pt too wide) in paragraph at lines 936--939
+Overfull \hbox (4.22609pt too wide) in paragraph at lines 959--962
 \T2A/cmr/m/n/10 https://www.figma.com/file/PL5iRCOK6h7RpPK1ZqKQgE/modeling_perc
 eption_success_factors?type=design& 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--939
+Underfull \hbox (badness 10000) in paragraph at lines 959--962
 
  []
 
 
-Overfull \hbox (24.85855pt too wide) in paragraph at lines 955--996
+Overfull \hbox (24.85855pt too wide) in paragraph at lines 978--1019
  [] 
  []
 
 
-Overfull \hbox (28.49655pt too wide) in paragraph at lines 1002--1015
+Overfull \hbox (28.49655pt too wide) in paragraph at lines 1025--1038
  [] 
  []
 
@@ -1792,12 +1814,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [24]
-Overfull \hbox (13.87486pt too wide) in paragraph at lines 1020--1033
+Overfull \hbox (13.87486pt too wide) in paragraph at lines 1043--1056
  [] 
  []
 
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-1051.
+1074.
 (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1818,26 +1840,27 @@ Package rerunfilecheck Info: File `PMI.out' has not changed.
 (rerunfilecheck)             Checksum: DDC6C531792AE1DEF198C95DDF9FAECC;16542.
  ) 
 Here is how much of TeX's memory you used:
- 27232 strings out of 478582
- 499343 string characters out of 2844345
+ 27283 strings out of 478582
+ 500540 string characters out of 2844345
  1074599 words of memory out of 3000000
- 44784 multiletter control sequences out of 15000+600000
- 476854 words of font info for 40 fonts, out of 8000000 for 9000
+ 44833 multiletter control sequences out of 15000+600000
+ 477745 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,12n,104p,741b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,12n,104p,741b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt10
 00.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 ti1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
 600\tcrm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
 /dpi600\labx1200.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
 -t2a/dpi600\labx1440.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/pegan/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb>
+h/lh-t2a/dpi600\labi1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/pegan/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 Output written on C:/Users\pegan\Desktop\modeling_perception_success_factors\ou
-t\PMI.pdf (26 pages, 290738 bytes).
+t\PMI.pdf (26 pages, 299300 bytes).
 PDF statistics:
- 1028 PDF objects out of 1200 (max. 8388607)
+ 1050 PDF objects out of 1200 (max. 8388607)
  149 named destinations out of 1000 (max. 500000)
  541 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,6 +16,7 @@
 \usepackage{kantlipsum}
 \usepackage{caption}
 \usepackage{float}
+\usepackage{zref-totpages}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -45,7 +46,7 @@
     }%
 }
 \newcommand{\mytable}{
-    \AddToShipoutPictureBG*{%
+    \AddToShipoutPictureBG{%
         \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=south west, xshift=1cm, yshift=1cm] at (current page.south west) {
             \begin{tabular}{|>{\raggedright\arraybackslash}m{0.3cm}|>{\centering\arraybackslash}m{0.3cm}|}

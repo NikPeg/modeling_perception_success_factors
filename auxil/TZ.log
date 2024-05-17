@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  16 MAY 2024 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  17 MAY 2024 14:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,23 +944,23 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:/Users\pegan\Desktop\modeling_perception_success_factors\out\TZ.aux)
 \openout1 = `TZ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \th on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Info: Redefining \th on input line 66.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1026,9 +1026,32 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- [1
+
+TZ.tex:111: Undefined control sequence.
+\mytable -> \AddToShipoutPictureBG 
+                                   {\begin {tikzpicture}[remember picture, o...
+l.111     \mytable
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>> [1
 
 {C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+TZ.tex:140: Undefined control sequence.
+\mytable -> \AddToShipoutPictureBG 
+                                   {\begin {tikzpicture}[remember picture, o...
+l.140     \mytable
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1040,7 +1063,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ] (C:/Users\pegan\Desktop\modeling_perception_success_factors\out\TZ.toc<<t1.cm
-ap>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>)
+ap>>)
 \tf@toc=\write4
 \openout4 = `TZ.toc'.
 
@@ -1054,7 +1077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
@@ -1067,7 +1090,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
 
  []
 
@@ -1080,107 +1103,107 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 172--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 172--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 172--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--156
+Underfull \hbox (badness 10000) in paragraph at lines 172--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--189
+Underfull \hbox (badness 10000) in paragraph at lines 188--212
 
  []
 
@@ -1211,27 +1234,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 191--194
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--218
+Underfull \hbox (badness 10000) in paragraph at lines 236--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--218
+Underfull \hbox (badness 10000) in paragraph at lines 236--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--222
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
 
  []
 
@@ -1244,7 +1267,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [8]
-Overfull \hbox (3.5607pt too wide) in paragraph at lines 228--229
+Overfull \hbox (3.5607pt too wide) in paragraph at lines 251--252
 \T2A/cmr/m/n/10 Таким об-ра-зом, дан-ная про-грам-ма мо-жет быть при-ме-не-на в
  раз-лич-ных об-ла-стях свя-зан-ных с IT-технологиями,
  []
@@ -1312,25 +1335,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 390--391
+Underfull \hbox (badness 1859) in paragraph at lines 413--414
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
@@ -1344,38 +1367,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 []\T2A/cmr/m/it/10 Felix Benjamn, Gerardo & Napoles, Gonzalo & Falcon, Rafae
 l & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 391--392
+Overfull \hbox (158.02309pt too wide) in paragraph at lines 414--415
 \T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
 _Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 393--394
+Overfull \hbox (242.83571pt too wide) in paragraph at lines 416--417
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
 ications)
  []
 
 
-Overfull \hbox (106.65271pt too wide) in paragraph at lines 397--398
+Overfull \hbox (106.65271pt too wide) in paragraph at lines 420--421
 []\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
 encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
 241X)
@@ -1390,17 +1413,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
+Underfull \hbox (badness 10000) in paragraph at lines 428--431
 
  []
 
-TZ.tex:410: Misplaced alignment tab character &.
-l.410 ...ess\_factors?type=design\&node-id=0\%3A1&
+TZ.tex:433: Misplaced alignment tab character &.
+l.433 ...ess\_factors?type=design\&node-id=0\%3A1&
                                                   mode=design&t=p9Rw1aMudymy...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1409,8 +1432,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-TZ.tex:410: Misplaced alignment tab character &.
-l.410 ...?type=design\&node-id=0\%3A1&mode=design&
+TZ.tex:433: Misplaced alignment tab character &.
+l.433 ...?type=design\&node-id=0\%3A1&mode=design&
                                                   t=p9Rw1aMudymyfiVe-1\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1420,23 +1443,23 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (28.38686pt too wide) in paragraph at lines 408--411
+Overfull \hbox (28.38686pt too wide) in paragraph at lines 431--434
 \T2A/cmr/m/n/10 https://www.figma.com/file/PL5iRCOK6h7RpPK1ZqKQgE/modeling_perc
 eption_success_factors?type=design&node-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
+Underfull \hbox (badness 10000) in paragraph at lines 431--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
@@ -1454,25 +1477,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18] (C:/Users\pegan\Desktop\modeling_perception_success_factors\out\TZ.aux) ) 
 Here is how much of TeX's memory you used:
- 20619 strings out of 478582
- 399867 string characters out of 2844345
+ 20668 strings out of 478582
+ 401025 string characters out of 2844345
  1075598 words of memory out of 3000000
- 38394 multiletter control sequences out of 15000+600000
- 476544 words of font info for 39 fonts, out of 8000000 for 9000
+ 38441 multiletter control sequences out of 15000+600000
+ 477435 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,11n,104p,1735b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,12n,104p,1735b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
  
 <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.
 pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1
 200.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tcrm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
 i600\labx1440.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2
-a/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
-h-t2a/dpi600\labx1000.pk>
+a/dpi600\labi1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
+h-t2a/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\labx1000.pk>
 Output written on C:/Users\pegan\Desktop\modeling_perception_success_factors\ou
-t\TZ.pdf (19 pages, 188478 bytes).
+t\TZ.pdf (19 pages, 197035 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
+ 521 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

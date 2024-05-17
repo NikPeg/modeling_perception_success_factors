@@ -43,6 +43,27 @@
         \begin{tabular}[t]{c}
     }%
 }
+\newcommand{\mytable}{
+    \AddToShipoutPictureBG{%
+        \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=south west, xshift=1cm, yshift=1cm] at (current page.south west) {
+            \begin{tabular}{|>{\raggedright\arraybackslash}m{0.3cm}|>{\centering\arraybackslash}m{0.3cm}|}
+            \hline
+            \rotatebox{90}{\textit{\textbf{Инв. № подл. }}} & \rotatebox{90}{} \\
+            \hline
+            \rotatebox{90}{\textit{\textbf{Подп. и дата }}} & \rotatebox{90}{} \\
+            \hline
+            \rotatebox{90}{\textit{\textbf{Взам. инв. № }}} & \rotatebox{90}{} \\
+            \hline
+            \rotatebox{90}{\textit{\textbf{Инв. № дубл. }}} & \rotatebox{90}{} \\
+            \hline
+            \rotatebox{90}{\textit{\textbf{Подп. и дата }}} & \rotatebox{90}{} \\
+            \hline
+            \end{tabular}
+        };
+        \end{tikzpicture}
+    }
+}
 \begin{document}
     \thispagestyle{empty}
     \begin{center}
@@ -88,6 +109,7 @@
         \vspace*{\fill}{
             Москва \the\year{}}
     \end{center}
+    \mytable
     \newpage
     \clearpage
     \pagenumbering{arabic}
@@ -116,6 +138,7 @@
         \vspace*{\fill}{
             Москва \the\year{}}
     \end{center}
+    \mytable
     \newpage
     \tableofcontents
     \newpage

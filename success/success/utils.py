@@ -50,6 +50,10 @@ def get_all_projects(username):
     return list(Project.objects.filter(user=user).values_list("name", flat=True))
 
 
+def get_all_public_projects():
+    return list(Project.objects.filter(user=None).values_list("name", flat=True))
+
+
 def get_all_links(username, project_name):
     user = User.objects.get(username=username)
     project = Project.objects.get(user=user, name=project_name)

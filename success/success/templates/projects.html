@@ -70,23 +70,13 @@
     {% endfor %}
 </div>
 
-<div class="public-projects-container">
-    <p class="very-bold-text" style="margin-left: 10px;">Public projects:</p>
-    <a href="{% url 'project' username='public' name='Blockchain SCMS'%}" method="post">
-        <div class="project">Blockchain SCMS</div>
+<p class="very-bold-text" style="margin-left: 10px;">Public projects:</p>
+<div class="recent-projects-container">
+    {% for project in public_projects %}
+    <a href="{% url 'project' username='public' name=project%}" method="post">
+        <div class="project">{{ project }}</div>
     </a>
-    <a href="{% url 'project' username='public' name='AI Dashboard'%}" method="post">
-        <div class="project">AI Dashboard</div>
-    </a>
-    <a href="{% url 'project' username='public' name='IoT Home System'%}" method="post">
-        <div class="project">IoT Home System</div>
-    </a>
-    <a href="{% url 'project' username='public' name='AI Healthcare'%}" method="post">
-        <div class="project">AI Healthcare</div>
-    </a>
-    <a href="{% url 'project' username='public' name='All' %}" method="post">
-        <div class="project">All projects→</div>
-    </a>
+    {% endfor %}
 </div>
 
 <div class="background-overlay" id="backgroundOverlay"></div>

@@ -16,7 +16,12 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
 <body>
-
+<script src="{% static 'script.js' %}"></script>
+<script>
+    var factorsArray = {{ factors | safe }};
+    var suits = {{ links | safe }};
+</script>
+<script src="{% static 'd3.js' %}"></script>
 <div class="header">
 </div>
 
@@ -41,7 +46,7 @@
     <input type="number" class="epsilon-input-field" id="EpsilonInput" placeholder="convergence (ε)">
     <input type="number" class="input-field" id="StepsInput" placeholder="Number of steps">
     <button class="pause-button" onclick="pause()">II</button>
-    <button class="play-button" onclick="play()">▶</button>
+    <button class="play-button" onclick="shakeNodes()">▶</button>
 </div>
 
 <div class="sandwich-container" id="sandwich">
@@ -129,11 +134,5 @@
 </div>
 
 <div class="background-overlay" id="backgroundOverlay"></div>
-<script src="{% static 'script.js' %}"></script>
-<script>
-    var factorsArray = {{ factors | safe }};
-    var suits = {{ links | safe }};
-</script>
-<script src="{% static 'd3.js' %}"></script>
 </body>
 </html>

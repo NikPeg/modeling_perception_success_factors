@@ -1,3 +1,5 @@
+let simulation = null;
+
 document.addEventListener("DOMContentLoaded", function() {
 
     const chart = (() => {
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .domain(types) // The categories you want to color
             .range(["#f76dc0", "#fa46b2", "#fc23a6", "#ff009a", "#e00288", "#b80270", "#870152"]);
 
-        const simulation = d3.forceSimulation(nodes)
+        simulation = d3.forceSimulation(nodes)
             .force("link", d3.forceLink(links).id(d => d.id))
             .force("charge", d3.forceManyBody().strength(-400))
             .force("x", d3.forceX())
@@ -126,4 +128,32 @@ function linkArc(d) {
                 M${d.source.x},${d.source.y}
                 A${r},${r} 0 0,1 ${d.target.x},${d.target.y}
             `;
+}
+
+function shakeNodes(duration = 5000) {
+    const shakeIntensity = 5; // Adjust this for stronger or weaker shaking
+    const shakeInterval = 100; // Interval in milliseconds for shaking
+
+    function startShaking() {
+        simulation.nodes().forEach(node => {
+            node.fx = node.x + (Math.random() - 0.5) * shakeIntensity;
+            node.fy = node.y + (Math.random() - 0.5) * shakeIntensity;
+        });
+        simulation.alpha(1).restart();
+    }
+
+    function stopShaking() {
+        simulation.nodes().forEach(node => {
+            node.fx = null;
+            node.fy = null;
+        });
+        simulation.alphaTarget(0).restart();
+    }
+
+    const intervalId = setInterval(startShaking, shakeInterval);
+
+    setTimeout(() => {
+        clearInterval(intervalId);
+        stopShaking();
+    }, duration);
 }

@@ -128,6 +128,38 @@ body{
     font-size: 20px;
 }
 
+.alfa-input-field {
+    position: fixed;
+    top: 25px;
+    right: 505px;
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.alfa-input-field::placeholder {
+    font-size: 20px;
+}
+
+.epsilon-input-field {
+    position: fixed;
+    top: 25px;
+    right: 310px;
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.epsilon-input-field::placeholder {
+    font-size: 20px;
+}
+
 .centered-text {
     font-family: 'Roboto', sans-serif; /* Choose a fashionable font */
     font-size: 100px;
@@ -297,7 +329,7 @@ body{
 }
 
 .right-container {
-    width: 280px;
+    width: 650px;
     height: 47px;
     position: fixed;
     top: 10px;

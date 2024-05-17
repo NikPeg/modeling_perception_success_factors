@@ -53,8 +53,8 @@ def get_all_projects(username):
     return list(Project.objects.filter(user=user).values_list("name", flat=True))
 
 
-def get_all_public_projects():
-    return list(Project.objects.filter(user=None).values_list("name", flat=True))
+def get_all_public_projects(to_exclude=[]):
+    return list(Project.objects.filter(user=None).exclude(name__in=to_exclude).values_list("name", flat=True))
 
 
 def get_all_templates():

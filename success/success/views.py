@@ -46,8 +46,8 @@ def register_view(request):
 
 def projects_view(request, username):
     projects = get_all_projects(username)
-    public_projects = get_all_public_projects()
     templates = get_all_templates()
+    public_projects = get_all_public_projects(templates)
     return render(request, 'projects.html', {'username': username, 'projects': projects, 'public_projects': public_projects, 'templates': templates})
 
 

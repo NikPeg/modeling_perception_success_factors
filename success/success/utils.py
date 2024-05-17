@@ -10,6 +10,13 @@ def create_project(username: str, name: str):
     )
 
 
+def create_public_project(name: str):
+    Project.objects.get_or_create(
+        user=None,
+        name=name,
+    )
+
+
 def create_factor(username, project_name, name):
     user = User.objects.get(username=username)
     project = Project.objects.get(user=user, name=project_name)
@@ -33,6 +40,11 @@ def get_all_factors(username, project_name):
     return list(Factor.objects.filter(project=project).values_list("name", flat=True))
 
 
+def get_all_factors_public(project_name):
+    project = Project.objects.get(user=None, name=project_name)
+    return list(Factor.objects.filter(project=project).values_list("name", flat=True))
+
+
 def get_all_projects(username):
     user = User.objects.get(username=username)
     return list(Project.objects.filter(user=user).values_list("name", flat=True))
@@ -41,6 +53,15 @@ def get_all_projects(username):
 def get_all_links(username, project_name):
     user = User.objects.get(username=username)
     project = Project.objects.get(user=user, name=project_name)
+    links = list(Link.objects.filter(project=project).values_list("source__name", "target__name"))
+    return [
+        {"source": link[0], "target": link[1], "type": "heh"}
+        for link in links
+    ]
+
+
+def get_all_links_public(project_name):
+    project = Project.objects.get(user=None, name=project_name)
     links = list(Link.objects.filter(project=project).values_list("source__name", "target__name"))
     return [
         {"source": link[0], "target": link[1], "type": "heh"}

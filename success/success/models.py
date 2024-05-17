@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 
 class Project(models.Model):
     # One-to-many relationship with Django's built-in User model
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
 
     # Project name
     name = models.CharField(max_length=100)

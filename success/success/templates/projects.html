@@ -72,11 +72,21 @@
 
 <div class="public-projects-container">
     <p class="very-bold-text" style="margin-left: 10px;">Public projects:</p>
-    <div class="project">Blockchain SCMS</div>
-    <div class="project">AI Dashboard</div>
-    <div class="project">IoT Home System</div>
-    <div class="project">AI Healthcare</div>
-    <div class="project">All projects→</div>
+    <a href="{% url 'project' username='public' name='Blockchain SCMS'%}" method="post">
+        <div class="project">Blockchain SCMS</div>
+    </a>
+    <a href="{% url 'project' username='public' name='AI Dashboard'%}" method="post">
+        <div class="project">AI Dashboard</div>
+    </a>
+    <a href="{% url 'project' username='public' name='IoT Home System'%}" method="post">
+        <div class="project">IoT Home System</div>
+    </a>
+    <a href="{% url 'project' username='public' name='AI Healthcare'%}" method="post">
+        <div class="project">AI Healthcare</div>
+    </a>
+    <a href="{% url 'project' username='public' name='All' %}" method="post">
+        <div class="project">All projects→</div>
+    </a>
 </div>
 
 <div class="background-overlay" id="backgroundOverlay"></div>

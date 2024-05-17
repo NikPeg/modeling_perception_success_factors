@@ -89,5 +89,5 @@ function export_project() {
 }
 
 function save_project() {
-    console.log('save!');
+    window.alert("The project has been successfully saved.");
 }

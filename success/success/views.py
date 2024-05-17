@@ -56,11 +56,6 @@ def d3_view(request):
 
 
 def project_view(request, username, name):
-    if username == "public":
-        create_public_project(name)
-        factors = get_all_factors_public(name)
-        links = get_all_links_public(name)
-        return render(request, 'project.html', {'username': "public", 'name': name, 'factors': factors, 'links': links})
     create_project(username, name)
     factors = get_all_factors(username, name)
     links = get_all_links(username, name)

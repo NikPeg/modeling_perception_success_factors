@@ -2,6 +2,9 @@ from .models import *
 from django.contrib.auth.models import User
 
 
+COMMON_PROJECT_LABEL = "public"
+
+
 def create_project(username: str, name: str):
     user = User.objects.get(username=username)
     Project.objects.get_or_create(
@@ -18,13 +21,13 @@ def create_public_project(name: str):
 
 
 def create_factor(username, project_name, name):
-    user = User.objects.get(username=username)
+    user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
     Factor.objects.create(project=project, name=name)
 
 
 def create_link(username, project_name, name, source, target):
-    user = User.objects.get(username=username)
+    user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
     Link.objects.create(
         project=project,
@@ -52,6 +55,10 @@ def get_all_projects(username):
 
 def get_all_public_projects():
     return list(Project.objects.filter(user=None).values_list("name", flat=True))
+
+
+def get_all_templates():
+    return list(Template.objects.values_list("name", flat=True))
 
 
 def get_all_links(username, project_name):

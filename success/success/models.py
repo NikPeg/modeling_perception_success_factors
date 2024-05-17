@@ -25,6 +25,18 @@ class Project(models.Model):
     ]
 
 
+class Template(models.Model):
+    # Template name
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+    constraints = [
+        models.UniqueConstraint(fields=['name'], name='unique name for template')
+    ]
+
+
 class Factor(models.Model):
     # One-to-many relationship with project
     project = models.ForeignKey(Project, on_delete=models.CASCADE)

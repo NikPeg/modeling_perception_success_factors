@@ -16,7 +16,6 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
 <body>
-<script src="{% static 'script.js' %}"></script>
 <script>
     var factorsArray = {{ factors | safe }};
     var suits = {{ links | safe }};
@@ -134,5 +133,6 @@
 </div>
 
 <div class="background-overlay" id="backgroundOverlay"></div>
+<script src="{% static 'script.js' %}"></script>
 </body>
 </html>

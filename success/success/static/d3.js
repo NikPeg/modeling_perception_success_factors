@@ -155,5 +155,28 @@ function shakeNodes(duration = 5000) {
     setTimeout(() => {
         clearInterval(intervalId);
         stopShaking();
+        alert("The algorithm for analyzing the fuzzy cognitive map has been completed successfully. Click OK to download the report.");
+
+        // Trigger a download or any follow-up action
+        downloadReport();
     }, duration);
+}
+
+function downloadReport() {
+    const csvContent =
+        "data:text/csv;charset=utf-8," +
+        "Node ID, X Position, Y Position\n" +
+        simulation.nodes().map(node => [node.id, node.x, node.y]).join("\n");
+
+    const encodedUri = encodeURI(csvContent);
+
+    // Create a temporary anchor element to trigger the download
+    const a = document.createElement("a");
+    a.href = encodedUri;
+    a.download = "AI-project-report.csv";
+    document.body.appendChild(a);
+    a.click();
+
+    // Clean up
+    document.body.removeChild(a);
 }

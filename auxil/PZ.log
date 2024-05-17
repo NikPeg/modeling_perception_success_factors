@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  17 MAY 2024 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  17 MAY 2024 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1463,12 +1463,12 @@ File: pictures//all.png Graphic file (type png)
 Package pdftex.def Info: pictures//all.png  used on input line 311.
 (pdftex.def)             Requested size: 250.24199pt x 250.24428pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--322
+Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--322
+Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
 
@@ -1481,82 +1481,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [11 <./pictures//all.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 325--328
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--363
+Underfull \hbox (badness 10000) in paragraph at lines 345--362
 
  []
 
@@ -1569,33 +1569,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 365--371
+Underfull \hbox (badness 10000) in paragraph at lines 364--370
 
  []
 
 
-PZ.tex:380: LaTeX Error: Unicode character Ој (U+03BC)
+PZ.tex:379: LaTeX Error: Unicode character Ој (U+03BC)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 ...С†РёРµР№ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё $Ој
+l.379 ...С†РёРµР№ РїСЂРёРЅР°РґР»РµР¶РЅРѕСЃС‚Рё $Ој
                                                   _A(x)$, Рё РїСѓСЃС‚СЊ $X$ ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-PZ.tex:380: LaTeX Error: Unicode character Ој (U+03BC)
+PZ.tex:379: LaTeX Error: Unicode character Ој (U+03BC)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 ...ѕ РІСЃРµС… $x$, РґР»СЏ РєРѕС‚РѕСЂС‹С… $Ој
+l.379 ...ѕ РІСЃРµС… $x$, РґР»СЏ РєРѕС‚РѕСЂС‹С… $Ој
                                                   _A(x)$ РґРѕСЃС‚РёРіР°РµС‚ ...
 
 You may provide a definition with
@@ -1610,18 +1610,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 434--438
+Underfull \hbox (badness 10000) in paragraph at lines 433--437
 
  []
 
 
-PZ.tex:455: LaTeX Error: Undefined tab position.
+PZ.tex:454: LaTeX Error: Undefined tab position.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.455         8: \> \> \> \>
+l.454         8: \> \> \> \>
                              $sum \gets sum + A[i, j] \cdot f(S[j])$ \\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1635,22 +1635,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 467--470
+Underfull \hbox (badness 10000) in paragraph at lines 466--469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--515
+Underfull \hbox (badness 10000) in paragraph at lines 504--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--515
+Underfull \hbox (badness 10000) in paragraph at lines 504--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--515
+Underfull \hbox (badness 10000) in paragraph at lines 504--514
 
  []
 
@@ -1663,52 +1663,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 516--520
+Underfull \hbox (badness 10000) in paragraph at lines 515--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--525
+Underfull \hbox (badness 10000) in paragraph at lines 520--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--537
+Underfull \hbox (badness 10000) in paragraph at lines 526--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--537
+Underfull \hbox (badness 10000) in paragraph at lines 526--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--537
+Underfull \hbox (badness 10000) in paragraph at lines 526--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--537
+Underfull \hbox (badness 10000) in paragraph at lines 526--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--549
+Underfull \hbox (badness 10000) in paragraph at lines 539--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--549
+Underfull \hbox (badness 10000) in paragraph at lines 539--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--549
+Underfull \hbox (badness 10000) in paragraph at lines 539--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--549
+Underfull \hbox (badness 10000) in paragraph at lines 539--548
 
  []
 
@@ -1721,52 +1721,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--575
 
  []
 
@@ -1779,7 +1779,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
@@ -1792,17 +1792,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 597--602
+Underfull \hbox (badness 10000) in paragraph at lines 596--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--602
+Underfull \hbox (badness 10000) in paragraph at lines 596--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--602
+Underfull \hbox (badness 10000) in paragraph at lines 596--601
 
  []
 
@@ -1815,17 +1815,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 628--631
+Underfull \hbox (badness 10000) in paragraph at lines 627--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--645
+Underfull \hbox (badness 10000) in paragraph at lines 639--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--645
+Underfull \hbox (badness 10000) in paragraph at lines 639--644
 
  []
 
@@ -1847,33 +1847,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 649--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 649--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 649--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 649--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 649--660
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 649--660
-
+Overfull \hbox (11.03714pt too wide) in paragraph at lines 658--659
+[]\T2A/cmr/m/n/10 Установите на-чаль-ные зна-че-ния фак-то-ров с по-мо-щью линг
+-ви-сти-че-ских пе-ре-мен-ных (на-при-мер, от \T2A/cmr/m/it/10 Excellent
  []
 
 
@@ -1885,15 +1861,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 700--703
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 700--703
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1903,21 +1870,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [23]
-Overfull \hbox (1.20016pt too wide) in paragraph at lines 739--740
-\T2A/cmr/m/n/10 Тестирование по-ка-за-ло, что раз-ра-бо-тан-ное веб-приложение 
-со-от-вет-ству-ет по-став-лен-ным тре-бо-ва-ни-ям и успеш-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.01514pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.01514pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
-
-[24]
-Overfull \hbox (2.52875pt too wide) in paragraph at lines 767--769
+Overfull \hbox (2.52875pt too wide) in paragraph at lines 722--724
 []\T2A/cmr/bx/n/10 Дополнительные ана-ли-зы: \T2A/cmr/m/n/10 Ис-поль-зо-ва-ние 
 дру-гих ме-то-дов ана-ли-за и ин-стру-мен-тов, та-ких как SWOT-
  []
@@ -1930,7 +1883,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 730--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--741
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
 [25]
+Underfull \hbox (badness 10000) in paragraph at lines 781--784
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--784
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.01514pt, for example:
@@ -1940,25 +1940,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
+Overfull \hbox (1.20016pt too wide) in paragraph at lines 820--821
+\T2A/cmr/m/n/10 Тестирование по-ка-за-ло, что раз-ра-бо-тан-ное веб-приложение 
+со-от-вет-ству-ет по-став-лен-ным тре-бо-ва-ни-ям и успеш-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
+[27]
+Overfull \hbox (2.52875pt too wide) in paragraph at lines 848--850
+[]\T2A/cmr/bx/n/10 Дополнительные ана-ли-зы: \T2A/cmr/m/n/10 Ис-поль-зо-ва-ние 
+дру-гих ме-то-дов ана-ли-за и ин-стру-мен-тов, та-ких как SWOT-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
+[28]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.01514pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.01514pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
 []\T2A/cmr/m/it/10 Жернова Ма-рия Оле-гов-на \T2A/cmr/m/n/10 (2023) Учеб-ные пл
 а-ны 2020 го-да на-бо-ра // Сайт hse.ru
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
 []\T2A/cmr/m/it/10 Papageorgiou, Elpiniki & Papageorgiou, Konstantinos & Dikopo
 ulou, Zoumpoulia & Mourhir,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 826--827
+Underfull \hbox (badness 1859) in paragraph at lines 907--908
 \T2A/cmr/m/it/10 Asmaa \T2A/cmr/m/n/10 (2018) A Fuzzy Cognitive Map web-based t
 ool for modeling and decision making // Сайт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
 \T2A/cmr/m/n/10 researchgate.net (https://www.researchgate.net/publication/3365
 91466_A_Fuzzy_Cognitive_Map_web-
  []
@@ -1971,39 +2008,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 []\T2A/cmr/m/it/10 Felix Benjamn, Gerardo & Napoles, Gonzalo & Falcon, Rafae
 l & Froelich, Wojciech
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 \T2A/cmr/m/it/10 & Vanhoof, Koen & Bello, Rafael \T2A/cmr/m/n/10 (2019) A Revie
 w on Methods and Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 908--909
 \T2A/cmr/m/n/10 for Fuzzy Cognitive Maps. Artificial Intelligence Review. // Са
 йт researchgate.net
  []
 
 
-Overfull \hbox (158.02309pt too wide) in paragraph at lines 827--828
+Overfull \hbox (158.02309pt too wide) in paragraph at lines 908--909
 \T2A/cmr/m/n/10 (https://www.researchgate.net/publication/319167451_A_Review_on
 _Methods_and_Software_for_Fuzzy_Cognitive_Maps/citation/download)
  []
 
 
-Overfull \hbox (242.83571pt too wide) in paragraph at lines 829--830
+Overfull \hbox (242.83571pt too wide) in paragraph at lines 910--911
 \T2A/cmr/m/n/10 Сайт researchgate.net (https://www.researchgate.net/publication
 /268170676_Fuzzy_cognitive_maps_Advances_in_theory_methodologies_tools_and_appl
 ications)
  []
 
 
-Overfull \hbox (106.65271pt too wide) in paragraph at lines 833--834
+Overfull \hbox (106.65271pt too wide) in paragraph at lines 914--915
 []\T2A/cmr/m/it/10 L.A. Zadeh \T2A/cmr/m/n/10 (1965) Fuzzy sets // Сайт www.sci
 encedirect.com (https://www.sciencedirect.com/science/article/pii/S001999586590
 241X)
@@ -2017,34 +2054,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 842--842
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 923--923
 []\T2A/cmr/bx/n/14.4 Приложения|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--847
+Underfull \hbox (badness 10000) in paragraph at lines 925--928
 
  []
 
 
-Overfull \hbox (28.38686pt too wide) in paragraph at lines 847--850
+Overfull \hbox (28.38686pt too wide) in paragraph at lines 928--931
 \T2A/cmr/m/n/10 https://www.figma.com/file/PL5iRCOK6h7RpPK1ZqKQgE/modeling_perc
 eption_success_factors?type=design&node-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--850
+Underfull \hbox (badness 10000) in paragraph at lines 928--931
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 931--932
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 851--852
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
 
  []
 
@@ -2060,15 +2097,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.01514pt}.
 
-[29] (C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.aux)
+[32] (C:/Users\pegan\Desktop\modeling_perception_success_factors\out\PZ.aux)
 Package rerunfilecheck Info: File `PZ.out' has not changed.
 (rerunfilecheck)             Checksum: 45CCC797EE77DFD76B8AC1A1C239BA89;11367.
  ) 
 Here is how much of TeX's memory you used:
- 27175 strings out of 478582
- 497128 string characters out of 2844345
+ 27206 strings out of 478582
+ 497392 string characters out of 2844345
  1076598 words of memory out of 3000000
- 44718 multiletter control sequences out of 15000+600000
+ 44719 multiletter control sequences out of 15000+600000
  480692 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,18n,104p,1735b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2092,9 +2129,9 @@ nts/cm/cmsy10.pfb><C:/Users/pegan/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy5.pfb><C:/Users/pegan/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy7.pfb>
 Output written on C:/Users\pegan\Desktop\modeling_perception_success_factors\ou
-t\PZ.pdf (30 pages, 476346 bytes).
+t\PZ.pdf (33 pages, 491916 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
+ 1032 PDF objects out of 1200 (max. 8388607)
+ 190 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

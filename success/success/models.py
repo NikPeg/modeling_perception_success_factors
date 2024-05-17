@@ -49,11 +49,26 @@ class Factor(models.Model):
 
 
 class Link(models.Model):
+    _NAME_TO_VALUE = {
+        "No influence": 0.0,
+        "Very low": 0.2,
+        "Low": 0.4,
+        "Moderate": 0.5,
+        "High": 0.6,
+        "Very high": 0.8,
+        "Total": 1.0,
+    }
     # One-to-many relationship with project
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
 
     source = models.ForeignKey(Factor, on_delete=models.CASCADE, related_name="source_links", default=None)
     target = models.ForeignKey(Factor, on_delete=models.CASCADE, related_name="target_links", default=None)
 
+    value = models.FloatField(default=0.5)
+
     def __str__(self):
         return f"{self.source.name}->{self.target.name}"
+
+    @classmethod
+    def term_to_value(cls, term):
+        return cls._NAME_TO_VALUE[term]

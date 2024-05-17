@@ -78,7 +78,8 @@ def link_view(request, username, project_name):
     if request.method == 'POST':
         source_name = request.POST.get("sourceFactor")
         target_name = request.POST.get("targetFactor")
-        create_link(username, project_name, source_name, target_name)
+        value = Link.term_to_value(request.POST.get("linkValue"))
+        create_link(username, project_name, source_name, target_name, value)
         return redirect('project', username, project_name)
 
 

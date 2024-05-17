@@ -331,9 +331,3 @@ body{
     height: 40px;
     font-size: 16px;
 }
-
-.center-label {
-    /*display: block;*/
-    text-align: center;
-    /*margin: 0 auto;*/
-}

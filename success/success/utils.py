@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from .models import *
 
 COMMON_PROJECT_LABEL = "public"
+EMPTY_DELETE_LABEL = "None"
 
 
 def create_project(username: str, name: str):
@@ -28,6 +29,25 @@ def create_link(username, project_name, source, target, value):
         target=Factor.objects.get(name=target, project=project),
         value=value,
     )
+
+
+def delete_factor(username, project_name, name):
+    if name == EMPTY_DELETE_LABEL:
+        return
+    user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
+    project = Project.objects.get(user=user, name=project_name)
+    Factor.objects.filter(project=project, name=name).delete()
+
+
+def delete_link(username, project_name, label):
+    if label == EMPTY_DELETE_LABEL:
+        return
+    user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
+    project = Project.objects.get(user=user, name=project_name)
+    split_label = label.split("→")
+    source = Factor.objects.get(name=split_label[0])
+    target = Factor.objects.get(name=split_label[1])
+    Link.objects.filter(project=project, source=source, target=target).delete()
 
 
 def get_all_factors(username, project_name):

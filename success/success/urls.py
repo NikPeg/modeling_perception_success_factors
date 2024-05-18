@@ -15,4 +15,5 @@ urlpatterns = [
     path("d3/", d3_view, name="d3"),
     path("factor/<str:username>/<str:project_name>/", factor_view, name="factor"),
     path("link/<str:username>/<str:project_name>/", link_view, name="link"),
+    path("delete/<str:username>/<str:project_name>/", delete_view, name="delete"),
 ]

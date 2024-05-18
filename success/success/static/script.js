@@ -74,8 +74,14 @@ function hideLinkPopup() {
     document.getElementById("linkPopup").style.display = "none";
 }
 
-function delete_entity() {
-    window.alert("Press any entity to delete it.");
+function showDeletePopup() {
+    document.getElementById("projectBackgroundOverlay").style.display = "block";
+    document.getElementById("deletePopup").style.display = "block";
+}
+
+function hideDeletePopup() {
+    document.getElementById("projectBackgroundOverlay").style.display = "none";
+    document.getElementById("deletePopup").style.display = "none";
 }
 
 function export_project() {

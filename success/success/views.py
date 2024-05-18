@@ -82,6 +82,15 @@ def link_view(request, username, project_name):
         return redirect("project", username, project_name)
 
 
+def delete_view(request, username, project_name):
+    if request.method == "POST":
+        factor_name = request.POST.get("deleteFactor")
+        delete_factor(username, project_name, factor_name)
+        link_label = request.POST.get("deleteLink")
+        delete_link(username, project_name, link_label)
+        return redirect("project", username, project_name)
+
+
 def create_view(request, username):
     if request.method == "POST":
         name = request.POST.get("projectName")

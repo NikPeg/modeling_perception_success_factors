@@ -29,7 +29,7 @@
 <div class="buttons-container">
     <button title="Add new factor" onclick="showFactorPopup()"><img src="{% static 'images/factor.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 15px; left: 15px;"></button>
     <button title="Add new link" onclick="showLinkPopup()"><img src="{% static 'images/arrow.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 70px; left: 15px;"></button>
-    <button title="Delete anything" onclick="delete_entity()"><img src="{% static 'images/scissors.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 125px; left: 15px;"></button>
+    <button title="Delete anything" onclick="showDeletePopup()"><img src="{% static 'images/scissors.png' %}" style="display: inline; width: 40px; height: 40px; position: absolute; top: 125px; left: 15px;"></button>
 </div>
 
 <div class="upper-container">
@@ -131,6 +131,33 @@
         <br>
 
         <button class="register-button" type="submit">Add</button>
+    </form>
+</div>
+
+<div class="login-popup" id="deletePopup">
+    <button class="close-btn" onclick="hideDeletePopup()">✖</button>
+    <h2 style="margin-bottom: 0">Delete entity</h2>
+    <form action="{% url 'delete' username=username project_name=name%}" method="post" >
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <label style="text-align: center" for="deleteFactor">Choose factor to delete:</label>
+        <select name="deleteFactor" id="deleteFactor" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
+            <option value="None" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">None</option>
+            {% for factor in factors %}
+                <option value="{{ factor.id | safe }}" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">{{ factor.id }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label style="text-align: center" for="deleteLink">Choose link to delete:</label>
+        <select name="deleteLink" id="deleteLink" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">
+            <option value="None" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">None</option>
+            {% for link in links %}
+                <option value="{{ link.source | safe }}→{{ link.target | safe }}" style="width: 200px; height: 40px; font-size: 20px; font-family: 'Roboto', sans-serif;">{{ link.source }}→{{ link.target | safe }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <button class="register-button" type="submit">Delete</button>
     </form>
 </div>
 

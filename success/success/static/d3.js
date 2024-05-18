@@ -192,7 +192,7 @@ function downloadReport() {
     // Create a temporary anchor element to trigger the download
     const a = document.createElement("a");
     a.href = url;
-    a.download = "AI-project-report.xlsx";
+    a.download = name + "-report.xlsx";
     document.body.appendChild(a);
     a.click();
 

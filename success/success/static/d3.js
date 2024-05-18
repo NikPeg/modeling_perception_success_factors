@@ -163,10 +163,16 @@ function shakeNodes(duration = 5000) {
 }
 
 function downloadReport() {
-    const nodes = simulation.nodes().map(node => ({ 'Node ID': node.id, 'X Position': node.x, 'Y Position': node.y }));
+    const nodes = factorsArray;
 
-    // Create a worksheet
-    const worksheet = XLSX.utils.json_to_sheet(nodes);
+    // Prepare title rows
+    const titleRows = [
+        { A: 'Factors:' }, // Title row
+    ];
+
+    // Create worksheets from JSON arrays
+    const worksheet = XLSX.utils.json_to_sheet(titleRows, { skipHeader: true }); // Without headers
+    XLSX.utils.sheet_add_json(worksheet, nodes, { origin: -1 }); // Append nodes data starting from A2
 
     // Create a new workbook and append the worksheet
     const workbook = XLSX.utils.book_new();

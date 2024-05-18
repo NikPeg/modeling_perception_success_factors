@@ -1,6 +1,6 @@
-from django.db import models
 from django.conf import settings
 from django.contrib.auth.models import User
+from django.db import models
 
 
 class Project(models.Model):
@@ -12,17 +12,15 @@ class Project(models.Model):
 
     # Privacy setting: either 'public' or 'private'
     PRIVACY_CHOICES = (
-        ('PUBLIC', 'Public'),
-        ('PRIVATE', 'Private'),
+        ("PUBLIC", "Public"),
+        ("PRIVATE", "Private"),
     )
     privacy = models.CharField(max_length=7, choices=PRIVACY_CHOICES, default="PRIVATE")
 
     def __str__(self):
         return self.name
 
-    constraints = [
-        models.UniqueConstraint(fields=['user', 'name'], name='unique name for user')
-    ]
+    constraints = [models.UniqueConstraint(fields=["user", "name"], name="unique name for user")]
 
 
 class Template(models.Model):
@@ -32,9 +30,7 @@ class Template(models.Model):
     def __str__(self):
         return self.name
 
-    constraints = [
-        models.UniqueConstraint(fields=['name'], name='unique name for template')
-    ]
+    constraints = [models.UniqueConstraint(fields=["name"], name="unique name for template")]
 
 
 class Factor(models.Model):

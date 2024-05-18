@@ -1,6 +1,6 @@
-from .models import *
 from django.contrib.auth.models import User
 
+from .models import *
 
 COMMON_PROJECT_LABEL = "public"
 
@@ -54,8 +54,4 @@ def get_all_links(username, project_name):
     user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
     links = list(Link.objects.filter(project=project).values_list("source__name", "target__name", "value"))
-    return [
-        {"source": link[0], "target": link[1], "type": link[2]}
-        for link in links
-    ]
-
+    return [{"source": link[0], "target": link[1], "type": link[2]} for link in links]

@@ -165,18 +165,16 @@ function shakeNodes(duration = 5000) {
 function downloadReport() {
     const nodes = factorsArray;
 
-    // Prepare title rows
-    const titleRows = [
-        { A: 'Factors:' }, // Title row
-    ];
-
-    // Create worksheets from JSON arrays
-    const worksheet = XLSX.utils.json_to_sheet(titleRows, { skipHeader: true }); // Without headers
-    XLSX.utils.sheet_add_json(worksheet, nodes, { origin: -1 }); // Append nodes data starting from A2
+    const nodes_worksheet = XLSX.utils.json_to_sheet([{ A: 'Factors:' }], { skipHeader: true }); // Without headers
+    XLSX.utils.sheet_add_json(nodes_worksheet, nodes, { origin: -1 });
 
     // Create a new workbook and append the worksheet
     const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, "Report");
+    XLSX.utils.book_append_sheet(workbook, nodes_worksheet, "Nodes");
+
+    const links_worksheet = XLSX.utils.json_to_sheet([{ A: 'Links:' }], { skipHeader: true }); // Without headers
+    XLSX.utils.sheet_add_json(links_worksheet, suits, { origin: -1 });
+    XLSX.utils.book_append_sheet(workbook, links_worksheet, "Links");
 
     // Generate binary string representation of the workbook
     const wbout = XLSX.write(workbook, { bookType: "xlsx", type: "binary" });

@@ -163,20 +163,40 @@ function shakeNodes(duration = 5000) {
 }
 
 function downloadReport() {
-    const csvContent =
-        "data:text/csv;charset=utf-8," +
-        "Node ID, X Position, Y Position\n" +
-        simulation.nodes().map(node => [node.id, node.x, node.y]).join("\n");
+    const nodes = simulation.nodes().map(node => ({ 'Node ID': node.id, 'X Position': node.x, 'Y Position': node.y }));
 
-    const encodedUri = encodeURI(csvContent);
+    // Create a worksheet
+    const worksheet = XLSX.utils.json_to_sheet(nodes);
+
+    // Create a new workbook and append the worksheet
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Report");
+
+    // Generate binary string representation of the workbook
+    const wbout = XLSX.write(workbook, { bookType: "xlsx", type: "binary" });
+
+    // Function to convert binary string to an array buffer
+    function s2ab(s) {
+        var buf = new ArrayBuffer(s.length);
+        var view = new Uint8Array(buf);
+        for (var i = 0; i < s.length; i++) {
+            view[i] = s.charCodeAt(i) & 0xFF;
+        }
+        return buf;
+    }
+
+    // Create a blob from the array buffer and create an object URL
+    const blob = new Blob([s2ab(wbout)], { type: "application/octet-stream" });
+    const url = URL.createObjectURL(blob);
 
     // Create a temporary anchor element to trigger the download
     const a = document.createElement("a");
-    a.href = encodedUri;
+    a.href = url;
     a.download = "AI-project-report.xlsx";
     document.body.appendChild(a);
     a.click();
 
     // Clean up
     document.body.removeChild(a);
+    URL.revokeObjectURL(url);
 }

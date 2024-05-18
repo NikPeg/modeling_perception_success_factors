@@ -6,15 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const width = window.innerWidth;
         const height = window.innerHeight;
         const types = Array.from(new Set(suits.map(d => d.type))).sort();
-        // console.log(suits);
         let nodes = factorsArray;
         const nodes_types = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
-        // console.log(nodes);
 
-        // console.log(nodes);
         const links = suits.map(d => Object.create(d));
-
-        // console.log(links);
 
         const color = d3.scaleOrdinal()
             .domain(types) // The categories you want to color
@@ -54,8 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .join("path")
             .attr("stroke", d => color(d.type))
             .attr("marker-end", d => `url(${new URL(`#arrow-${d.type}`, location)})`);
-        
-        console.log(nodes_types);
+
         const nodes_color = d3.scaleOrdinal()
             .domain(nodes_types)
             .range(["#81fcfc", "#68fcfc", "#49fcfc", "#21fcfc", "#03ffff", "#02f2f2", "#02dede", "#02c2c2", "#02abab", "#008c8c"]);
@@ -67,8 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
             .data(nodes)
             .join("g")
             .attr("fill", d => {
-                console.log(d.value); // Check values
-                console.log(nodes_color(d.value));
                 return nodes_color(d.value);
             })  // Use the color scale for fill
             .call(drag(simulation));

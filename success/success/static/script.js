@@ -65,7 +65,6 @@ function hideFactorPopup() {
 }
 
 function showLinkPopup() {
-    console.log('add link!');
     document.getElementById("projectBackgroundOverlay").style.display = "block";
     document.getElementById("linkPopup").style.display = "block";
 }
@@ -77,7 +76,6 @@ function hideLinkPopup() {
 
 function delete_entity() {
     window.alert("Press any entity to delete it.");
-    console.log('delete!');
 }
 
 function export_project() {

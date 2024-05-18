@@ -24,8 +24,8 @@ def create_link(username, project_name, source, target, value):
     project = Project.objects.get(user=user, name=project_name)
     Link.objects.create(
         project=project,
-        source=Factor.objects.get(name=source),
-        target=Factor.objects.get(name=target),
+        source=Factor.objects.get(name=source, project=project),
+        target=Factor.objects.get(name=target, project=project),
         value=value,
     )
 

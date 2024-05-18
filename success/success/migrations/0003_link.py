@@ -7,16 +7,16 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('success', '0002_factor'),
+        ("success", "0002_factor"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Link',
+            name="Link",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=100)),
-                ('project', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='success.project')),
+                ("id", models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name="ID")),
+                ("name", models.CharField(max_length=100)),
+                ("project", models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to="success.project")),
             ],
         ),
     ]

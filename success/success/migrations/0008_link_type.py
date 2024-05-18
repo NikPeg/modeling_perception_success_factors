@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('success', '0007_delete_link_name'),
+        ("success", "0007_delete_link_name"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='link',
-            name='type',
+            model_name="link",
+            name="type",
             field=models.FloatField(default=0.5),
         ),
     ]

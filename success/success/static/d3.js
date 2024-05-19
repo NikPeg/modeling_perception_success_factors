@@ -122,7 +122,9 @@ function linkArc(d) {
             `;
 }
 
-function shakeNodes(duration = 5000) {
+function shakeNodes(alpha, epsilon, steps) {
+    console.log(alpha, epsilon, steps);
+
     const shakeIntensity = 5; // Adjust this for stronger or weaker shaking
     const shakeInterval = 100; // Interval in milliseconds for shaking
 
@@ -151,7 +153,17 @@ function shakeNodes(duration = 5000) {
 
         // Trigger a download or any follow-up action
         downloadReport();
-    }, duration);
+    }, steps);
+}
+
+function triggerShakeNodes() {
+    // Get values from inputs
+    const alpha = parseFloat(document.getElementById('AlphaInput').value);
+    const epsilon = parseFloat(document.getElementById('EpsilonInput').value);
+    const steps = parseInt(document.getElementById('StepsInput').value, 10);
+
+    // Call shakeNodes with the obtained values
+    shakeNodes(alpha, epsilon, steps);
 }
 
 function downloadReport() {

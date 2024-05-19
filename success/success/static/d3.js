@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .range(["#f76dc0", "#fa46b2", "#fc23a6", "#ff009a", "#e00288", "#b80270", "#870152"]);
 
         simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => d.id))
+            .force("link", d3.forceLink(links).id(d => d.id).distance(300))
             .force("charge", d3.forceManyBody().strength(-400))
             .force("x", d3.forceX())
             .force("y", d3.forceY());

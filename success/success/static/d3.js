@@ -122,8 +122,55 @@ function linkArc(d) {
             `;
 }
 
-function shakeNodes(alpha, epsilon, steps) {
+// FCM processor
+function processFCM(nodes, links, alpha, epsilon, steps) {
+    console.log('start processing');
+    // Converting nodes array to a map for easy access.
+    let nodeMap = nodes.reduce((map, node) => {
+        map[node.id] = node.value;
+        return map;
+    }, {});
+
+    // Function to get the updated value for a node
+    function updateNodeValue(nodeId) {
+        let newValue = nodeMap[nodeId];
+        links.forEach(link => {
+            if (link.target === nodeId) {
+                newValue += alpha * link.type * nodeMap[link.source];
+            }
+        });
+        return newValue;
+    }
+
+    // Function to check if the FCM has converged
+    function hasConverged(oldValues, newValues) {
+        return Object.keys(oldValues).every(nodeId => Math.abs(oldValues[nodeId] - newValues[nodeId]) <= epsilon);
+    }
+
+    let currentValues = {...nodeMap};
+    let newValues = {...nodeMap};
+
+    // Processing steps
+    for (let step = 0; step < steps; step++) {
+        newValues = Object.keys(nodeMap).reduce((map, nodeId) => {
+            map[nodeId] = updateNodeValue(nodeId);
+            return map;
+        }, {});
+
+        if (hasConverged(currentValues, newValues)) {
+            break;
+        }
+
+        currentValues = {...newValues};
+    }
+    console.log('stop processing');
+    return newValues;
+}
+
+function shakeNodes(alpha=0.1, epsilon=0.5, steps=5000) {
     console.log(alpha, epsilon, steps);
+    // console.log(factorsArray);
+    // console.log(suits);
 
     const shakeIntensity = 5; // Adjust this for stronger or weaker shaking
     const shakeInterval = 100; // Interval in milliseconds for shaking
@@ -146,6 +193,7 @@ function shakeNodes(alpha, epsilon, steps) {
 
     const intervalId = setInterval(startShaking, shakeInterval);
 
+    // processFCM(factorsArray, suits, alpha, epsilon, steps);
     setTimeout(() => {
         clearInterval(intervalId);
         stopShaking();

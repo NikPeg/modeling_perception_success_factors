@@ -123,8 +123,7 @@ function linkArc(d) {
 }
 
 // FCM processor
-function processFCM(nodes, links, alpha, epsilon, steps) {
-    console.log('start processing');
+function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
     // Converting nodes array to a map for easy access.
     let nodeMap = nodes.reduce((map, node) => {
         map[node.id] = node.value;
@@ -163,14 +162,20 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
 
         currentValues = {...newValues};
     }
-    console.log('stop processing');
-    return newValues;
+    
+    // Transform values to right format
+    const transformedValues = Object.entries(newValues).map(([key, value]) => {
+        return { "factor": key, "result value": value };
+    });
+
+    return transformedValues;
 }
 
-function shakeNodes(alpha=0.1, epsilon=0.5, steps=5000) {
-    console.log(alpha, epsilon, steps);
-    // console.log(factorsArray);
-    // console.log(suits);
+function shakeNodes() {
+    // Get values from inputs
+    const alpha = parseFloat(document.getElementById('AlphaInput').value);
+    const epsilon = parseFloat(document.getElementById('EpsilonInput').value);
+    const steps = parseInt(document.getElementById('StepsInput').value, 10) || 5000;
 
     const shakeIntensity = 5; // Adjust this for stronger or weaker shaking
     const shakeInterval = 100; // Interval in milliseconds for shaking
@@ -193,14 +198,14 @@ function shakeNodes(alpha=0.1, epsilon=0.5, steps=5000) {
 
     const intervalId = setInterval(startShaking, shakeInterval);
 
-    // processFCM(factorsArray, suits, alpha, epsilon, steps);
+    let newValues = processFCM(factorsArray, suits, alpha, epsilon, steps);
     setTimeout(() => {
         clearInterval(intervalId);
         stopShaking();
         alert("The algorithm for analyzing the fuzzy cognitive map has been completed successfully. Click OK to download the report.");
 
         // Trigger a download or any follow-up action
-        downloadReport();
+        downloadReport(newValues);
     }, steps);
 }
 
@@ -214,7 +219,7 @@ function triggerShakeNodes() {
     shakeNodes(alpha, epsilon, steps);
 }
 
-function downloadReport() {
+function downloadReport(newValues) {
     const nodes = factorsArray;
 
     const nodes_worksheet = XLSX.utils.json_to_sheet([{ A: 'Factors:' }], { skipHeader: true }); // Without headers
@@ -227,6 +232,10 @@ function downloadReport() {
     const links_worksheet = XLSX.utils.json_to_sheet([{ A: 'Links:' }], { skipHeader: true }); // Without headers
     XLSX.utils.sheet_add_json(links_worksheet, suits, { origin: -1 });
     XLSX.utils.book_append_sheet(workbook, links_worksheet, "Links");
+
+    const result_worksheet = XLSX.utils.json_to_sheet([{ A: 'Result values:' }], { skipHeader: true }); // Without headers
+    XLSX.utils.sheet_add_json(result_worksheet, newValues, { origin: -1 });
+    XLSX.utils.book_append_sheet(workbook, result_worksheet, "Result values");
 
     // Generate binary string representation of the workbook
     const wbout = XLSX.write(workbook, { bookType: "xlsx", type: "binary" });

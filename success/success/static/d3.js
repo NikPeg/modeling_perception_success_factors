@@ -209,16 +209,6 @@ function shakeNodes() {
     }, steps);
 }
 
-function triggerShakeNodes() {
-    // Get values from inputs
-    const alpha = parseFloat(document.getElementById('AlphaInput').value);
-    const epsilon = parseFloat(document.getElementById('EpsilonInput').value);
-    const steps = parseInt(document.getElementById('StepsInput').value, 10);
-
-    // Call shakeNodes with the obtained values
-    shakeNodes(alpha, epsilon, steps);
-}
-
 function downloadReport(newValues) {
     const nodes = factorsArray;
 

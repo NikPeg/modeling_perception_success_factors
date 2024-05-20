@@ -125,7 +125,7 @@ function linkArc(d) {
 let stepsValues = [];
 
 // FCM processor
-function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
+function processFCM(nodes, links, alpha, epsilon, steps) {
     // Converting nodes array to a map for easy access.
     let nodeMap = nodes.reduce((map, node) => {
         map[node.id] = node.value;
@@ -163,6 +163,7 @@ function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
         for (let key in currentValues) {
             stepValues[key] = currentValues[key];
         }
+        // console.log(stepValues);
         stepsValues.push(stepValues);
 
         if (hasConverged(currentValues, newValues)) {
@@ -182,8 +183,8 @@ function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
 
 function shakeNodes() {
     // Get values from inputs
-    const alpha = parseFloat(document.getElementById('AlphaInput').value);
-    const epsilon = parseFloat(document.getElementById('EpsilonInput').value);
+    const alpha = parseFloat(document.getElementById('AlphaInput').value) || 0.1;
+    const epsilon = parseFloat(document.getElementById('EpsilonInput').value) || -1;
     const steps = parseInt(document.getElementById('StepsInput').value, 10) || 5000;
 
     const shakeIntensity = 5; // Adjust this for stronger or weaker shaking

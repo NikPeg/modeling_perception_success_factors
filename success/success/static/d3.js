@@ -122,6 +122,8 @@ function linkArc(d) {
             `;
 }
 
+let stepsValues = [];
+
 // FCM processor
 function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
     // Converting nodes array to a map for easy access.
@@ -148,6 +150,7 @@ function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
 
     let currentValues = {...nodeMap};
     let newValues = {...nodeMap};
+    stepsValues = [];
 
     // Processing steps
     for (let step = 0; step < steps; step++) {
@@ -155,6 +158,12 @@ function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
             map[nodeId] = updateNodeValue(nodeId);
             return map;
         }, {});
+
+        let stepValues = {'step': step + 1};
+        for (let key in currentValues) {
+            stepValues[key] = currentValues[key];
+        }
+        stepsValues.push(stepValues);
 
         if (hasConverged(currentValues, newValues)) {
             break;
@@ -226,6 +235,10 @@ function downloadReport(newValues) {
     const result_worksheet = XLSX.utils.json_to_sheet([{ A: 'Result values:' }], { skipHeader: true }); // Without headers
     XLSX.utils.sheet_add_json(result_worksheet, newValues, { origin: -1 });
     XLSX.utils.book_append_sheet(workbook, result_worksheet, "Result values");
+
+    const steps_worksheet = XLSX.utils.json_to_sheet([{ A: 'Steps:' }], { skipHeader: true }); // Without headers
+    XLSX.utils.sheet_add_json(steps_worksheet, stepsValues, { origin: -1 });
+    XLSX.utils.book_append_sheet(workbook, steps_worksheet, "Steps");
 
     // Generate binary string representation of the workbook
     const wbout = XLSX.write(workbook, { bookType: "xlsx", type: "binary" });

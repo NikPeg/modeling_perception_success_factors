@@ -165,7 +165,7 @@ function processFCM(nodes, links, alpha=0.1, epsilon=0.5, steps=1000) {
     
     // Transform values to right format
     const transformedValues = Object.entries(newValues).map(([key, value]) => {
-        return { "factor": key, "result value": value };
+        return { "factor": key, "result value": value, "CSF": !isNaN(value) };
     });
 
     return transformedValues;

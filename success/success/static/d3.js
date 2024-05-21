@@ -132,12 +132,15 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
         return map;
     }, {});
 
+    let currentValues = {...nodeMap};
+    let newValues = {...nodeMap};
+
     // Function to get the updated value for a node
     function updateNodeValue(nodeId) {
-        let newValue = nodeMap[nodeId];
+        let newValue = currentValues[nodeId];
         links.forEach(link => {
             if (link.target === nodeId) {
-                newValue += alpha * link.type * nodeMap[link.source];
+                newValue += alpha * link.type * currentValues[link.source];
             }
         });
         return newValue;
@@ -148,13 +151,11 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
         return Object.keys(oldValues).every(nodeId => Math.abs(oldValues[nodeId] - newValues[nodeId]) <= epsilon);
     }
 
-    let currentValues = {...nodeMap};
-    let newValues = {...nodeMap};
     stepsValues = [];
 
     // Processing steps
     for (let step = 0; step < steps; step++) {
-        newValues = Object.keys(nodeMap).reduce((map, nodeId) => {
+        newValues = Object.keys(currentValues).reduce((map, nodeId) => {
             map[nodeId] = updateNodeValue(nodeId);
             return map;
         }, {});
@@ -163,7 +164,6 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
         for (let key in currentValues) {
             stepValues[key] = currentValues[key];
         }
-        // console.log(stepValues);
         stepsValues.push(stepValues);
 
         if (hasConverged(currentValues, newValues)) {

@@ -143,7 +143,7 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
                 newValue += alpha * link.type * currentValues[link.source];
             }
         });
-        return newValue;
+        return Math.min(1.0, newValue);
     }
 
     // Function to check if the FCM has converged
@@ -175,7 +175,7 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
     
     // Transform values to right format
     const transformedValues = Object.entries(newValues).map(([key, value]) => {
-        return { "factor": key, "result value": value, "CSF": !isNaN(value) };
+        return { "factor": key, "result value": value, "CSF": (value === 1.0) };
     });
 
     return transformedValues;

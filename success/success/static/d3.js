@@ -156,7 +156,7 @@ function processFCM(nodes, links, alpha, epsilon, steps) {
     // Processing steps
     for (let step = 0; step < steps; step++) {
         newValues = Object.keys(currentValues).reduce((map, nodeId) => {
-            map[nodeId] = updateNodeValue(nodeId);
+            map[nodeId] = parseFloat(updateNodeValue(nodeId).toFixed(4));
             return map;
         }, {});
 

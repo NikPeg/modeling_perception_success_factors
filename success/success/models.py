@@ -54,6 +54,9 @@ class Factor(models.Model):
 
     value = models.FloatField(default=0.5)
 
+    class Meta:
+        constraints = [models.UniqueConstraint(fields=["project", "name"], name="unique name for factor")]
+
     def __str__(self):
         return self.name
 

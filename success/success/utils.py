@@ -17,7 +17,7 @@ def create_project(username: str, name: str):
 def create_factor(username, project_name, name, value):
     user = User.objects.get(username=username) if username != COMMON_PROJECT_LABEL else None
     project = Project.objects.get(user=user, name=project_name)
-    Factor.objects.create(project=project, name=name, value=value)
+    Factor.objects.get_or_create(project=project, name=name, value=value)
 
 
 def create_link(username, project_name, source, target, value):
